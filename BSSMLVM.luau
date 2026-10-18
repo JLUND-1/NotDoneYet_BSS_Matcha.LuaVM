@@ -13,11 +13,11 @@
         https://BloxDen.com
 --]]
 
-local z = game:GetService("Players");
-local Y = game:GetService("UserInputService");
-local n = z.LocalPlayer;
-local p = "Sunflower|-250.24|4.00|237.35\nSunflower|-250.13|4.00|109.29\nSunflower|-174.22|4.00|110.01\nSunflower|-174.45|4.00|237.71\nDandelion|-101.66|4.00|253.92\nDandelion|38.51|4.00|253.82\nDandelion|37.59|4.00|185.72\nDandelion|-102.12|4.00|186.55\nMushroom|-29.92|4.00|153.80\nMushroom|-153.50|4.00|154.50\nMushroom|-153.53|4.00|66.22\nMushroom|-29.89|4.00|66.29\nBlue Flower|62.84|4.00|126.32\nBlue Flower|62.34|4.00|65.57\nBlue Flower|229.66|4.00|66.50\nBlue Flower|228.97|4.00|130.74\nClover|107.44|33.50|138.46\nClover|205.25|33.50|139.02\nClover|205.74|33.50|249.43\nClover|106.43|33.50|249.45\nSpider|10.20|20.00|33.56\nSpider|-98.23|20.00|34.42\nSpider|-98.80|20.00|-61.72\nSpider|9.35|20.00|-61.53\nStrawberry|-138.33|20.00|38.01\nStrawberry|-223.15|20.00|37.64\nStrawberry|-221.51|20.00|-60.84\nStrawberry|-138.32|20.00|-61.97\nBamboo|53.90|20.00|5.71\nBamboo|54.64|20.00|-61.64\nBamboo|205.01|20.00|-62.46\nBamboo|205.76|20.00|-21.33\nBamboo|196.66|20.00|-21.30\nBamboo|196.81|20.00|6.75\nPineapple|191.24|68.00|-166.37\nPineapple|190.30|68.00|-253.88\nPineapple|312.19|68.00|-253.24\nPineapple|309.01|68.00|-242.06\nPineapple|309.47|68.00|-228.67\nPineapple|313.36|68.00|-219.80\nPineapple|318.45|68.00|-213.30\nPineapple|318.38|68.00|-178.38\nPineapple|314.09|68.00|-173.73\nPineapple|313.16|68.00|-168.21\nPineapple|314.21|68.00|-164.88\nPineapple|218.09|68.00|-166.19\nPineapple|211.24|68.00|-171.37\nPineapple|201.78|68.00|-172.94\nPineapple|195.70|68.00|-169.87\nStump|373.91|95.98|-154.55\nStump|373.41|95.98|-194.64\nStump|376.67|95.98|-194.53\nStump|378.23|95.98|-203.24\nStump|381.50|95.98|-203.16\nStump|381.43|95.98|-206.30\nStump|385.04|95.98|-206.39\nStump|384.94|95.98|-215.14\nStump|390.26|95.98|-218.15\nStump|398.99|95.98|-217.50\nStump|398.93|95.98|-222.05\nStump|407.57|95.98|-222.10\nStump|407.56|95.98|-226.30\nStump|438.31|95.98|-226.67\nStump|438.27|95.98|-222.58\nStump|445.78|95.98|-222.52\nStump|446.06|95.98|-216.96\nStump|454.16|95.98|-217.00\nStump|454.18|95.98|-213.20\nStump|458.09|95.98|-213.23\nStump|458.14|95.98|-205.76\nStump|462.26|95.98|-205.72\nStump|462.64|95.98|-201.64\nStump|466.30|95.98|-201.60\nStump|466.16|95.98|-192.62\nStump|470.22|95.98|-192.63\nStump|468.76|95.98|-153.41\nStump|464.91|95.98|-153.33\nStump|464.86|95.98|-145.40\nStump|461.47|95.98|-145.35\nStump|461.43|95.98|-141.39\nStump|457.46|95.98|-141.33\nStump|457.56|95.98|-134.10\nStump|453.36|95.98|-134.04\nStump|453.41|95.98|-130.08\nStump|445.60|95.98|-129.52\nStump|445.51|95.98|-126.21\nStump|437.90|95.98|-125.54\nStump|437.76|95.98|-122.16\nStump|405.81|95.98|-122.41\nStump|405.68|95.98|-126.60\nStump|397.82|95.98|-126.66\nStump|397.84|95.98|-130.16\nStump|390.61|95.98|-130.15\nStump|390.60|95.98|-134.47\nStump|385.35|95.98|-134.46\nStump|385.34|95.98|-141.99\nStump|381.89|95.98|-141.99\nStump|381.88|95.98|-146.30\nStump|377.80|95.98|-146.29\nStump|377.55|95.98|-154.10\nStump|373.27|95.98|-154.11\nCactus|-254.30|68.00|-82.42\nCactus|-209.67|68.00|-82.88\nCactus|-209.92|68.00|-77.44\nCactus|-189.15|68.00|-77.24\nCactus|-189.40|68.00|-69.82\nCactus|-137.05|68.00|-71.10\nCactus|-135.05|68.00|-76.40\nCactus|-131.53|68.00|-78.46\nCactus|-125.51|68.00|-78.51\nCactus|-126.49|68.00|-99.12\nCactus|-131.96|68.00|-103.04\nCactus|-131.59|68.00|-107.45\nCactus|-129.88|68.00|-113.57\nCactus|-126.17|68.00|-115.54\nCactus|-126.46|68.00|-137.74\nCactus|-254.20|68.00|-136.92\nCactus|-252.97|68.00|-125.16\nCactus|-248.66|68.00|-123.24\nCactus|-246.65|68.00|-118.64\nCactus|-248.87|68.00|-113.78\nCactus|-253.73|68.00|-111.15\nPumpkin|-254.39|68.00|-163.33\nPumpkin|-253.87|68.00|-205.89\nPumpkin|-249.05|68.00|-205.50\nPumpkin|-245.88|68.00|-208.64\nPumpkin|-244.73|68.00|-213.89\nPumpkin|-243.82|68.00|-218.43\nPumpkin|-126.01|68.00|-217.33\nPumpkin|-125.91|68.00|-154.62\nPumpkin|-241.38|68.00|-155.05\nPumpkin|-242.86|68.00|-159.62\nPumpkin|-246.43|68.00|-162.22\nPumpkin|-249.57|68.00|-163.09\nPine Tree|-287.09|68.00|-130.10\nPine Tree|-373.45|68.00|-130.82\nPine Tree|-373.74|68.00|-251.48\nPine Tree|-286.45|68.00|-249.98\nRose|-270.52|19.95|90.42\nRose|-269.88|19.95|166.26\nRose|-389.93|19.95|166.27\nRose|-389.73|19.95|140.95\nRose|-386.33|19.95|140.45\nRose|-386.49|19.95|135.91\nRose|-386.04|19.95|130.01\nRose|-389.80|19.95|128.46\nRose|-389.79|19.95|89.40\nMountain Top|121.31|176.00|-220.46\nMountain Top|121.21|176.00|-114.39\nMountain Top|29.98|176.00|-114.34\nMountain Top|29.76|176.00|-222.25\nCoconut|-198.46|71.45|425.91\nCoconut|-314.95|71.47|430.73\nCoconut|-312.79|71.47|506.30\nCoconut|-200.29|71.45|506.03\nPepper|-449.78|123.20|482.41\nPepper|-529.38|123.20|482.23\nPepper|-530.16|123.20|585.75\nPepper|-450.24|123.20|585.40\n";
-local D = {
+local e = game:GetService("Players");
+local d = game:GetService("UserInputService");
+local o = e.LocalPlayer;
+local w = "Sunflower|-250.24|4.00|237.35\nSunflower|-250.13|4.00|109.29\nSunflower|-174.22|4.00|110.01\nSunflower|-174.45|4.00|237.71\nDandelion|-101.66|4.00|253.92\nDandelion|38.51|4.00|253.82\nDandelion|37.59|4.00|185.72\nDandelion|-102.12|4.00|186.55\nMushroom|-29.92|4.00|153.80\nMushroom|-153.50|4.00|154.50\nMushroom|-153.53|4.00|66.22\nMushroom|-29.89|4.00|66.29\nBlue Flower|62.84|4.00|126.32\nBlue Flower|62.34|4.00|65.57\nBlue Flower|229.66|4.00|66.50\nBlue Flower|228.97|4.00|130.74\nClover|107.44|33.50|138.46\nClover|205.25|33.50|139.02\nClover|205.74|33.50|249.43\nClover|106.43|33.50|249.45\nSpider|10.20|20.00|33.56\nSpider|-98.23|20.00|34.42\nSpider|-98.80|20.00|-61.72\nSpider|9.35|20.00|-61.53\nStrawberry|-138.33|20.00|38.01\nStrawberry|-223.15|20.00|37.64\nStrawberry|-221.51|20.00|-60.84\nStrawberry|-138.32|20.00|-61.97\nBamboo|53.90|20.00|5.71\nBamboo|54.64|20.00|-61.64\nBamboo|205.01|20.00|-62.46\nBamboo|205.76|20.00|-21.33\nBamboo|196.66|20.00|-21.30\nBamboo|196.81|20.00|6.75\nPineapple|191.24|68.00|-166.37\nPineapple|190.30|68.00|-253.88\nPineapple|312.19|68.00|-253.24\nPineapple|309.01|68.00|-242.06\nPineapple|309.47|68.00|-228.67\nPineapple|313.36|68.00|-219.80\nPineapple|318.45|68.00|-213.30\nPineapple|318.38|68.00|-178.38\nPineapple|314.09|68.00|-173.73\nPineapple|313.16|68.00|-168.21\nPineapple|314.21|68.00|-164.88\nPineapple|218.09|68.00|-166.19\nPineapple|211.24|68.00|-171.37\nPineapple|201.78|68.00|-172.94\nPineapple|195.70|68.00|-169.87\nStump|373.91|95.98|-154.55\nStump|373.41|95.98|-194.64\nStump|376.67|95.98|-194.53\nStump|378.23|95.98|-203.24\nStump|381.50|95.98|-203.16\nStump|381.43|95.98|-206.30\nStump|385.04|95.98|-206.39\nStump|384.94|95.98|-215.14\nStump|390.26|95.98|-218.15\nStump|398.99|95.98|-217.50\nStump|398.93|95.98|-222.05\nStump|407.57|95.98|-222.10\nStump|407.56|95.98|-226.30\nStump|438.31|95.98|-226.67\nStump|438.27|95.98|-222.58\nStump|445.78|95.98|-222.52\nStump|446.06|95.98|-216.96\nStump|454.16|95.98|-217.00\nStump|454.18|95.98|-213.20\nStump|458.09|95.98|-213.23\nStump|458.14|95.98|-205.76\nStump|462.26|95.98|-205.72\nStump|462.64|95.98|-201.64\nStump|466.30|95.98|-201.60\nStump|466.16|95.98|-192.62\nStump|470.22|95.98|-192.63\nStump|468.76|95.98|-153.41\nStump|464.91|95.98|-153.33\nStump|464.86|95.98|-145.40\nStump|461.47|95.98|-145.35\nStump|461.43|95.98|-141.39\nStump|457.46|95.98|-141.33\nStump|457.56|95.98|-134.10\nStump|453.36|95.98|-134.04\nStump|453.41|95.98|-130.08\nStump|445.60|95.98|-129.52\nStump|445.51|95.98|-126.21\nStump|437.90|95.98|-125.54\nStump|437.76|95.98|-122.16\nStump|405.81|95.98|-122.41\nStump|405.68|95.98|-126.60\nStump|397.82|95.98|-126.66\nStump|397.84|95.98|-130.16\nStump|390.61|95.98|-130.15\nStump|390.60|95.98|-134.47\nStump|385.35|95.98|-134.46\nStump|385.34|95.98|-141.99\nStump|381.89|95.98|-141.99\nStump|381.88|95.98|-146.30\nStump|377.80|95.98|-146.29\nStump|377.55|95.98|-154.10\nStump|373.27|95.98|-154.11\nCactus|-254.30|68.00|-82.42\nCactus|-209.67|68.00|-82.88\nCactus|-209.92|68.00|-77.44\nCactus|-189.15|68.00|-77.24\nCactus|-189.40|68.00|-69.82\nCactus|-137.05|68.00|-71.10\nCactus|-135.05|68.00|-76.40\nCactus|-131.53|68.00|-78.46\nCactus|-125.51|68.00|-78.51\nCactus|-126.49|68.00|-99.12\nCactus|-131.96|68.00|-103.04\nCactus|-131.59|68.00|-107.45\nCactus|-129.88|68.00|-113.57\nCactus|-126.17|68.00|-115.54\nCactus|-126.46|68.00|-137.74\nCactus|-254.20|68.00|-136.92\nCactus|-252.97|68.00|-125.16\nCactus|-248.66|68.00|-123.24\nCactus|-246.65|68.00|-118.64\nCactus|-248.87|68.00|-113.78\nCactus|-253.73|68.00|-111.15\nPumpkin|-254.39|68.00|-163.33\nPumpkin|-253.87|68.00|-205.89\nPumpkin|-249.05|68.00|-205.50\nPumpkin|-245.88|68.00|-208.64\nPumpkin|-244.73|68.00|-213.89\nPumpkin|-243.82|68.00|-218.43\nPumpkin|-126.01|68.00|-217.33\nPumpkin|-125.91|68.00|-154.62\nPumpkin|-241.38|68.00|-155.05\nPumpkin|-242.86|68.00|-159.62\nPumpkin|-246.43|68.00|-162.22\nPumpkin|-249.57|68.00|-163.09\nPine Tree|-287.09|68.00|-130.10\nPine Tree|-373.45|68.00|-130.82\nPine Tree|-373.74|68.00|-251.48\nPine Tree|-286.45|68.00|-249.98\nRose|-270.52|19.95|90.42\nRose|-269.88|19.95|166.26\nRose|-389.93|19.95|166.27\nRose|-389.73|19.95|140.95\nRose|-386.33|19.95|140.45\nRose|-386.49|19.95|135.91\nRose|-386.04|19.95|130.01\nRose|-389.80|19.95|128.46\nRose|-389.79|19.95|89.40\nMountain Top|121.31|176.00|-220.46\nMountain Top|121.21|176.00|-114.39\nMountain Top|29.98|176.00|-114.34\nMountain Top|29.76|176.00|-222.25\nCoconut|-198.46|71.45|425.91\nCoconut|-314.95|71.47|430.73\nCoconut|-312.79|71.47|506.30\nCoconut|-200.29|71.45|506.03\nPepper|-449.78|123.20|482.41\nPepper|-529.38|123.20|482.23\nPepper|-530.16|123.20|585.75\nPepper|-450.24|123.20|585.40\n";
+local Z = {
 		"Sunflower",
 		"Dandelion",
 		"Mushroom",
@@ -36,32 +36,32 @@ local D = {
 		"Coconut",
 		"Pepper",
 	};
-local T = "bss_field_points.txt";
-local O = "bss_theme.txt";
-local o = {};
-for z, Y in ipairs(D) do
-	o[Y] = {};
+local p = "bss_field_points.txt";
+local I = "bss_theme.txt";
+local B = {};
+for e, d in ipairs(Z) do
+	B[d] = {};
 end;
-local function L(z, Y)
-	local n = {};
-	for z in string.gmatch(z, "[^\r\n]+") do
-		local p, D, T, O = string.match(z, "^(.-)|(.-)|(.-)|(.-)$");
-		if p and (o[p] and (tonumber(D) and tonumber(O))) then
-			if Y and not n[p] then
-				o[p] = {};
-				n[p] = true;
+local function V(e, d)
+	local o = {};
+	for e in string.gmatch(e, "[^\r\n]+") do
+		local w, Z, p, I = string.match(e, "^(.-)|(.-)|(.-)|(.-)$");
+		if w and (B[w] and (tonumber(Z) and tonumber(I))) then
+			if d and not o[w] then
+				B[w] = {};
+				o[w] = true;
 			end;
-			table.insert(o[p], { x = tonumber(D), y = tonumber(T) or 0, z = tonumber(O) });
+			table.insert(B[w], { x = tonumber(Z), y = tonumber(p) or 0, z = tonumber(I) });
 		end;
 	end;
 end;
-L(p, false);
+V(w, false);
 pcall(function()
-	if isfile(T) then
-		L(readfile(T), true);
+	if isfile(p) then
+		V(readfile(p), true);
 	end;
 end);
-local c = {
+local u = {
 		enabled = false,
 		field = 1,
 		pattern = 3,
@@ -92,28 +92,28 @@ local c = {
 		pollen_ms = 10,
 		rb_speed = .25,
 	};
-local function h(z, Y)
-	local n = c[z];
-	if n == nil then
-		return Y;
+local function J(e, d)
+	local o = u[e];
+	if o == nil then
+		return d;
 	end;
-	return n;
+	return o;
 end;
-local function f()
-	return c.enabled == true;
+local function F()
+	return u.enabled == true;
 end;
-local l = "bss_keys.txt";
+local D = "bss_keys.txt";
 pcall(function()
-	if isfile(l) then
-		for z in string.gmatch(readfile(l), "[^\r\n]+") do
-			local Y, n = string.match(z, "^(.-)|(.-)$");
-			if Y and (string.sub(Y, 1, 4) == "key_" and (c[Y] ~= nil and tonumber(n))) then
-				c[Y] = tonumber(n);
+	if isfile(D) then
+		for e in string.gmatch(readfile(D), "[^\r\n]+") do
+			local d, o = string.match(e, "^(.-)|(.-)$");
+			if d and (string.sub(d, 1, 4) == "key_" and (u[d] ~= nil and tonumber(o))) then
+				u[d] = tonumber(o);
 			end;
 		end;
 	end;
 end);
-local d = {
+local C = {
 		W = 87,
 		A = 65,
 		S = 83,
@@ -122,8 +122,8 @@ local d = {
 		R = 82,
 		ENTER = 13,
 	};
-local b = { "Rows", "Rows vertical", "Random" };
-local g = {
+local G = { "Rows", "Rows vertical", "Random" };
+local H = {
 		status = "Idle",
 		cycles = 0,
 		tokens = 0,
@@ -140,7 +140,7 @@ local g = {
 		overMenu = false,
 		collectInfo = "Collectibles: checking...",
 		flyOK = nil,
-		flyMsg = "not tested",
+		flyMsg = "ready",
 		noclipOK = nil,
 		noclipBad = false,
 		noclipMsg = "not used yet",
@@ -162,309 +162,316 @@ local g = {
 		sprDone = {},
 		sprKey = nil,
 		manualRun = false,
+		honey = nil,
+		honeyStart = nil,
+		pollenMade = 0,
+		lastPollen = nil,
+		flyFails = 0,
+		needTravel = false,
+		flying = false,
 		resetUsed = nil,
 		lastResetAt = 0,
 		manualReset = false,
 	};
-local function F()
-	return ((not f()) and not g.manualRun) or g.wantConvert;
+local function O()
+	return ((not F()) and not H.manualRun) or H.wantConvert or H.needTravel;
 end;
-local function e(z, Y, n)
-	local p = false;
-	local D = #z;
-	local T = D;
-	for D = 1, D, 1 do
-		local O, o, L, c = z[D].x, z[D].z, z[T].x, z[T].z;
-		if (((o > n)) ~= ((c > n))) and (Y < (((L - O)) * ((n - o))) / ((c - o)) + O) then
-			p = not p;
+local function q(e, d, o)
+	local w = false;
+	local Z = #e;
+	local p = Z;
+	for Z = 1, Z, 1 do
+		local I, B, V, u = e[Z].x, e[Z].z, e[p].x, e[p].z;
+		if (((B > o)) ~= ((u > o))) and (d < (((V - I)) * ((o - B))) / ((u - B)) + I) then
+			w = not w;
 		end;
-		T = D;
+		p = Z;
 	end;
-	return p;
+	return w;
 end;
-local function m(z, Y, n)
-	local p = #z;
-	local D, T, O = 1e+18, Y, n;
-	for o = 1, p, 1 do
-		local L = z[o];
-		local c = z[o % p + 1];
-		local h, f = c.x - L.x, c.z - L.z;
-		local l = h * h + f * f;
-		local d = 0;
-		if l > 0 then
-			d = ((((Y - L.x)) * h + ((n - L.z)) * f)) / l;
-			if d < 0 then
-				d = 0;
-			elseif d > 1 then
-				d = 1;
+local function z(e, d, o)
+	local w = #e;
+	local Z, p, I = 1e+18, d, o;
+	for B = 1, w, 1 do
+		local V = e[B];
+		local u = e[B % w + 1];
+		local J, F = u.x - V.x, u.z - V.z;
+		local D = J * J + F * F;
+		local C = 0;
+		if D > 0 then
+			C = ((((d - V.x)) * J + ((o - V.z)) * F)) / D;
+			if C < 0 then
+				C = 0;
+			elseif C > 1 then
+				C = 1;
 			end;
 		end;
-		local b, g = L.x + d * h, L.z + d * f;
-		local F, e = Y - b, n - g;
-		local m = math.sqrt(F * F + e * e);
-		if m < D then
-			D, T, O = m, b, g;
+		local G, H = V.x + C * J, V.z + C * F;
+		local O, q = d - G, o - H;
+		local z = math.sqrt(O * O + q * q);
+		if z < Z then
+			Z, p, I = z, G, H;
 		end;
 	end;
-	return T, O, D;
+	return p, I, Z;
 end;
-local x = {};
-local function i(z)
-	local Y = x[z];
-	if Y then
-		return Y;
+local L = {};
+local function T(e)
+	local d = L[e];
+	if d then
+		return d;
 	end;
-	local n = o[z];
-	if not n or #n < 3 then
+	local o = B[e];
+	if not o or #o < 3 then
 		return nil;
 	end;
-	Y = { name = z, poly = n, n = #n };
-	local p, D, T, O, L = 1000000000, -1000000000, 1000000000, -1000000000, 0;
-	for z, Y in ipairs(n) do
-		if Y.x < p then
-			p = Y.x;
+	d = { name = e, poly = o, n = #o };
+	local w, Z, p, I, V = 1000000000, -1000000000, 1000000000, -1000000000, 0;
+	for e, d in ipairs(o) do
+		if d.x < w then
+			w = d.x;
 		end;
-		if Y.x > D then
-			D = Y.x;
+		if d.x > Z then
+			Z = d.x;
 		end;
-		if Y.z < T then
-			T = Y.z;
+		if d.z < p then
+			p = d.z;
 		end;
-		if Y.z > O then
-			O = Y.z;
+		if d.z > I then
+			I = d.z;
 		end;
-		L = L + Y.y;
+		V = V + d.y;
 	end;
-	Y.minX, Y.maxX, Y.minZ, Y.maxZ, Y.y = p, D, T, O, L / #n;
-	local c, h, f = -1, ((p + D)) / 2, ((T + O)) / 2;
-	local l = 28;
-	for z = 0, l, 1 do
-		for Y = 0, l, 1 do
-			local o = p + (((D - p)) * z) / l;
-			local L = T + (((O - T)) * Y) / l;
-			if e(n, o, L) then
-				local z, Y, p = m(n, o, L);
-				if p > c then
-					c, h, f = p, o, L;
+	d.minX, d.maxX, d.minZ, d.maxZ, d.y = w, Z, p, I, V / #o;
+	local u, J, F = -1, ((w + Z)) / 2, ((p + I)) / 2;
+	local D = 28;
+	for e = 0, D, 1 do
+		for d = 0, D, 1 do
+			local B = w + (((Z - w)) * e) / D;
+			local V = p + (((I - p)) * d) / D;
+			if q(o, B, V) then
+				local e, d, w = z(o, B, V);
+				if w > u then
+					u, J, F = w, B, V;
 				end;
 			end;
 		end;
 	end;
-	Y.ax, Y.az = h, f;
-	x[z] = Y;
-	return Y;
+	d.ax, d.az = J, F;
+	L[e] = d;
+	return d;
 end;
 local function U()
-	return D[tonumber(h("field", 1)) or 1];
+	return Z[tonumber(J("field", 1)) or 1];
 end;
-local function t()
-	return i(U());
+local function c()
+	return T(U());
 end;
-local function S(z, Y, n, p)
-	if not e(z.poly, Y, n) then
+local function k(e, d, o, w)
+	if not q(e.poly, d, o) then
 		return false;
 	end;
-	if p <= 0 then
+	if w <= 0 then
 		return true;
 	end;
-	local D, T, O = m(z.poly, Y, n);
-	return O >= p;
+	local Z, p, I = z(e.poly, d, o);
+	return I >= w;
 end;
-local function y(z, Y)
-	return e(z.poly, Y.X, Y.Z) and math.abs(Y.Y - z.y) <= 25;
+local function s(e, d)
+	return q(e.poly, d.X, d.Z) and math.abs(d.Y - e.y) <= 25;
 end;
-local function a(z, Y, n, p)
-	local D, T, O = m(z.poly, Y, n);
-	local o = p + 2;
-	if e(z.poly, Y, n) then
-		local p, L = Y - D, n - T;
-		local c = math.sqrt(p * p + L * L);
-		if c < .01 then
-			return z.ax, z.az;
+local function P(e, d, o, w)
+	local Z, p, I = z(e.poly, d, o);
+	local B = w + 2;
+	if q(e.poly, d, o) then
+		local w, V = d - Z, o - p;
+		local u = math.sqrt(w * w + V * V);
+		if u < .01 then
+			return e.ax, e.az;
 		end;
-		local h, f = Y + (p / c) * ((o - O)), n + (L / c) * ((o - O));
-		if e(z.poly, h, f) then
-			return h, f;
+		local J, F = d + (w / u) * ((B - I)), o + (V / u) * ((B - I));
+		if q(e.poly, J, F) then
+			return J, F;
 		end;
-		return z.ax, z.az;
+		return e.ax, e.az;
 	end;
-	local L, c = D - Y, T - n;
-	local h = math.sqrt(L * L + c * c);
-	if h >= .01 then
-		local Y, n = D + (L / h) * o, T + (c / h) * o;
-		if e(z.poly, Y, n) then
-			return Y, n;
-		end;
-	end;
-	local f, l = z.ax - D, z.az - T;
-	h = math.sqrt(f * f + l * l);
-	if h >= .01 then
-		local Y, n = D + (f / h) * o, T + (l / h) * o;
-		if e(z.poly, Y, n) then
-			return Y, n;
+	local V, u = Z - d, p - o;
+	local J = math.sqrt(V * V + u * u);
+	if J >= .01 then
+		local d, o = Z + (V / J) * B, p + (u / J) * B;
+		if q(e.poly, d, o) then
+			return d, o;
 		end;
 	end;
-	return z.ax, z.az;
+	local F, D = e.ax - Z, e.az - p;
+	J = math.sqrt(F * F + D * D);
+	if J >= .01 then
+		local d, o = Z + (F / J) * B, p + (D / J) * B;
+		if q(e.poly, d, o) then
+			return d, o;
+		end;
+	end;
+	return e.ax, e.az;
 end;
-local function B()
-	local z, Y = pcall(function()
-			return n.Character.HumanoidRootPart.Position;
+local function R()
+	local e, d = pcall(function()
+			return o.Character.HumanoidRootPart.Position;
 		end);
-	if z then
-		return Y;
+	if e then
+		return d;
 	end;
 	return nil;
 end;
-local function u()
-	local z, Y = pcall(function()
-			return n.Character.HumanoidRootPart;
+local function a()
+	local e, d = pcall(function()
+			return o.Character.HumanoidRootPart;
 		end);
-	if z then
-		return Y;
+	if e then
+		return d;
 	end;
 	return nil;
 end;
-local function j()
-	local z, Y = pcall(function()
+local function h()
+	local e, d = pcall(function()
 			return workspace.CurrentCamera.CFrame.RightVector;
 		end);
-	if not z or not Y then
+	if not e or not d then
 		return nil;
 	end;
-	local n = math.sqrt(Y.X * Y.X + Y.Z * Y.Z);
-	if n < .001 then
+	local o = math.sqrt(d.X * d.X + d.Z * d.Z);
+	if o < .001 then
 		return nil;
 	end;
-	local p, D = Y.X / n, Y.Z / n;
-	return p, D, D, -p;
+	local w, Z = d.X / o, d.Z / o;
+	return w, Z, Z, -w;
 end;
-local function v(z, Y)
-	local n, p, D, T = j();
-	if not n then
+local function r(e, d)
+	local o, w, Z, p = h();
+	if not o then
 		return {};
 	end;
-	local O = z * D + Y * T;
-	local o = z * n + Y * p;
-	local L, c = math.abs(O), math.abs(o);
-	local h = {};
-	if L > 1.5 and L >= .4 * c then
-		h[#h + 1] = (O > 0) and d.W or d.S;
+	local I = e * Z + d * p;
+	local B = e * o + d * w;
+	local V, u = math.abs(I), math.abs(B);
+	local J = {};
+	if V > 1.5 and V >= .4 * u then
+		J[#J + 1] = (I > 0) and C.W or C.S;
 	end;
-	if c > 1.5 and c >= .4 * L then
-		h[#h + 1] = (o > 0) and d.D or d.A;
+	if u > 1.5 and u >= .4 * V then
+		J[#J + 1] = (B > 0) and C.D or C.A;
 	end;
-	return h;
+	return J;
 end;
-local V = { keys = {} };
-local function J(z)
-	local Y = {};
+local b = { keys = {} };
+local function A(e)
+	local d = {};
 	if isrbxactive() then
-		for z, n in ipairs(z) do
-			Y[n] = true;
+		for e, o in ipairs(e) do
+			d[o] = true;
 		end;
 	end;
-	for z in pairs(V.keys) do
-		if not Y[z] then
-			pcall(keyrelease, z);
-			V.keys[z] = nil;
+	for e in pairs(b.keys) do
+		if not d[e] then
+			pcall(keyrelease, e);
+			b.keys[e] = nil;
 		end;
 	end;
-	for z in pairs(Y) do
-		if not V.keys[z] then
-			keypress(z);
-			V.keys[z] = true;
+	for e in pairs(d) do
+		if not b.keys[e] then
+			keypress(e);
+			b.keys[e] = true;
 		end;
 	end;
 end;
-local function R(z, Y)
-	J(v(z, Y));
+local function x(e, d)
+	A(r(e, d));
 end;
-local function X()
-	J({});
+local function j()
+	A({});
 end;
-local function I(z, Y, n)
-	local p = u();
-	if not p then
+local function W(e, d, o)
+	local w = a();
+	if not w then
 		return false;
 	end;
-	local D = pcall(function()
-			p.CFrame = CFrame.new(z, Y, n);
+	local Z = pcall(function()
+			w.CFrame = CFrame.new(e, d, o);
 		end);
-	if D then
+	if Z then
 		return true;
 	end;
 	return pcall(function()
-		p.Position = Vector3.new(z, Y, n);
+		w.Position = Vector3.new(e, d, o);
 	end);
 end;
-local function E(z, Y, n)
-	local p = u();
-	if not p then
+local function n(e, d, o)
+	local w = a();
+	if not w then
 		return false;
 	end;
-	local D = pcall(function()
-			p.AssemblyLinearVelocity = Vector3.new(z, Y, n);
+	local Z = pcall(function()
+			w.AssemblyLinearVelocity = Vector3.new(e, d, o);
 		end);
-	if D then
+	if Z then
 		return true;
 	end;
 	return pcall(function()
-		p.Velocity = Vector3.new(z, Y, n);
+		w.Velocity = Vector3.new(e, d, o);
 	end);
 end;
-local function G()
-	return f() or g.testFly;
+local function Y()
+	return F() or H.testFly;
 end;
-local K = { on = false, parts = {}, refreshed = 0 };
-local function N(z)
-	K.on = z;
-	if z then
-		K.refreshed = 0;
+local f = { on = false, parts = {}, refreshed = 0 };
+local function l(e)
+	f.on = e;
+	if e then
+		f.refreshed = 0;
 	else
 		pcall(function()
-			local z = u();
-			if z then
-				z.CanCollide = true;
+			local e = a();
+			if e then
+				e.CanCollide = true;
 			end;
 		end);
 	end;
 end;
 task.spawn(function()
 	while true do
-		if K.on then
-			if (tick() - K.refreshed) > 1 then
-				K.parts = {};
-				local z, Y = pcall(function()
-						return n.Character:GetDescendants();
+		if f.on then
+			if (tick() - f.refreshed) > 1 then
+				f.parts = {};
+				local e, d = pcall(function()
+						return o.Character:GetDescendants();
 					end);
-				if z and Y then
-					for z = 1, #Y, 1 do
-						local n = Y[z];
-						local p, D = pcall(function()
-								return n:IsA("BasePart");
+				if e and d then
+					for e = 1, #d, 1 do
+						local o = d[e];
+						local w, Z = pcall(function()
+								return o:IsA("BasePart");
 							end);
-						if p and D then
-							K.parts[#K.parts + 1] = n;
+						if w and Z then
+							f.parts[#f.parts + 1] = o;
 						end;
 					end;
 				end;
-				K.refreshed = tick();
+				f.refreshed = tick();
 			end;
-			local z = false;
-			for Y = 1, #K.parts, 1 do
-				local n = K.parts[Y];
-				local p = pcall(function()
-						n.CanCollide = false;
+			local e = false;
+			for d = 1, #f.parts, 1 do
+				local o = f.parts[d];
+				local w = pcall(function()
+						o.CanCollide = false;
 					end);
-				if not p then
-					z = true;
+				if not w then
+					e = true;
 					break;
 				end;
 			end;
-			if z then
-				g.noclipOK = false;
-				g.noclipMsg = "CanCollide write failed";
-				K.on = false;
+			if e then
+				H.noclipOK = false;
+				H.noclipMsg = "CanCollide write failed";
+				f.on = false;
 			end;
 			wait(.03);
 		else
@@ -472,172 +479,161 @@ task.spawn(function()
 		end;
 	end;
 end);
-local function W(z, Y, n, p)
-	local D = tonumber(h("travel_mode", 1)) or 1;
-	local T = h("fly_speed", 60);
-	local O = B();
-	if not O then
+local function Q(e, d, o, w)
+	local Z = tonumber(J("travel_mode", 1)) or 1;
+	local p = J("fly_speed", 60);
+	local I = R();
+	if not I then
 		return false, "stopped";
 	end;
-	local o = { x = O.X, y = O.Y, z = O.Z };
-	local L = math.max(O.Y, Y) + h("fly_height", 35);
-	local c = p and 3 or 1;
-	local f = tick();
-	local l = f;
-	local d = f;
-	local b = false;
-	while G() do
-		local h = tick();
-		local g = math.min(h - l, .1);
-		l = h;
-		if D == 2 then
-			local z = B();
-			if not z then
+	local B = { x = I.X, y = I.Y, z = I.Z };
+	local V = math.max(I.Y, d) + J("fly_height", 35);
+	local u = w and 3 or 1;
+	local F = tick();
+	local D = F;
+	local C = F;
+	local G = false;
+	local H = 0;
+	while Y() do
+		local J = tick();
+		local O = math.min(J - D, .1);
+		D = J;
+		if Z == 2 then
+			local e = R();
+			if not e then
 				return false, "stopped";
 			end;
-			o.x, o.y, o.z = z.X, z.Y, z.Z;
+			B.x, B.y, B.z = e.X, e.Y, e.Z;
 		end;
-		local F, e, m;
-		if c == 1 then
-			F, e, m = o.x, L, o.z;
-			if o.y >= L - .5 then
-				c = 2;
+		local q, z, L;
+		if u == 1 then
+			q, z, L = B.x, V, B.z;
+			if B.y >= V - .5 then
+				u = 2;
 			end;
-		elseif c == 2 then
-			F, e, m = z, L, n;
-			local Y, p = z - o.x, n - o.z;
-			if math.sqrt(Y * Y + p * p) < 3 then
-				c = 3;
+		elseif u == 2 then
+			q, z, L = e, V, o;
+			local d, w = e - B.x, o - B.z;
+			if math.sqrt(d * d + w * w) < 3 then
+				u = 3;
 			end;
 		else
-			F, e, m = z, Y, n;
+			q, z, L = e, d, o;
 		end;
-		local x, i, U = F - o.x, e - o.y, m - o.z;
-		local t = math.sqrt((x * x + i * i) + U * U);
-		if c == 3 and t < 1.5 then
+		local T, U, c = q - B.x, z - B.y, L - B.z;
+		local k = math.sqrt((T * T + U * U) + c * c);
+		if u == 3 and k < 1.5 then
 			break;
 		end;
-		if t < .001 then
-			t = .001;
+		if k < .001 then
+			k = .001;
 		end;
-		if D == 2 then
-			if not E((x / t) * T, (i / t) * T, (U / t) * T) then
+		if Z == 2 then
+			if not n((T / k) * p, (U / k) * p, (c / k) * p) then
 				return false, "write failed";
 			end;
 		else
-			local z = math.min(t, T * g);
-			o.x = o.x + (x / t) * z;
-			o.y = o.y + (i / t) * z;
-			o.z = o.z + (U / t) * z;
-			if not I(o.x, o.y, o.z) then
+			local e = math.min(k, p * O);
+			B.x = B.x + (T / k) * e;
+			B.y = B.y + (U / k) * e;
+			B.z = B.z + (c / k) * e;
+			if not W(B.x, B.y, B.z) then
 				return false, "write failed";
 			end;
-			E(0, 0, 0);
+			n(0, 0, 0);
 		end;
-		if (h - d) >= .25 and (h - f) > .4 then
-			d = h;
-			local z = B();
-			if z then
-				if D == 1 then
-					local Y, n, D = z.X - o.x, z.Y - o.y, z.Z - o.z;
-					if math.sqrt((Y * Y + n * n) + D * D) > 12 then
-						return false, p and "blocked" or "no movement";
+		if (J - C) >= .25 and (J - F) > .4 then
+			C = J;
+			local e = R();
+			if e then
+				if Z == 1 then
+					local d, o, Z = e.X - B.x, e.Y - B.y, e.Z - B.z;
+					if math.sqrt((d * d + o * o) + Z * Z) > 12 then
+						H = H + 1;
+						if H > 3 then
+							return false, w and "blocked" or "no movement";
+						end;
+						B.x, B.y, B.z = e.X, e.Y, e.Z;
 					end;
-				elseif (h - f) > 1.2 and not b then
-					b = true;
-					if ((math.abs(z.X - O.X) + math.abs(z.Y - O.Y)) + math.abs(z.Z - O.Z)) < 2 then
+				elseif (J - F) > 1.2 and not G then
+					G = true;
+					if ((math.abs(e.X - I.X) + math.abs(e.Y - I.Y)) + math.abs(e.Z - I.Z)) < 2 then
 						return false, "no movement";
 					end;
 				end;
 			end;
 		end;
-		if (h - f) > 90 then
+		if (J - F) > 90 then
 			return false, "timeout";
 		end;
 		wait(.02);
 	end;
-	if not G() then
+	if not Y() then
 		return false, "stopped";
 	end;
-	if D == 1 then
-		I(z, Y, n);
+	if Z == 1 then
+		W(e, d, o);
 	end;
 	return true;
 end;
-local function q(z, Y, n)
-	local p = tonumber(h("travel_mode", 1)) or 1;
-	local D = h("noclip", true) and (g.noclipOK ~= false and not g.noclipBad);
-	if D then
-		N(true);
+local function E(e, d, o)
+	local w = tonumber(J("travel_mode", 1)) or 1;
+	local Z = J("noclip", true) and (H.noclipOK ~= false and not H.noclipBad);
+	if Z then
+		l(true);
 	end;
-	local T, O = W(z, Y, n, D);
-	if D then
-		N(false);
+	H.flying = true;
+	local p, I = Q(e, d, o, Z);
+	H.flying = false;
+	if Z then
+		l(false);
 	end;
-	E(0, 0, 0);
-	if T and D then
-		g.noclipMsg = "used on last trip";
-	elseif not T and (D and O == "blocked") then
-		g.noclipBad = true;
-		g.noclipMsg = "didn\'t work - using fly height";
-		return q(z, Y, n);
+	n(0, 0, 0);
+	if p and Z then
+		H.noclipMsg = "used on last trip";
+	elseif not p and (Z and I == "blocked") then
+		H.noclipBad = true;
+		H.noclipMsg = "didn\'t work - using fly height";
+		return E(e, d, o);
 	end;
-	return T, O;
+	return p, I;
 end;
-local function s()
-	local z = t();
-	if not z then
-		g.flyMsg = "no points for this field";
-		return;
-	end;
-	g.testFly = true;
-	g.flyMsg = "testing...";
-	local Y, n = q(z.ax, z.y + 3, z.az);
-	g.testFly = false;
-	if Y then
-		g.flyOK = true;
-		g.flyMsg = "Fly works";
-	else
-		g.flyOK = false;
-		g.flyMsg = "Fly failed: " .. tostring(n);
-	end;
-end;
-local r = { value = nil, source = "not scanned", tool = "none" };
-local function w()
-	local z, Y = pcall(function()
-			local z = n.Character:GetChildren();
-			for Y = 1, #z, 1 do
-				if z[Y]:IsA("Tool") then
-					return z[Y];
+local g = { value = nil, source = "not scanned", tool = "none" };
+local function t()
+	local e, d = pcall(function()
+			local e = o.Character:GetChildren();
+			for d = 1, #e, 1 do
+				if e[d]:IsA("Tool") then
+					return e[d];
 				end;
 			end;
 			return nil;
 		end);
-	if z then
-		return Y;
+	if e then
+		return d;
 	end;
 	return nil;
 end;
-local function A(z)
-	local Y, n = pcall(function()
-			return z.Name;
+local function S(e)
+	local d, o = pcall(function()
+			return e.Name;
 		end);
-	if Y and n then
-		return tostring(n);
+	if d and o then
+		return tostring(o);
 	end;
 	return "?";
 end;
-local function M(z, Y)
-	return string.find(string.lower(tostring(z)), Y, 1, true) ~= nil;
+local function v(e, d)
+	return string.find(string.lower(tostring(e)), d, 1, true) ~= nil;
 end;
-local function H()
-	local z = w();
-	if not z then
-		r.value, r.source, r.tool = nil, "no tool equipped", "none";
+local function K()
+	local e = t();
+	if not e then
+		g.value, g.source, g.tool = nil, "no tool equipped", "none";
 		return;
 	end;
-	r.tool = A(z);
-	for Y, n in ipairs({
+	g.tool = S(e);
+	for d, o in ipairs({
 		"Cooldown",
 		"CoolDown",
 		"cooldown",
@@ -645,81 +641,117 @@ local function H()
 		"SwingDelay",
 		"Delay",
 	}) do
-		local p, D = pcall(function()
-				return z:GetAttribute(n);
+		local w, Z = pcall(function()
+				return e:GetAttribute(o);
 			end);
-		if p and (type(D) == "number" and D > 0) then
-			r.value, r.source = D, "attribute " .. n;
+		if w and (type(Z) == "number" and Z > 0) then
+			g.value, g.source = Z, "attribute " .. o;
 			return;
 		end;
 	end;
-	local Y, n = pcall(function()
-			return z:GetDescendants();
+	local d, o = pcall(function()
+			return e:GetDescendants();
 		end);
-	if Y and n then
-		for z = 1, #n, 1 do
-			local Y = n[z];
-			local p = A(Y);
-			if M(p, "cooldown") then
-				local z, n = pcall(function()
-						return Y.Value;
+	if d and o then
+		for e = 1, #o, 1 do
+			local d = o[e];
+			local w = S(d);
+			if v(w, "cooldown") then
+				local e, o = pcall(function()
+						return d.Value;
 					end);
-				if z and (type(n) == "number" and n > 0) then
-					r.value, r.source = n, "value " .. p;
+				if e and (type(o) == "number" and o > 0) then
+					g.value, g.source = o, "value " .. w;
 					return;
 				end;
 			end;
 		end;
 	end;
-	r.value, r.source = nil, "not found";
+	g.value, g.source = nil, "not found";
 end;
-local function k(z)
-	local Y = string.format("%.0f", z);
-	local n;
+local function m(e)
+	local d = string.format("%.0f", e);
+	local o;
 	repeat
-		Y, n = string.gsub(Y, "^(-?%d+)(%d%d%d)", "%1,%2");
-	until n == 0;
-	return Y;
+		d, o = string.gsub(d, "^(-?%d+)(%d%d%d)", "%1,%2");
+	until o == 0;
+	return d;
 end;
-local function P(z)
-	local Y = {};
-	local n = z;
-	for z = 1, 16, 1 do
-		if not n then
+local N;
+do
+	local e = {
+			"",
+			"K",
+			"M",
+			"B",
+			"T",
+			"Qa",
+			"Qi",
+		};
+	N = function(d)
+			if type(d) ~= "number" then
+				return "--";
+			end;
+			if d < 0 then
+				d = 0;
+			end;
+			local o = 0;
+			while d >= 1000 and o < 6 do
+				d = d / 1000;
+				o = o + 1;
+			end;
+			if o == 0 then
+				return string.format("%d", math.floor(d));
+			end;
+			local w;
+			if d >= 100 then
+				w = string.format("%d", math.floor(d));
+			else
+				w = string.format("%.1f", math.floor(d * 10) / 10);
+				w = string.gsub(w, "%.0$", "");
+			end;
+			return w .. e[o + 1];
+		end;
+end;
+local function y(e)
+	local d = {};
+	local o = e;
+	for e = 1, 16, 1 do
+		if not o then
 			break;
 		end;
-		table.insert(Y, 1, A(n));
-		local p, D = pcall(function()
-				return n.Parent;
+		table.insert(d, 1, S(o));
+		local w, Z = pcall(function()
+				return o.Parent;
 			end);
-		if not p then
+		if not w then
 			break;
 		end;
-		n = D;
+		o = Z;
 	end;
-	return table.concat(Y, ".");
+	return table.concat(d, ".");
 end;
-local function Q(z)
-	local Y = string.lower(tostring(z or ""));
-	local n = 0;
-	if string.find(Y, "pollen", 1, true) then
-		n = n + 100;
+local function M(e)
+	local d = string.lower(tostring(e or ""));
+	local o = 0;
+	if string.find(d, "pollen", 1, true) then
+		o = o + 100;
 	end;
-	if string.find(Y, "capacity", 1, true) then
-		n = n + 80;
+	if string.find(d, "capacity", 1, true) then
+		o = o + 80;
 	end;
-	if string.find(Y, "bag", 1, true) then
-		n = n + 25;
+	if string.find(d, "bag", 1, true) then
+		o = o + 25;
 	end;
-	return n;
+	return o;
 end;
-local function Z(z, Y)
-	local n = tonumber(string.gsub(z, ",", ""));
-	if not n then
+local function i(e, d)
+	local o = tonumber(string.gsub(e, ",", ""));
+	if not o then
 		return nil;
 	end;
-	Y = string.lower(Y or "");
-	local p = {
+	d = string.lower(d or "");
+	local w = {
 			k = 1000,
 			m = 1000000,
 			b = 1000000000,
@@ -732,511 +764,533 @@ local function Z(z, Y)
 			no = 1e+30,
 			dc = 1e+33,
 		};
-	return n * ((p[Y] or 1));
+	return o * ((w[d] or 1));
 end;
-local function C(z)
-	local Y, n, p, D = string.match(tostring(z or ""), "([%d][%d,%.]*)%s*([%a]*)%s*/%s*([%d][%d,%.]*)%s*([%a]*)");
-	if not Y or not p then
+local function X(e)
+	local d, o, w, Z = string.match(tostring(e or ""), "([%d][%d,%.]*)%s*([%a]*)%s*/%s*([%d][%d,%.]*)%s*([%a]*)");
+	if not d or not w then
 		return nil;
 	end;
-	Y = Z(Y, n);
-	p = Z(p, D);
-	if not Y or not p or p <= 0 or Y < 0 then
+	d = i(d, o);
+	w = i(w, Z);
+	if not d or not w or w <= 0 or d < 0 then
 		return nil;
 	end;
-	if Y > p * 1.5 then
+	if d > w * 1.5 then
 		return nil;
 	end;
-	return Y, p;
+	return d, w;
 end;
-local zp = { item = nil, path = "" };
-local Yp = nil;
-local function np(z)
-	if Yp and (tick() - Yp) < 90 then
+local eM = { item = nil, path = "" };
+local dM = nil;
+local function oM(e)
+	if dM and (tick() - dM) < 90 then
 		return false;
 	end;
-	Yp = tick();
-	local Y = {};
-	local p, D = pcall(function()
-			return n:FindFirstChild("PlayerGui");
+	dM = tick();
+	local d = {};
+	local w, Z = pcall(function()
+			return o:FindFirstChild("PlayerGui");
 		end);
-	local T = nil;
-	if p and D then
-		local z, Y = pcall(function()
-				return D:GetDescendants();
+	local p = nil;
+	if w and Z then
+		local e, d = pcall(function()
+				return Z:GetDescendants();
 			end);
-		if z then
-			T = Y;
+		if e then
+			p = d;
 		end;
 	end;
-	if T then
-		for z = 1, #T, 1 do
-			local n = T[z];
-			local p, D = pcall(function()
-					return n.Text;
+	if p then
+		for e = 1, #p, 1 do
+			local o = p[e];
+			local w, Z = pcall(function()
+					return o.Text;
 				end);
-			if p and (type(D) == "string" and string.find(D, "/", 1, true)) then
-				local z, p = C(D);
-				if z and p then
-					local T = P(n);
-					Y[#Y + 1] = {
-							item = n,
-							current = z,
-							capacity = p,
-							path = T,
-							text = D,
-							score = Q(T) + Q(D),
+			if w and (type(Z) == "string" and string.find(Z, "/", 1, true)) then
+				local e, w = X(Z);
+				if e and w then
+					local p = y(o);
+					d[#d + 1] = {
+							item = o,
+							current = e,
+							capacity = w,
+							path = p,
+							text = Z,
+							score = M(p) + M(Z),
 						};
 				end;
 			end;
-			if z % 40 == 0 then
+			if e % 40 == 0 then
 				wait(.01);
 			end;
 		end;
 	end;
-	Yp = nil;
-	local O, o = nil, false;
-	for z, Y in ipairs(Y) do
-		if Y.score > 0 then
-			if not O or Y.score > O.score then
-				O, o = Y, false;
-			elseif Y.score == O.score and Y.current ~= O.current then
-				o = true;
+	dM = nil;
+	local I, B = nil, false;
+	for e, d in ipairs(d) do
+		if d.score > 0 then
+			if not I or d.score > I.score then
+				I, B = d, false;
+			elseif d.score == I.score and d.current ~= I.current then
+				B = true;
 			end;
 		end;
 	end;
-	if not O and #Y == 1 then
-		O = Y[1];
+	if not I and #d == 1 then
+		I = d[1];
 	end;
-	if O and not o then
-		zp.item, zp.path = O.item, O.path;
+	if I and not B then
+		eM.item, eM.path = I.item, I.path;
 	end;
-	if z then
-		z(Y);
+	if e then
+		e(d);
 	end;
-	return O ~= nil and not o;
+	return I ~= nil and not B;
 end;
-local function pp()
-	local z = zp.item;
-	if not z then
+local function wM()
+	local e = eM.item;
+	if not e then
 		return nil;
 	end;
-	local Y, n = pcall(function()
-			return z.Text;
+	local d, o = pcall(function()
+			return e.Text;
 		end);
-	if Y and type(n) == "string" then
-		local z, Y = C(n);
-		if z and Y then
-			return z, Y;
+	if d and type(o) == "string" then
+		local e, d = X(o);
+		if e and d then
+			return e, d;
 		end;
 	end;
-	zp.item = nil;
+	eM.item = nil;
 	return nil;
 end;
-local function Dp(z)
-	local Y, p = pcall(function()
-			local Y = n:FindFirstChild("CoreStats");
-			local p = Y and Y:FindFirstChild(z);
-			return p and p.Value;
+local function ZM(e)
+	local d, w = pcall(function()
+			local d = o:FindFirstChild("CoreStats");
+			local w = d and d:FindFirstChild(e);
+			return w and w.Value;
 		end);
-	if Y and type(p) == "number" then
-		return p;
+	if d and type(w) == "number" then
+		return w;
 	end;
 	return nil;
 end;
-local function Tp()
-	local z = {};
+local function pM()
+	local e = {};
 	pcall(function()
-		local Y = n:FindFirstChild("CoreStats");
-		local p = Y:GetChildren();
-		for Y = 1, #p, 1 do
-			local n, D = pcall(function()
-					return p[Y].Value;
+		local d = o:FindFirstChild("CoreStats");
+		local w = d:GetChildren();
+		for d = 1, #w, 1 do
+			local o, Z = pcall(function()
+					return w[d].Value;
 				end);
-			z[#z + 1] = A(p[Y]) .. (" = " .. ((n and tostring(D) or "-")));
+			e[#e + 1] = S(w[d]) .. (" = " .. ((o and tostring(Z) or "-")));
 		end;
 	end);
-	return z;
+	return e;
 end;
-local function Op()
-	g.pollenDumpMsg = "scanning...";
-	local z = { "CORESTATS:" };
-	for Y, n in ipairs(Tp()) do
-		z[#z + 1] = n;
+local function IM()
+	H.pollenDumpMsg = "scanning...";
+	local e = { "CORESTATS:" };
+	for d, o in ipairs(pM()) do
+		e[#e + 1] = o;
 	end;
-	if #z == 1 then
-		z[#z + 1] = "(CoreStats not found on LocalPlayer)";
+	if #e == 1 then
+		e[#e + 1] = "(CoreStats not found on LocalPlayer)";
 	end;
-	z[#z + 1] = "PLAYERGUI LABELS WITH \'number / number\':";
-	local Y = 0;
-	while Yp and Y < 120 do
+	e[#e + 1] = "PLAYERGUI LABELS WITH \'number / number\':";
+	local d = 0;
+	while dM and d < 120 do
 		wait(.2);
-		Y = Y + .2;
+		d = d + .2;
 	end;
-	np(function(Y)
-		for n = 1, math.min(#Y, 60), 1 do
-			z[#z + 1] = Y[n].path .. (" | " .. tostring(Y[n].text));
+	oM(function(d)
+		for o = 1, math.min(#d, 60), 1 do
+			e[#e + 1] = d[o].path .. (" | " .. tostring(d[o].text));
 		end;
-		if #Y == 0 then
-			z[#z + 1] = "(none found)";
+		if #d == 0 then
+			e[#e + 1] = "(none found)";
 		end;
 	end);
-	pcall(writefile, "bss_pollen_dump.txt", table.concat(z, "\n"));
-	for z, Y in ipairs(z) do
-		print(Y);
+	pcall(writefile, "bss_pollen_dump.txt", table.concat(e, "\n"));
+	for e, d in ipairs(e) do
+		print(d);
 	end;
-	g.pollenDumpMsg = "Wrote " .. (#z .. " lines to bss_pollen_dump.txt");
+	H.pollenDumpMsg = "Wrote " .. (#e .. " lines to bss_pollen_dump.txt");
 end;
-local function op()
-	local z = Dp("Capacity");
-	local Y = Dp("Pollen");
-	if z and z <= 0 then
-		z = nil;
+local function BM()
+	local e = ZM("Capacity");
+	local d = ZM("Pollen");
+	if e and e <= 0 then
+		e = nil;
 	end;
-	g.capCore, g.polCore = z, Y;
-	local n, p = nil, nil;
-	if Y == nil then
-		n, p = pp();
+	H.capCore, H.polCore = e, d;
+	local o, w = nil, nil;
+	if d == nil then
+		o, w = wM();
 	end;
-	local D = z or p;
-	local T = Y or n;
-	g.capacity = D;
-	g.pollen = T;
-	g.pollenSource = Y and "stats" or (n and "bar" or "");
-	g.capBuff = nil;
-	local O = "Stats: capacity " .. (((z and "ok" or "MISSING")) .. (", pollen " .. ((Y and "ok" or "MISSING"))));
-	if n then
-		O = O .. " | bar ok";
+	local Z = e or w;
+	local p = d or o;
+	H.capacity = Z;
+	H.pollen = p;
+	H.pollenSource = d and "stats" or (o and "bar" or "");
+	H.honey = ZM("Honey");
+	if p then
+		if H.lastPollen and (p > H.lastPollen and F()) then
+			H.pollenMade = H.pollenMade + ((p - H.lastPollen));
+		end;
+		H.lastPollen = p;
 	end;
-	g.capacityInfo = O;
-	if D and T then
-		g.pollenPercent = math.min(100, (T / D) * 100);
-		g.pollenInfo = string.format("Pollen: %s / %s (%.1f%%)", k(T), k(D), g.pollenPercent);
+	H.capBuff = nil;
+	local I = "Stats: capacity " .. (((e and "ok" or "MISSING")) .. (", pollen " .. ((d and "ok" or "MISSING"))));
+	if o then
+		I = I .. " | bar ok";
+	end;
+	H.capacityInfo = I;
+	if Z and p then
+		H.pollenPercent = math.min(100, (p / Z) * 100);
+		H.pollenInfo = string.format("Pollen: %s / %s (%.1f%%)", m(p), m(Z), H.pollenPercent);
 	else
-		g.pollenPercent = nil;
-		if T then
-			g.pollenInfo = "Pollen " .. (k(T) .. "; waiting for capacity");
+		H.pollenPercent = nil;
+		if p then
+			H.pollenInfo = "Pollen " .. (m(p) .. "; waiting for capacity");
 		else
-			g.pollenInfo = "Pollen: not found yet (see Scan button)";
+			H.pollenInfo = "Pollen: not found yet (see Scan button)";
 		end;
 	end;
 end;
-local Lp = {};
-local cp = {};
-local function hp(z, Y, n)
-	Lp[#Lp + 1] = {
-			x = z,
-			z = Y,
+local VM = {};
+local uM = {};
+local function JM(e, d, o)
+	VM[#VM + 1] = {
+			x = e,
+			z = d,
 			t = tick(),
-			ttl = n,
+			ttl = o,
 		};
 end;
-local function fp(z, Y, n)
-	for p = #Lp, 1, -1 do
-		local D = Lp[p];
-		if n - D.t > D.ttl then
-			table.remove(Lp, p);
+local function FM(e, d, o)
+	for w = #VM, 1, -1 do
+		local Z = VM[w];
+		if o - Z.t > Z.ttl then
+			table.remove(VM, w);
 		else
-			local n, p = z - D.x, Y - D.z;
-			if n * n + p * p < 6.25 then
+			local o, w = e - Z.x, d - Z.z;
+			if o * o + w * w < 6.25 then
 				return true;
 			end;
 		end;
 	end;
 	return false;
 end;
-local function lp()
-	local z = workspace:FindFirstChild("Collectibles");
-	if not z then
+local function DM()
+	local e = workspace:FindFirstChild("Collectibles");
+	if not e then
 		return nil;
 	end;
-	local Y = B();
-	if not Y then
+	local d = R();
+	if not d then
 		return nil;
 	end;
-	local n = t();
-	local p = h("token_radius", 60);
-	local D = h("token_infield", true);
-	local T = tick();
-	local O, o = nil, 1000000000;
-	local L = z:GetChildren();
-	for z = 1, #L, 1 do
-		local c = L[z];
-		local h, f = pcall(function()
-				return c.Position;
+	local o = c();
+	local w = J("token_radius", 60);
+	local Z = J("token_infield", true);
+	local p = tick();
+	local I, B = nil, 1000000000;
+	local V = e:GetChildren();
+	for e = 1, #V, 1 do
+		local u = V[e];
+		local J, F = pcall(function()
+				return u.Position;
 			end);
-		if h and (f and not fp(f.X, f.Z, T)) then
-			local z = math.floor(f.X / 2) .. (":" .. math.floor(f.Z / 2));
-			local T = cp[z];
-			if not T or f.Y < T then
-				T = f.Y;
-				cp[z] = T;
+		if J and (F and not FM(F.X, F.Z, p)) then
+			local e = math.floor(F.X / 2) .. (":" .. math.floor(F.Z / 2));
+			local p = uM[e];
+			if not p or F.Y < p then
+				p = F.Y;
+				uM[e] = p;
 			end;
-			if (f.Y - T) > 3 then
-				hp(f.X, f.Z, 2);
+			if (F.Y - p) > 3 then
+				JM(F.X, F.Z, 2);
 			else
-				local z, T = f.X - Y.X, f.Z - Y.Z;
-				local L = math.sqrt(z * z + T * T);
-				if L < o and (L <= p and math.abs(f.Y - Y.Y) < 30) then
-					local z = true;
-					if D and n then
-						z = e(n.poly, f.X, f.Z);
+				local e, p = F.X - d.X, F.Z - d.Z;
+				local V = math.sqrt(e * e + p * p);
+				if V < B and (V <= w and math.abs(F.Y - d.Y) < 30) then
+					local e = true;
+					if Z and o then
+						e = q(o.poly, F.X, F.Z);
 					end;
-					if z then
-						O, o = c, L;
+					if e then
+						I, B = u, V;
 					end;
 				end;
 			end;
 		end;
 	end;
-	return O;
+	return I;
 end;
-local dp, bp;
-local function gp(z, Y, n, p)
-	local D = t();
-	local T = tick();
-	local O = 0;
-	local o = h("margin", 4);
-	while not F() do
-		local L = B();
-		if L then
-			local c, h = z - L.X, Y - L.Z;
-			if c * c + h * h <= n * n then
+local CM, GM;
+local function HM(e, d, o, w)
+	local Z = c();
+	local p = tick();
+	local I = 0;
+	local B = J("margin", 4);
+	while not O() do
+		local V = R();
+		if V then
+			local u, J = e - V.X, d - V.Z;
+			if u * u + J * J <= o * o then
 				break;
 			end;
-			if tick() - T > 15 then
+			if tick() - p > 15 then
 				break;
 			end;
-			if p and D then
-				if not S(D, L.X, L.Z, o) then
-					dp(D);
+			if w and Z then
+				if not k(Z, V.X, V.Z, B) then
+					CM(Z);
 				end;
-				if g.tokenMode and (tick() - O) > .25 then
-					O = tick();
-					if lp() then
-						bp();
-						T = tick();
+				if H.tokenMode and (tick() - I) > .25 then
+					I = tick();
+					if DM() then
+						GM();
+						p = tick();
 					end;
 				end;
 			end;
-			R(c, h);
+			x(u, J);
 		end;
 		wait(.03);
 	end;
 end;
-dp = function(z)
-		local Y = g.status;
-		g.busy = true;
-		g.status = "Back inside field";
-		local n = h("margin", 4);
-		local p = tick();
-		while f() and (tick() - p) < 6 do
-			local Y = B();
-			if not Y then
+CM = function(e)
+		local d = H.status;
+		H.busy = true;
+		H.status = "Back inside field";
+		local o = J("margin", 4);
+		local w = tick();
+		while F() and (not H.needTravel and (tick() - w) < 6) do
+			local d = R();
+			if not d then
 				break;
 			end;
-			if S(z, Y.X, Y.Z, n) then
+			if k(e, d.X, d.Z, o) then
 				break;
 			end;
-			local p, D = a(z, Y.X, Y.Z, n);
-			R(p - Y.X, D - Y.Z);
+			local w, Z = P(e, d.X, d.Z, o);
+			x(w - d.X, Z - d.Z);
 			wait(.03);
 		end;
-		g.busy = false;
-		g.status = Y;
+		H.busy = false;
+		H.status = d;
 	end;
-bp = function()
-		g.busy = true;
-		g.status = "Collecting tokens";
-		local z = t();
-		local Y = h("token_reach", 3);
-		local n = 0;
-		local p = lp();
-		local D = tick();
-		local T, O = nil, nil;
-		while f() and (p and n < 15) do
-			local o, L = pcall(function()
-					return p.Position;
+GM = function()
+		H.busy = true;
+		H.status = "Collecting tokens";
+		local e = c();
+		local d = J("token_reach", 3);
+		local o = 0;
+		local w = DM();
+		local Z = tick();
+		local p, I = nil, nil;
+		while F() and (w and (o < 15 and not H.needTravel)) do
+			local B, V = pcall(function()
+					return w.Position;
 				end);
-			local c = B();
-			local f, l = false, false;
-			if o and L then
-				T, O = L.X, L.Z;
+			local u = R();
+			local F, D = false, false;
+			if B and V then
+				p, I = V.X, V.Z;
 			end;
-			if not o or not L or not c then
-				l = true;
-			elseif z and not e(z.poly, c.X, c.Z) then
+			if not B or not V or not u then
+				D = true;
+			elseif e and not q(e.poly, u.X, u.Z) then
 				break;
 			else
-				local z, n = L.X - c.X, L.Z - c.Z;
-				if z * z + n * n <= Y * Y then
-					f = true;
-				elseif (tick() - D) > h("token_secs", 3) then
-					l = true;
+				local e, o = V.X - u.X, V.Z - u.Z;
+				if e * e + o * o <= d * d then
+					F = true;
+				elseif (tick() - Z) > J("token_secs", 3) then
+					D = true;
 				else
-					R(z, n);
+					x(e, o);
 				end;
 			end;
-			if f or l then
-				if T then
-					hp(T, O, f and 1.6 or 8);
+			if F or D then
+				if p then
+					JM(p, I, F and 1.6 or 8);
 				end;
-				if f then
-					n = n + 1;
-					g.tokens = g.tokens + 1;
+				if F then
+					o = o + 1;
+					H.tokens = H.tokens + 1;
 				end;
-				p = lp();
-				D = tick();
-				T, O = nil, nil;
+				w = DM();
+				Z = tick();
+				p, I = nil, nil;
 			end;
 			wait(.03);
 		end;
-		X();
-		g.busy = false;
-		g.status = "Farming";
+		j();
+		H.busy = false;
+		H.status = "Farming";
 	end;
-local function Fp(z, Y, n, p)
-	local D = z.n;
-	local T, O = {}, {};
-	for n = 1, D, 1 do
-		local p = z.poly[n];
-		if Y then
-			T[n], O[n] = p.z, p.x;
+local function OM(e, d, o, w)
+	local Z = e.n;
+	local p, I = {}, {};
+	for o = 1, Z, 1 do
+		local w = e.poly[o];
+		if d then
+			p[o], I[o] = w.z, w.x;
 		else
-			T[n], O[n] = p.x, p.z;
+			p[o], I[o] = w.x, w.z;
 		end;
 	end;
-	local o, L = 1000000000, -1000000000;
-	for z = 1, D, 1 do
-		if O[z] < o then
-			o = O[z];
+	local B, V = 1000000000, -1000000000;
+	for e = 1, Z, 1 do
+		if I[e] < B then
+			B = I[e];
 		end;
-		if O[z] > L then
-			L = O[z];
+		if I[e] > V then
+			V = I[e];
 		end;
 	end;
-	local c = {};
-	local h = 0;
-	local f = o + p;
-	while f <= L - p do
-		local o = {};
-		for z = 1, D, 1 do
-			local Y = z % D + 1;
-			local n, p = O[z], O[Y];
-			if (n <= f and p > f) or (p <= f and n > f) then
-				local D = ((f - n)) / ((p - n));
-				o[#o + 1] = T[z] + D * ((T[Y] - T[z]));
+	local u = {};
+	local J = 0;
+	local F = B + w;
+	while F <= V - w do
+		local B = {};
+		for e = 1, Z, 1 do
+			local d = e % Z + 1;
+			local o, w = I[e], I[d];
+			if (o <= F and w > F) or (w <= F and o > F) then
+				local Z = ((F - o)) / ((w - o));
+				B[#B + 1] = p[e] + Z * ((p[d] - p[e]));
 			end;
 		end;
-		table.sort(o);
-		local L = {};
-		for z = 1, #o - 1, 2 do
-			local Y, n = o[z] + p, o[z + 1] - p;
-			if Y < n then
-				L[#L + 1] = { Y, n };
+		table.sort(B);
+		local V = {};
+		for e = 1, #B - 1, 2 do
+			local d, o = B[e] + w, B[e + 1] - w;
+			if d < o then
+				V[#V + 1] = { d, o };
 			end;
 		end;
-		if h % 2 == 1 then
-			local z = {};
-			for Y = #L, 1, -1 do
-				z[#z + 1] = { L[Y][2], L[Y][1] };
+		if J % 2 == 1 then
+			local e = {};
+			for d = #V, 1, -1 do
+				e[#e + 1] = { V[d][2], V[d][1] };
 			end;
-			L = z;
+			V = e;
 		end;
-		for n, D in ipairs(L) do
-			for n, D in ipairs(D) do
-				local T, O;
-				if Y then
-					T, O = f, D;
+		for o, Z in ipairs(V) do
+			for o, Z in ipairs(Z) do
+				local p, I;
+				if d then
+					p, I = F, Z;
 				else
-					T, O = D, f;
+					p, I = Z, F;
 				end;
-				if S(z, T, O, p * .5) then
-					c[#c + 1] = { x = T, z = O };
+				if k(e, p, I, w * .5) then
+					u[#u + 1] = { x = p, z = I };
 				end;
 			end;
 		end;
-		h = h + 1;
-		f = f + n;
+		J = J + 1;
+		F = F + o;
 	end;
-	return c;
+	return u;
 end;
-local function ep(z, Y)
-	local n = {};
-	local p = 0;
-	while #n < 12 and p < 400 do
-		p = p + 1;
-		local D = z.minX + math.random() * ((z.maxX - z.minX));
-		local T = z.minZ + math.random() * ((z.maxZ - z.minZ));
-		if S(z, D, T, Y) then
-			n[#n + 1] = { x = D, z = T };
+local function qM(e, d)
+	local o = {};
+	local w = 0;
+	while #o < 12 and w < 400 do
+		w = w + 1;
+		local Z = e.minX + math.random() * ((e.maxX - e.minX));
+		local p = e.minZ + math.random() * ((e.maxZ - e.minZ));
+		if k(e, Z, p, d) then
+			o[#o + 1] = { x = Z, z = p };
 		end;
 	end;
-	return n;
+	return o;
 end;
-local function mp(z)
-	local Y = h("margin", 4);
-	local n = tonumber(h("pattern", 1)) or 1;
-	local p;
-	if n == 3 then
-		p = ep(z, Y);
+local function zM(e)
+	local d = J("margin", 4);
+	local o = tonumber(J("pattern", 1)) or 1;
+	local w;
+	if o == 3 then
+		w = qM(e, d);
 	else
-		p = Fp(z, n == 2, h("spacing", 10), Y);
+		w = OM(e, o == 2, J("spacing", 10), d);
 	end;
-	if #p == 0 then
-		p = { { x = z.ax, z = z.az } };
+	if #w == 0 then
+		w = { { x = e.ax, z = e.az } };
 	end;
-	if g.flip then
-		local z = {};
-		for Y = #p, 1, -1 do
-			z[#z + 1] = p[Y];
+	if H.flip then
+		local e = {};
+		for d = #w, 1, -1 do
+			e[#e + 1] = w[d];
 		end;
-		p = z;
+		w = e;
 	end;
-	for z, Y in ipairs(p) do
-		if F() then
+	for e, d in ipairs(w) do
+		if O() then
 			return;
 		end;
-		gp(Y.x, Y.z, 2.5, true);
+		HM(d.x, d.z, 2.5, true);
 	end;
-	g.flip = not g.flip;
+	H.flip = not H.flip;
 end;
-local function xp(z)
-	g.status = "Walking to " .. z.name;
-	local Y = tick();
-	local n = h("margin", 4);
-	while f() and (tick() - Y) < 120 do
-		local Y = B();
-		if Y then
-			if S(z, Y.X, Y.Z, n) and math.abs(Y.Y - z.y) <= 25 then
-				break;
+local function LM()
+	local e, d = 0, nil;
+	local w = tick();
+	while F() and (tick() - w) < 30 do
+		local w = R();
+		local Z, p = pcall(function()
+				return o.Character.Humanoid.Health;
+			end);
+		local I = not ((Z and (type(p) == "number" and p <= 0)));
+		if w and I then
+			if d and (math.abs(w.X - d.X) + math.abs(w.Y - d.Y)) + math.abs(w.Z - d.Z) < .6 then
+				e = e + .1;
+			else
+				e = 0;
 			end;
-			R(z.ax - Y.X, z.az - Y.Z);
+			d = w;
+			if e >= .7 then
+				return true;
+			end;
+		else
+			e, d = 0, nil;
 		end;
-		wait(.03);
+		wait(.1);
 	end;
-	X();
+	return F();
 end;
-local function ip(z)
-	g.farming = false;
-	g.tokenMode = false;
-	X();
-	local Y = tonumber(h("travel_mode", 1)) or 1;
-	if Y ~= 3 and g.flyOK ~= false then
-		g.status = "Flying to " .. z.name;
-		local Y, n = q(z.ax, z.y + 3, z.az);
-		if Y then
-			return;
-		end;
-		if n == "stopped" then
-			return;
-		end;
-		g.flyOK = false;
-		g.flyMsg = "Fly failed: " .. tostring(n);
+local function TM(e)
+	H.farming = false;
+	H.tokenMode = false;
+	j();
+	H.status = "Waiting for respawn";
+	if not LM() then
+		return false;
 	end;
-	xp(z);
+	H.status = "Flying to " .. e.name;
+	local d = tick();
+	local o, w = E(e.ax, e.y + 3, e.az);
+	if o then
+		H.flyFails = 0;
+		H.flyMsg = string.format("last trip ok (%.1fs)", tick() - d);
+		return true;
+	end;
+	if w == "stopped" then
+		return false;
+	end;
+	H.flyFails = H.flyFails + 1;
+	H.flyMsg = "trip failed: " .. (tostring(w) .. " - retrying");
+	wait(1);
+	return false;
 end;
-local Up = {
+local UM = {
 		types = {
 			{ name = "Basic", count = 1, radius = 7 },
 			{ name = "Silver", count = 2, radius = 7 },
@@ -1251,886 +1305,889 @@ local Up = {
 		acceptAll = false,
 		scanning = false,
 	};
-function Up.active()
-	return f() or g.manualRun;
+function UM.active()
+	return F() or H.manualRun;
 end;
-function Up.plan(z, Y)
-	local n = Y.radius * Up.flower;
-	local p = n * n;
-	local D = Up.gap * Up.gap;
-	local T = 5;
-	local O;
+function UM.plan(e, d)
+	local o = d.radius * UM.flower;
+	local w = o * o;
+	local Z = UM.gap * UM.gap;
+	local p = 5;
+	local I;
 	while true do
-		O = {};
-		local Y = z.minX + T / 2;
-		while Y <= z.maxX do
-			local n = z.minZ + T / 2;
-			while n <= z.maxZ do
-				if e(z.poly, Y, n) then
-					O[#O + 1] = { x = Y, z = n };
+		I = {};
+		local d = e.minX + p / 2;
+		while d <= e.maxX do
+			local o = e.minZ + p / 2;
+			while o <= e.maxZ do
+				if q(e.poly, d, o) then
+					I[#I + 1] = { x = d, z = o };
 				end;
-				n = n + T;
+				o = o + p;
 			end;
-			Y = Y + T;
+			d = d + p;
 		end;
-		if #O <= 420 then
+		if #I <= 420 then
 			break;
 		end;
-		T = T * 1.2;
+		p = p * 1.2;
 	end;
-	if #O == 0 then
+	if #I == 0 then
 		return {};
 	end;
-	local o = {};
-	for Y = 1, #O, 2 do
-		local n = O[Y];
-		local p, D, T = m(z.poly, n.x, n.z);
-		if T >= 3 then
-			o[#o + 1] = n;
+	local B = {};
+	for d = 1, #I, 2 do
+		local o = I[d];
+		local w, Z, p = z(e.poly, o.x, o.z);
+		if p >= 3 then
+			B[#B + 1] = o;
 		end;
 	end;
-	if #o == 0 then
-		o[1] = { x = z.ax, z = z.az };
+	if #B == 0 then
+		B[1] = { x = e.ax, z = e.az };
 	end;
-	local L = {};
-	for z = 1, #O, 1 do
-		L[z] = 0;
+	local V = {};
+	for e = 1, #I, 1 do
+		V[e] = 0;
 	end;
-	local c = {};
-	local function h(z)
-		local Y = 0;
-		for n = 1, #O, 1 do
-			if L[n] == 0 then
-				local D = O[n];
-				local T, o = D.x - z.x, D.z - z.z;
-				if T * T + o * o <= p then
-					Y = Y + 1;
+	local u = {};
+	local function J(e)
+		local d = 0;
+		for o = 1, #I, 1 do
+			if V[o] == 0 then
+				local Z = I[o];
+				local p, B = Z.x - e.x, Z.z - e.z;
+				if p * p + B * B <= w then
+					d = d + 1;
 				end;
 			end;
 		end;
-		return Y;
+		return d;
 	end;
-	local function f(z, Y)
-		for n = 1, #O, 1 do
-			local D = O[n];
-			local T, o = D.x - z.x, D.z - z.z;
-			if T * T + o * o <= p then
-				L[n] = L[n] + Y;
+	local function F(e, d)
+		for o = 1, #I, 1 do
+			local Z = I[o];
+			local p, B = Z.x - e.x, Z.z - e.z;
+			if p * p + B * B <= w then
+				V[o] = V[o] + d;
 			end;
 		end;
 	end;
-	local function l(z, Y)
-		for n = 1, #c, 1 do
-			if n ~= Y then
-				local Y, p = z.x - c[n].x, z.z - c[n].z;
-				if Y * Y + p * p < D then
+	local function D(e, d)
+		for o = 1, #u, 1 do
+			if o ~= d then
+				local d, w = e.x - u[o].x, e.z - u[o].z;
+				if d * d + w * w < Z then
 					return false;
 				end;
 			end;
 		end;
 		return true;
 	end;
-	local function d(Y)
-		local n, p = Y.x - z.ax, Y.z - z.az;
-		return .001 * math.sqrt(n * n + p * p);
+	local function C(d)
+		local o, w = d.x - e.ax, d.z - e.az;
+		return .001 * math.sqrt(o * o + w * w);
 	end;
-	for z = 1, Y.count, 1 do
-		local Y, n = nil, -1000000000;
-		for z = 1, #o, 1 do
-			local p = o[z];
-			if l(p, 0) then
-				local z = h(p) - d(p);
-				if z > n then
-					Y, n = p, z;
+	for e = 1, d.count, 1 do
+		local d, o = nil, -1000000000;
+		for e = 1, #B, 1 do
+			local w = B[e];
+			if D(w, 0) then
+				local e = J(w) - C(w);
+				if e > o then
+					d, o = w, e;
 				end;
 			end;
-			if z % 20 == 0 then
+			if e % 20 == 0 then
 				wait(.002);
 			end;
 		end;
-		if not Y then
+		if not d then
 			break;
 		end;
-		c[#c + 1] = Y;
-		f(Y, 1);
+		u[#u + 1] = d;
+		F(d, 1);
 	end;
-	if #c >= 2 then
-		for z = 1, 2, 1 do
-			for z = 1, #c, 1 do
-				f(c[z], -1);
-				local Y = c[z];
-				local n = h(Y) - d(Y);
-				for p = 1, #o, 1 do
-					local D = o[p];
-					if l(D, z) then
-						local z = h(D) - d(D);
-						if z > n + .5 then
-							Y, n = D, z;
+	if #u >= 2 then
+		for e = 1, 2, 1 do
+			for e = 1, #u, 1 do
+				F(u[e], -1);
+				local d = u[e];
+				local o = J(d) - C(d);
+				for w = 1, #B, 1 do
+					local Z = B[w];
+					if D(Z, e) then
+						local e = J(Z) - C(Z);
+						if e > o + .5 then
+							d, o = Z, e;
 						end;
 					end;
-					if p % 20 == 0 then
+					if w % 20 == 0 then
 						wait(.002);
 					end;
 				end;
-				c[z] = Y;
-				f(Y, 1);
+				u[e] = d;
+				F(d, 1);
 			end;
 		end;
 	end;
-	local b = {};
-	for z = 1, #c, 1 do
-		b[z] = { x = c[z].x, z = c[z].z };
+	local G = {};
+	for e = 1, #u, 1 do
+		G[e] = { x = u[e].x, z = u[e].z };
 	end;
-	return b;
+	return G;
 end;
-function Up.getPlan(z, Y)
-	local n = z.name .. (":" .. Y.name);
-	local p = Up.plans[n];
-	if not p then
-		g.sprMsg = "Calculating spots for " .. (z.name .. "...");
-		p = Up.plan(z, Y);
-		Up.plans[n] = p;
+function UM.getPlan(e, d)
+	local o = e.name .. (":" .. d.name);
+	local w = UM.plans[o];
+	if not w then
+		H.sprMsg = "Calculating spots for " .. (e.name .. "...");
+		w = UM.plan(e, d);
+		UM.plans[o] = w;
 	end;
-	return p;
+	return w;
 end;
-function Up.objXZ(z)
-	local Y, n, p = pcall(function()
-			local Y = z.Position;
-			return Y.X, Y.Z;
+function UM.objXZ(e)
+	local d, o, w = pcall(function()
+			local d = e.Position;
+			return d.X, d.Z;
 		end);
-	if Y and n then
-		return n, p;
+	if d and o then
+		return o, w;
 	end;
-	Y, n, p = pcall(function()
-			local Y = z.PrimaryPart.Position;
-			return Y.X, Y.Z;
+	d, o, w = pcall(function()
+			local d = e.PrimaryPart.Position;
+			return d.X, d.Z;
 		end);
-	if Y and n then
-		return n, p;
+	if d and o then
+		return o, w;
 	end;
-	Y, n, p = pcall(function()
-			local Y = z:GetChildren();
-			for z = 1, #Y, 1 do
-				local n, p = pcall(function()
-						return Y[z].Position;
+	d, o, w = pcall(function()
+			local d = e:GetChildren();
+			for e = 1, #d, 1 do
+				local o, w = pcall(function()
+						return d[e].Position;
 					end);
-				if n and p then
-					return p.X, p.Z;
+				if o and w then
+					return w.X, w.Z;
 				end;
 			end;
 			return nil, nil;
 		end);
-	if Y and n then
-		return n, p;
+	if d and o then
+		return o, w;
 	end;
 	return nil, nil;
 end;
-function Up.list()
-	local z = {};
-	local function Y(Y)
-		local n, p = Up.objXZ(Y);
-		if n then
-			z[#z + 1] = { x = n, z = p };
+function UM.list()
+	local e = {};
+	local function d(d)
+		local o, w = UM.objXZ(d);
+		if o then
+			e[#e + 1] = { x = o, z = w };
 		end;
 	end;
-	local n = Up.container;
-	if n then
-		local p, D = pcall(function()
-				return n:GetChildren();
+	local o = UM.container;
+	if o then
+		local w, Z = pcall(function()
+				return o:GetChildren();
 			end);
-		if p and D then
-			for z = 1, #D, 1 do
-				if Up.acceptAll or M(A(D[z]), "sprinkler") then
-					Y(D[z]);
+		if w and Z then
+			for e = 1, #Z, 1 do
+				if UM.acceptAll or v(S(Z[e]), "sprinkler") then
+					d(Z[e]);
 				end;
 			end;
-			return z, true;
+			return e, true;
 		end;
-		Up.container = nil;
+		UM.container = nil;
 	end;
-	local p = false;
-	local D, T = pcall(function()
+	local w = false;
+	local Z, p = pcall(function()
 			return workspace:GetChildren();
 		end);
-	if D and T then
-		for n = 1, #T, 1 do
-			if M(A(T[n]), "sprinkler") then
-				local D = #z;
-				Y(T[n]);
-				if #z == D then
-					local z, D = pcall(function()
-							return T[n]:GetChildren();
+	if Z and p then
+		for o = 1, #p, 1 do
+			if v(S(p[o]), "sprinkler") then
+				local Z = #e;
+				d(p[o]);
+				if #e == Z then
+					local e, Z = pcall(function()
+							return p[o]:GetChildren();
 						end);
-					if z and D then
-						for z = 1, #D, 1 do
-							Y(D[z]);
+					if e and Z then
+						for e = 1, #Z, 1 do
+							d(Z[e]);
 						end;
-						Up.container = T[n];
-						Up.acceptAll = true;
-						p = true;
+						UM.container = p[o];
+						UM.acceptAll = true;
+						w = true;
 					end;
 				else
-					p = true;
+					w = true;
 				end;
 			end;
 		end;
 	end;
-	return z, p;
+	return e, w;
 end;
-function Up.discover(z)
-	if Up.scanning then
+function UM.discover(e)
+	if UM.scanning then
 		return;
 	end;
-	Up.scanning = true;
-	local Y, n = pcall(function()
+	UM.scanning = true;
+	local d, o = pcall(function()
 			return workspace:GetDescendants();
 		end);
-	if Y and n then
-		for Y = 1, #n, 1 do
-			local p = n[Y];
-			if M(A(p), "sprinkler") then
-				local Y, n = Up.objXZ(p);
-				if Y then
-					for z, D in ipairs(z) do
-						local T, O = Y - D.x, n - D.z;
-						if T * T + O * O <= 144 then
-							local z, Y = pcall(function()
-									return p.Parent;
+	if d and o then
+		for d = 1, #o, 1 do
+			local w = o[d];
+			if v(S(w), "sprinkler") then
+				local d, o = UM.objXZ(w);
+				if d then
+					for e, Z in ipairs(e) do
+						local p, I = d - Z.x, o - Z.z;
+						if p * p + I * I <= 144 then
+							local e, d = pcall(function()
+									return w.Parent;
 								end);
-							if z and Y then
-								Up.container = Y;
-								Up.acceptAll = false;
+							if e and d then
+								UM.container = d;
+								UM.acceptAll = false;
 							end;
 						end;
 					end;
 				end;
 			end;
-			if Up.container then
+			if UM.container then
 				break;
 			end;
-			if Y % 150 == 0 then
+			if d % 150 == 0 then
 				wait(.01);
 			end;
 		end;
 	end;
-	Up.scanning = false;
+	UM.scanning = false;
 end;
-function Up.dump()
-	g.sprMsg = "Scanning for sprinklers...";
-	local z = {};
-	local Y, n = pcall(function()
+function UM.dump()
+	H.sprMsg = "Scanning for sprinklers...";
+	local e = {};
+	local d, o = pcall(function()
 			return workspace:GetDescendants();
 		end);
-	if Y and n then
-		for Y = 1, #n, 1 do
-			local p = n[Y];
-			if M(A(p), "sprinkler") then
-				local Y, n = Up.objXZ(p);
-				local D, T = pcall(function()
-						return p.ClassName;
+	if d and o then
+		for d = 1, #o, 1 do
+			local w = o[d];
+			if v(S(w), "sprinkler") then
+				local d, o = UM.objXZ(w);
+				local Z, p = pcall(function()
+						return w.ClassName;
 					end);
-				z[#z + 1] = string.format("%s | %s | %s | %s", P(p), tostring(T), Y and string.format("%.1f", Y) or "-", n and string.format("%.1f", n) or "-");
-				if #z >= 80 then
+				e[#e + 1] = string.format("%s | %s | %s | %s", y(w), tostring(p), d and string.format("%.1f", d) or "-", o and string.format("%.1f", o) or "-");
+				if #e >= 80 then
 					break;
 				end;
 			end;
-			if Y % 150 == 0 then
+			if d % 150 == 0 then
 				wait(.01);
 			end;
 		end;
 	end;
-	if #z == 0 then
-		z[1] = "(no object with \'sprinkler\' in its name found in the workspace)";
+	if #e == 0 then
+		e[1] = "(no object with \'sprinkler\' in its name found in the workspace)";
 	end;
-	pcall(writefile, "bss_sprinkler_dump.txt", table.concat(z, "\n"));
-	for z, Y in ipairs(z) do
-		print(Y);
+	pcall(writefile, "bss_sprinkler_dump.txt", table.concat(e, "\n"));
+	for e, d in ipairs(e) do
+		print(d);
 	end;
-	g.sprMsg = "Wrote " .. (#z .. " lines to bss_sprinkler_dump.txt");
+	H.sprMsg = "Wrote " .. (#e .. " lines to bss_sprinkler_dump.txt");
 end;
-function Up.pressKey(z, Y)
-	local n = tick();
-	while Up.active() and (not isrbxactive() and (tick() - n) < 10) do
-		g.sprMsg = "Waiting for game focus (sprinklers)";
+function UM.pressKey(e, d)
+	local o = tick();
+	while UM.active() and (not isrbxactive() and (tick() - o) < 10) do
+		H.sprMsg = "Waiting for game focus (sprinklers)";
 		wait(.2);
 	end;
-	if not Up.active() or not isrbxactive() then
+	if not UM.active() or not isrbxactive() then
 		return false;
 	end;
-	pcall(keypress, z);
-	wait(Y);
-	pcall(keyrelease, z);
+	pcall(keypress, e);
+	wait(d);
+	pcall(keyrelease, e);
 	return true;
 end;
-function Up.jumpAndPlace(z, Y)
-	if not Up.pressKey(32, .06) then
+function UM.jumpAndPlace(e, d)
+	if not UM.pressKey(32, .06) then
 		return false;
 	end;
-	wait(Y);
-	return Up.pressKey(z, .06);
+	wait(d);
+	return UM.pressKey(e, .06);
 end;
-function Up.nearAny(z, Y, n)
-	local p = n * n;
-	for z, n in ipairs(z) do
-		local D, T = n.x - Y.x, n.z - Y.z;
-		if D * D + T * T <= p then
+function UM.nearAny(e, d, o)
+	local w = o * o;
+	for e, o in ipairs(e) do
+		local Z, p = o.x - d.x, o.z - d.z;
+		if Z * Z + p * p <= w then
 			return true;
 		end;
 	end;
 	return false;
 end;
-function Up.placeMissing(z, Y, n, p, D)
-	local T = {};
-	local O = B();
-	local o, L = O and O.X or z.ax, O and O.Z or z.az;
-	local c = {};
-	for z = 1, #n, 1 do
-		c[z] = n[z];
+function UM.placeMissing(e, d, o, w, Z)
+	local p = {};
+	local I = R();
+	local B, V = I and I.X or e.ax, I and I.Z or e.az;
+	local u = {};
+	for e = 1, #o, 1 do
+		u[e] = o[e];
 	end;
-	while #c > 0 do
-		local z, Y = 1, 1e+18;
-		for n = 1, #c, 1 do
-			local p, D = c[n].x - o, c[n].z - L;
-			local T = p * p + D * D;
-			if T < Y then
-				z, Y = n, T;
+	while #u > 0 do
+		local e, d = 1, 1e+18;
+		for o = 1, #u, 1 do
+			local w, Z = u[o].x - B, u[o].z - V;
+			local p = w * w + Z * Z;
+			if p < d then
+				e, d = o, p;
 			end;
 		end;
-		local n = table.remove(c, z);
-		T[#T + 1] = n;
-		o, L = n.x, n.z;
+		local o = table.remove(u, e);
+		p[#p + 1] = o;
+		B, V = o.x, o.z;
 	end;
-	local f = math.floor(tonumber(h("sprinkler_slot", 2)) or 2);
-	if f < 1 then
-		f = 1;
-	elseif f > 9 then
-		f = 9;
+	local F = math.floor(tonumber(J("sprinkler_slot", 2)) or 2);
+	if F < 1 then
+		F = 1;
+	elseif F > 9 then
+		F = 9;
 	end;
-	local l = 48 + f;
-	local d = h("spr_jump_ms", 100) / 1000;
-	local b = #D;
-	local e = g.sprDone[p];
-	local m = 0;
-	for z, Y in ipairs(T) do
-		if F() then
+	local D = 48 + F;
+	local C = J("spr_jump_ms", 100) / 1000;
+	local G = #Z;
+	local q = H.sprDone[w];
+	local z = 0;
+	for e, d in ipairs(p) do
+		if O() then
 			break;
 		end;
-		g.status = "Placing sprinklers";
-		g.sprMsg = string.format("Placing sprinkler %d/%d", z, #T);
-		gp(Y.x, Y.z, 1.5, false);
-		X();
+		H.status = "Placing sprinklers";
+		H.sprMsg = string.format("Placing sprinkler %d/%d", e, #p);
+		HM(d.x, d.z, 1.5, false);
+		j();
 		wait(.2);
-		if F() then
+		if O() then
 			break;
 		end;
-		if not Up.jumpAndPlace(l, d) then
+		if not UM.jumpAndPlace(D, C) then
 			break;
 		end;
-		e[Y.idx] = true;
-		m = m + 1;
-		g.sprMsg = string.format("Placed %d/%d", m, #T);
+		q[d.idx] = true;
+		z = z + 1;
+		H.sprMsg = string.format("Placed %d/%d", z, #p);
 		wait(1.1);
 	end;
-	local x = 0;
-	for z = 1, b, 1 do
-		if e[z] then
-			x = x + 1;
+	local L = 0;
+	for e = 1, G, 1 do
+		if q[e] then
+			L = L + 1;
 		end;
 	end;
-	if x >= b then
-		g.sprMsg = string.format("%s: %d/%d placed", Y.name, x, b);
+	if L >= G then
+		H.sprMsg = string.format("%s: %d/%d placed", d.name, L, G);
 	else
-		g.sprMsg = string.format("%s: %d/%d placed - will finish later", Y.name, x, b);
-		g.sprNeedCheck = true;
+		H.sprMsg = string.format("%s: %d/%d placed - will finish later", d.name, L, G);
+		H.sprNeedCheck = true;
 	end;
-	if m > 0 and (not Up.container and not Up.scanning) then
+	if z > 0 and (not UM.container and not UM.scanning) then
 		task.spawn(function()
-			Up.discover(D);
+			UM.discover(Z);
 		end);
 	end;
 end;
-function Up.ensure(z)
-	local Y = ((tonumber(h("sprinkler_type", 1)) or 1)) - 1;
-	if Y < 1 then
-		g.sprMsg = "Sprinklers off";
+function UM.ensure(e)
+	local d = ((tonumber(J("sprinkler_type", 1)) or 1)) - 1;
+	if d < 1 then
+		H.sprMsg = "Sprinklers off";
 		return;
 	end;
-	local n = Up.types[Y];
-	local p = z.name .. (":" .. n.name);
-	if g.sprKey ~= p then
-		g.sprKey = p;
-		g.sprNeedCheck = true;
+	local o = UM.types[d];
+	local w = e.name .. (":" .. o.name);
+	if H.sprKey ~= w then
+		H.sprKey = w;
+		H.sprNeedCheck = true;
 	end;
-	if not g.sprNeedCheck then
+	if not H.sprNeedCheck then
 		return;
 	end;
-	g.sprNeedCheck = false;
-	local D = Up.getPlan(z, n);
-	if #D == 0 then
-		g.sprMsg = "No valid sprinkler spots";
+	H.sprNeedCheck = false;
+	local Z = UM.getPlan(e, o);
+	if #Z == 0 then
+		H.sprMsg = "No valid sprinkler spots";
 		return;
 	end;
-	local T = g.sprDone[p];
-	if not T then
-		T = {};
-		g.sprDone[p] = T;
+	local p = H.sprDone[w];
+	if not p then
+		p = {};
+		H.sprDone[w] = p;
 	end;
-	if not T.checked then
-		T.checked = true;
-		local z, Y = Up.list();
-		if Y then
-			for Y, n in ipairs(D) do
-				if Up.nearAny(z, n, 10) then
-					T[Y] = true;
+	if not p.checked then
+		p.checked = true;
+		local e, d = UM.list();
+		if d then
+			for d, o in ipairs(Z) do
+				if UM.nearAny(e, o, 10) then
+					p[d] = true;
 				end;
 			end;
 		end;
 	end;
-	local O = {};
-	for z, Y in ipairs(D) do
-		if not T[z] then
-			O[#O + 1] = { idx = z, x = Y.x, z = Y.z };
+	local I = {};
+	for e, d in ipairs(Z) do
+		if not p[e] then
+			I[#I + 1] = { idx = e, x = d.x, z = d.z };
 		end;
 	end;
-	if #O == 0 then
-		g.sprMsg = string.format("%s: %d/%d in place", n.name, #D, #D);
+	if #I == 0 then
+		H.sprMsg = string.format("%s: %d/%d in place", o.name, #Z, #Z);
 		return;
 	end;
-	Up.placeMissing(z, n, O, p, D);
+	UM.placeMissing(e, o, I, w, Z);
 end;
-local function tp()
-	return f() or g.manualReset;
+local function cM()
+	return F() or H.manualReset;
 end;
-local function Sp(z)
-	while tp() and not isrbxactive() do
-		g.status = "Waiting for game focus (reset keys)";
+local function kM(e)
+	while cM() and not isrbxactive() do
+		H.status = "Waiting for game focus (reset keys)";
 		wait(.2);
 	end;
-	if not tp() then
+	if not cM() then
 		return false;
 	end;
-	local Y = pcall(keypress, z);
+	local d = pcall(keypress, e);
 	wait(.08);
-	pcall(keyrelease, z);
-	return Y;
+	pcall(keyrelease, e);
+	return d;
 end;
-local function yp()
+local function sM()
 	return pcall(function()
-		local z = n.Character:FindFirstChild("Humanoid");
-		z.Health = 0;
+		local e = o.Character:FindFirstChild("Humanoid");
+		e.Health = 0;
 	end);
 end;
-local function ap()
+local function PM()
 	pcall(setrobloxinput, true);
-	local z = Sp(d.ESC);
-	if z and tp() then
+	local e = kM(C.ESC);
+	if e and cM() then
 		wait(.3);
-		z = Sp(d.R);
+		e = kM(C.R);
 	end;
-	if z and tp() then
+	if e and cM() then
 		wait(.3);
-		z = Sp(d.ENTER);
+		e = kM(C.ENTER);
 	end;
-	return z;
+	return e;
 end;
-local function Bp(z, Y)
-	local n = B();
-	if Y and not n then
+local function RM(e, d)
+	local o = R();
+	if d and not o then
 		return true;
 	end;
-	if n and Y then
-		local z, p, D = n.X - Y.X, n.Y - Y.Y, n.Z - Y.Z;
-		if math.sqrt((z * z + p * p) + D * D) > 40 then
+	if o and d then
+		local e, w, Z = o.X - d.X, o.Y - d.Y, o.Z - d.Z;
+		if math.sqrt((e * e + w * w) + Z * Z) > 40 then
 			return true;
 		end;
 	end;
-	if z and (g.pollenPercent and g.pollenPercent < z - 10) then
+	if e and (H.pollenPercent and H.pollenPercent < e - 10) then
 		return true;
 	end;
 	return false;
 end;
-local function up(z, Y, n)
-	local p = tick() + n;
-	while tp() and tick() < p do
-		if Bp(z, Y) then
+local function aM(e, d, o)
+	local w = tick() + o;
+	while cM() and tick() < w do
+		if RM(e, d) then
 			return true;
 		end;
 		wait(.1);
 	end;
 	return false;
 end;
-local function jp(z)
-	if g.convertLatched and not z then
+local function hM(e)
+	if H.convertLatched and not e then
 		return;
 	end;
-	g.convertLatched = true;
-	g.wantConvert = false;
-	g.lastResetAt = tick();
-	g.status = "Resetting character";
-	g.farming = false;
-	g.tokenMode = false;
-	X();
-	if not tp() then
+	H.convertLatched = true;
+	H.wantConvert = false;
+	H.lastResetAt = tick();
+	H.status = "Resetting character";
+	H.farming = false;
+	H.tokenMode = false;
+	j();
+	if not cM() then
 		return;
 	end;
-	local Y, n = g.pollenPercent, B();
-	local p = { "health", "keys" };
-	if g.resetUsed == "keys" then
-		p = { "keys", "health" };
+	local d, o = H.pollenPercent, R();
+	local w = { "health", "keys" };
+	if H.resetUsed == "keys" then
+		w = { "keys", "health" };
 	end;
-	local D = false;
-	for z, p in ipairs(p) do
-		if not tp() then
+	local Z = false;
+	for e, w in ipairs(w) do
+		if not cM() then
 			break;
 		end;
-		if p == "health" then
-			g.convertMsg = "Reset: Humanoid.Health = 0";
-			if yp() then
-				D = up(Y, n, 8);
+		if w == "health" then
+			H.convertMsg = "Reset: Humanoid.Health = 0";
+			if sM() then
+				Z = aM(d, o, 8);
 			else
-				g.convertMsg = "Health write not supported, trying keys";
+				H.convertMsg = "Health write not supported, trying keys";
 			end;
 		else
-			g.convertMsg = "Reset: ESC, R, ENTER";
-			if ap() then
-				D = up(Y, n, 10);
+			H.convertMsg = "Reset: ESC, R, ENTER";
+			if PM() then
+				Z = aM(d, o, 10);
 			else
-				g.convertMsg = "Reset keys could not be sent";
+				H.convertMsg = "Reset keys could not be sent";
 			end;
 		end;
-		if D then
-			g.resetUsed = p;
+		if Z then
+			H.resetUsed = w;
 			break;
 		end;
 	end;
-	if D then
-		g.cycles = g.cycles + 1;
-		g.sprDone = {};
-		g.sprNeedCheck = true;
-		g.convertMsg = "Reset done (" .. (tostring(g.resetUsed) .. ")");
-	elseif tp() then
-		g.convertMsg = "Reset did not empty the bag - retrying in 15s";
+	if Z then
+		H.cycles = H.cycles + 1;
+		H.sprDone = {};
+		H.sprNeedCheck = true;
+		H.needTravel = true;
+		H.noclipBad = false;
+		H.flyFails = 0;
+		H.convertMsg = "Reset done (" .. (tostring(H.resetUsed) .. ") - flying back");
+	elseif cM() then
+		H.convertMsg = "Reset did not empty the bag - retrying in 15s";
 	end;
 end;
-local vp = {
+local rM = {
 		"bg",
 		"widget",
 		"text",
 		"accent",
 	};
-local Vp = {
+local bM = {
 		bg = "Background",
 		widget = "Widgets",
 		text = "Text",
 		accent = "Accent",
 	};
-local Jp = {
+local AM = {
 		bg = { h = .66, s = .26, v = .09 },
 		widget = { h = .66, s = .28, v = .17 },
 		text = { h = .66, s = .03, v = .97 },
 		accent = { h = .64, s = .57, v = 1 },
 	};
-local Rp = {};
-local function Xp()
-	for z, Y in ipairs(vp) do
-		local n = Jp[Y];
-		Rp[Y] = {
-				h = n.h,
-				s = n.s,
-				v = n.v,
+local xM = {};
+local function jM()
+	for e, d in ipairs(rM) do
+		local o = AM[d];
+		xM[d] = {
+				h = o.h,
+				s = o.s,
+				v = o.v,
 				dark = 1,
 				rainbow = false,
 			};
 	end;
 end;
-Xp();
-local function Ip(z, Y, n)
-	z = z % 1;
-	local p = math.floor(z * 6);
-	local D = z * 6 - p;
-	local T, O, o = n * ((1 - Y)), n * ((1 - D * Y)), n * ((1 - ((1 - D)) * Y));
-	p = p % 6;
-	local L, c, h;
-	if p == 0 then
-		L, c, h = n, o, T;
-	elseif p == 1 then
-		L, c, h = O, n, T;
-	elseif p == 2 then
-		L, c, h = T, n, o;
-	elseif p == 3 then
-		L, c, h = T, O, n;
-	elseif p == 4 then
-		L, c, h = o, T, n;
+jM();
+local function WM(e, d, o)
+	e = e % 1;
+	local w = math.floor(e * 6);
+	local Z = e * 6 - w;
+	local p, I, B = o * ((1 - d)), o * ((1 - Z * d)), o * ((1 - ((1 - Z)) * d));
+	w = w % 6;
+	local V, u, J;
+	if w == 0 then
+		V, u, J = o, B, p;
+	elseif w == 1 then
+		V, u, J = I, o, p;
+	elseif w == 2 then
+		V, u, J = p, o, B;
+	elseif w == 3 then
+		V, u, J = p, I, o;
+	elseif w == 4 then
+		V, u, J = B, p, o;
 	else
-		L, c, h = n, T, O;
+		V, u, J = o, p, I;
 	end;
-	return L * 255, c * 255, h * 255;
+	return V * 255, u * 255, J * 255;
 end;
-local function Ep(z, Y)
+local function nM(e, d)
 	if math.atan2 then
-		return math.atan2(z, Y);
+		return math.atan2(e, d);
 	end;
-	if Y > 0 then
-		return math.atan(z / Y);
+	if d > 0 then
+		return math.atan(e / d);
 	end;
-	if Y < 0 then
-		return math.atan(z / Y) + ((z >= 0 and math.pi or -math.pi));
+	if d < 0 then
+		return math.atan(e / d) + ((e >= 0 and math.pi or -math.pi));
 	end;
-	if z > 0 then
+	if e > 0 then
 		return math.pi / 2;
-	elseif z < 0 then
+	elseif e < 0 then
 		return -math.pi / 2;
 	end;
 	return 0;
 end;
-local function Gp(z)
-	local Y, n, p = Ip(z.h, z.s, z.v * z.dark);
-	return { Y, n, p };
+local function YM(e)
+	local d, o, w = WM(e.h, e.s, e.v * e.dark);
+	return { d, o, w };
 end;
-local function Kp(z, Y, n)
-	return { z[1] + ((Y[1] - z[1])) * n, z[2] + ((Y[2] - z[2])) * n, z[3] + ((Y[3] - z[3])) * n };
+local function fM(e, d, o)
+	return { e[1] + ((d[1] - e[1])) * o, e[2] + ((d[2] - e[2])) * o, e[3] + ((d[3] - e[3])) * o };
 end;
-local function Np(z)
-	z = math.floor(z + .5);
-	if z < 0 then
+local function lM(e)
+	e = math.floor(e + .5);
+	if e < 0 then
 		return 0;
-	elseif z > 255 then
+	elseif e > 255 then
 		return 255;
 	end;
-	return z;
+	return e;
 end;
-local Wp, qp = { 255, 255, 255 }, { 0, 0, 0 };
-local sp = {};
-local rp, wp = {}, {};
-local function Ap(z, Y)
-	local n, p, D = Np(Y[1]), Np(Y[2]), Np(Y[3]);
-	local T = (n * 65536 + p * 256) + D;
-	if rp[z] ~= T then
-		rp[z] = T;
-		sp[z] = Color3.fromRGB(n, p, D);
-		wp[z] = ((wp[z] or 0)) + 1;
+local QM, EM = { 255, 255, 255 }, { 0, 0, 0 };
+local gM = {};
+local tM, SM = {}, {};
+local function vM(e, d)
+	local o, w, Z = lM(d[1]), lM(d[2]), lM(d[3]);
+	local p = (o * 65536 + w * 256) + Z;
+	if tM[e] ~= p then
+		tM[e] = p;
+		gM[e] = Color3.fromRGB(o, w, Z);
+		SM[e] = ((SM[e] or 0)) + 1;
 	end;
 end;
-local function Mp()
-	local z, Y, n, p = Gp(Rp.bg), Gp(Rp.widget), Gp(Rp.text), Gp(Rp.accent);
-	Ap("bg", z);
-	Ap("title", Kp(z, Wp, .06));
-	Ap("side", Kp(z, Wp, .025));
-	Ap("tabOff", Kp(z, Wp, .025));
-	Ap("footer", Kp(z, qp, .35));
-	Ap("edge", Kp(p, z, .55));
-	Ap("widget", Y);
-	Ap("btn", Kp(Y, Wp, .12));
-	Ap("off", Kp(Y, Wp, .25));
-	Ap("text", n);
-	Ap("dim", Kp(n, z, .45));
-	Ap("accent", p);
-	Ap("tabOn", Kp(p, z, .6));
-	Ap("on", { 72, 210, 130 });
-	Ap("warn", { 240, 190, 70 });
-	Ap("knob", { 255, 255, 255 });
-	for z, Y in ipairs(vp) do
-		local n = Gp(Rp[Y]);
-		local p, D, T = Np(n[1]), Np(n[2]), Np(n[3]);
-		local O = (p * 65536 + D * 256) + T;
-		if Rp[Y].key ~= O then
-			Rp[Y].key = O;
-			Rp[Y].color = Color3.fromRGB(p, D, T);
+local function KM()
+	local e, d, o, w = YM(xM.bg), YM(xM.widget), YM(xM.text), YM(xM.accent);
+	vM("bg", e);
+	vM("title", fM(e, QM, .06));
+	vM("side", fM(e, QM, .025));
+	vM("tabOff", fM(e, QM, .025));
+	vM("footer", fM(e, EM, .35));
+	vM("edge", fM(w, e, .55));
+	vM("widget", d);
+	vM("btn", fM(d, QM, .12));
+	vM("off", fM(d, QM, .25));
+	vM("text", o);
+	vM("dim", fM(o, e, .45));
+	vM("accent", w);
+	vM("tabOn", fM(w, e, .6));
+	vM("on", { 72, 210, 130 });
+	vM("warn", { 240, 190, 70 });
+	vM("knob", { 255, 255, 255 });
+	for e, d in ipairs(rM) do
+		local o = YM(xM[d]);
+		local w, Z, p = lM(o[1]), lM(o[2]), lM(o[3]);
+		local I = (w * 65536 + Z * 256) + p;
+		if xM[d].key ~= I then
+			xM[d].key = I;
+			xM[d].color = Color3.fromRGB(w, Z, p);
 		end;
 	end;
 end;
-local function Hp()
-	local z = {};
-	for Y, n in ipairs(vp) do
-		local p = Rp[n];
-		z[#z + 1] = string.format("%s|%.4f|%.4f|%.4f|%.3f|%d", n, p.h, p.s, p.v, p.dark, p.rainbow and 1 or 0);
+local function mM()
+	local e = {};
+	for d, o in ipairs(rM) do
+		local w = xM[o];
+		e[#e + 1] = string.format("%s|%.4f|%.4f|%.4f|%.3f|%d", o, w.h, w.s, w.v, w.dark, w.rainbow and 1 or 0);
 	end;
-	pcall(writefile, O, table.concat(z, "\n"));
+	pcall(writefile, I, table.concat(e, "\n"));
 end;
 pcall(function()
-	if isfile(O) then
-		for z in string.gmatch(readfile(O), "[^\r\n]+") do
-			local Y, n, p, D, T, O = string.match(z, "^(.-)|(.-)|(.-)|(.-)|(.-)|(.-)$");
-			if Y and (Rp[Y] and (tonumber(n) and (tonumber(p) and tonumber(D)))) then
-				Rp[Y].h, Rp[Y].s = tonumber(n), tonumber(p);
-				Rp[Y].v = math.min(1, math.max(.03, tonumber(D) * ((tonumber(T) or 1))));
-				Rp[Y].dark = 1;
-				Rp[Y].rainbow = (O == "1");
+	if isfile(I) then
+		for e in string.gmatch(readfile(I), "[^\r\n]+") do
+			local d, o, w, Z, p, I = string.match(e, "^(.-)|(.-)|(.-)|(.-)|(.-)|(.-)$");
+			if d and (xM[d] and (tonumber(o) and (tonumber(w) and tonumber(Z)))) then
+				xM[d].h, xM[d].s = tonumber(o), tonumber(w);
+				xM[d].v = math.min(1, math.max(.03, tonumber(Z) * ((tonumber(p) or 1))));
+				xM[d].dark = 1;
+				xM[d].rainbow = (I == "1");
 			end;
 		end;
 	end;
 end);
-Mp();
-local kp = 0;
-local function Pp()
-	local z = tick();
-	if z - kp < .08 then
+KM();
+local NM = 0;
+local function yM()
+	local e = tick();
+	if e - NM < .08 then
 		return;
 	end;
-	kp = z;
-	local Y = false;
-	for n, p in ipairs(vp) do
-		if Rp[p].rainbow then
-			Rp[p].h = ((z * h("rb_speed", .25))) % 1;
-			Y = true;
+	NM = e;
+	local d = false;
+	for o, w in ipairs(rM) do
+		if xM[w].rainbow then
+			xM[w].h = ((e * J("rb_speed", .25))) % 1;
+			d = true;
 		end;
 	end;
-	if Y then
-		Mp();
+	if d then
+		KM();
 	end;
 end;
-local Qp = {};
-local function Zp(z)
-	local Y = Qp[z];
-	if not Y then
-		Y = {};
-		Qp[z] = Y;
+local MM = {};
+local function iM(e)
+	local d = MM[e];
+	if not d then
+		d = {};
+		MM[e] = d;
 	end;
-	return Y;
+	return d;
 end;
-local function Cp(z, Y)
-	local n = Zp(z);
-	if n.v ~= Y then
-		n.v = Y;
-		z.Visible = Y;
-	end;
-end;
-local function zc(z, Y, n)
-	Y = math.floor(Y + .5);
-	n = math.floor(n + .5);
-	local p = Zp(z);
-	if p.x ~= Y or p.y ~= n then
-		p.x = Y;
-		p.y = n;
-		z.Position = Vector2.new(Y, n);
+local function XM(e, d)
+	local o = iM(e);
+	if o.v ~= d then
+		o.v = d;
+		e.Visible = d;
 	end;
 end;
-local function Yc(z, Y, n)
-	Y = math.floor(Y + .5);
-	n = math.floor(n + .5);
-	local p = Zp(z);
-	if p.w ~= Y or p.h ~= n then
-		p.w = Y;
-		p.h = n;
-		z.Size = Vector2.new(Y, n);
+local function ey(e, d, o)
+	d = math.floor(d + .5);
+	o = math.floor(o + .5);
+	local w = iM(e);
+	if w.x ~= d or w.y ~= o then
+		w.x = d;
+		w.y = o;
+		e.Position = Vector2.new(d, o);
 	end;
 end;
-local function nc(z, Y)
-	local n = Zp(z);
-	if n.t ~= Y then
-		n.t = Y;
-		z.Text = Y;
+local function dy(e, d, o)
+	d = math.floor(d + .5);
+	o = math.floor(o + .5);
+	local w = iM(e);
+	if w.w ~= d or w.h ~= o then
+		w.w = d;
+		w.h = o;
+		e.Size = Vector2.new(d, o);
 	end;
 end;
-local function pc(z, Y)
-	local n = Zp(z);
-	if n.col ~= Y then
-		n.col = Y;
-		z.Color = Y;
+local function oy(e, d)
+	local o = iM(e);
+	if o.t ~= d then
+		o.t = d;
+		e.Text = d;
 	end;
 end;
-local Dc, Tc = {}, {};
-local function Oc(z, Y)
-	local n = { d = z, role = Y };
-	Dc[#Dc + 1] = n;
-	Tc[z] = n;
-	return z;
-end;
-local function oc(z, Y)
-	local n = Tc[z];
-	if n and n.role ~= Y then
-		n.role = Y;
+local function wy(e, d)
+	local o = iM(e);
+	if o.col ~= d then
+		o.col = d;
+		e.Color = d;
 	end;
 end;
-local function Lc()
-	for z = 1, #Dc, 1 do
-		local Y = Dc[z];
-		local n = Zp(Y.d);
-		if n.v and ((n.rrole ~= Y.role or n.rver ~= wp[Y.role])) then
-			n.rrole, n.rver = Y.role, wp[Y.role];
-			Y.d.Color = sp[Y.role];
+local Zy, py = {}, {};
+local function Iy(e, d)
+	local o = { d = e, role = d };
+	Zy[#Zy + 1] = o;
+	py[e] = o;
+	return e;
+end;
+local function By(e, d)
+	local o = py[e];
+	if o and o.role ~= d then
+		o.role = d;
+	end;
+end;
+local function Vy()
+	for e = 1, #Zy, 1 do
+		local d = Zy[e];
+		local o = iM(d.d);
+		if o.v and ((o.rrole ~= d.role or o.rver ~= SM[d.role])) then
+			o.rrole, o.rver = d.role, SM[d.role];
+			d.d.Color = gM[d.role];
 		end;
 	end;
 end;
-local cc = nil;
-local function hc(z, Y)
-	if Y and cc ~= false then
-		local n = pcall(function()
-				z.Corner = Y;
+local uy = nil;
+local function Jy(e, d)
+	if d and uy ~= false then
+		local o = pcall(function()
+				e.Corner = d;
 			end);
-		if cc == nil then
-			cc = n;
+		if uy == nil then
+			uy = o;
 		end;
 	end;
-	return z;
+	return e;
 end;
-local function fc(z, Y, n)
-	local p = Drawing.new("Square");
-	p.Filled = true;
-	p.Color = sp[z];
-	p.ZIndex = Y;
-	p.Visible = false;
-	hc(p, n);
-	return Oc(p, z);
+local function Fy(e, d, o)
+	local w = Drawing.new("Square");
+	w.Filled = true;
+	w.Color = gM[e];
+	w.ZIndex = d;
+	w.Visible = false;
+	Jy(w, o);
+	return Iy(w, e);
 end;
-local function lc(z, Y, n)
-	local p = Drawing.new("Square");
-	p.Filled = true;
-	p.Color = z;
-	p.ZIndex = Y;
-	p.Visible = false;
-	hc(p, n);
-	return p;
+local function Dy(e, d, o)
+	local w = Drawing.new("Square");
+	w.Filled = true;
+	w.Color = e;
+	w.ZIndex = d;
+	w.Visible = false;
+	Jy(w, o);
+	return w;
 end;
-local function dc(z, Y, n)
-	local p = Drawing.new("Text");
-	p.Color = sp[z];
-	p.ZIndex = Y;
-	p.Outline = false;
-	p.Center = n == true;
+local function Cy(e, d, o)
+	local w = Drawing.new("Text");
+	w.Color = gM[e];
+	w.ZIndex = d;
+	w.Outline = false;
+	w.Center = o == true;
 	pcall(function()
-		p.Size = 16;
+		w.Size = 16;
 	end);
-	p.Text = "";
-	p.Visible = false;
-	return Oc(p, z);
+	w.Text = "";
+	w.Visible = false;
+	return Iy(w, e);
 end;
-local function bc(z, Y, n)
-	local p = Drawing.new("Text");
-	p.Color = z;
-	p.ZIndex = Y;
-	p.Outline = false;
-	p.Center = n == true;
+local function Gy(e, d, o)
+	local w = Drawing.new("Text");
+	w.Color = e;
+	w.ZIndex = d;
+	w.Outline = false;
+	w.Center = o == true;
 	pcall(function()
-		p.Size = 16;
+		w.Size = 16;
 	end);
-	p.Text = "";
-	p.Visible = false;
-	return p;
+	w.Text = "";
+	w.Visible = false;
+	return w;
 end;
-local function gc(z, Y, n, p)
-	local D, T = pcall(function()
-			local D = Drawing.new("Circle");
-			D.Color = z;
-			D.ZIndex = Y;
-			D.Radius = n;
-			D.NumSides = 40;
-			D.Thickness = p;
-			D.Visible = false;
-			return D;
+local function Hy(e, d, o, w)
+	local Z, p = pcall(function()
+			local Z = Drawing.new("Circle");
+			Z.Color = e;
+			Z.ZIndex = d;
+			Z.Radius = o;
+			Z.NumSides = 40;
+			Z.Thickness = w;
+			Z.Visible = false;
+			return Z;
 		end);
-	if D and T then
+	if Z and p then
 		pcall(function()
-			T.Filled = false;
+			p.Filled = false;
 		end);
-		return T;
+		return p;
 	end;
 	return nil;
 end;
-local Fc = {
+local Oy = {
 		x = 60,
 		y = 40,
-		w = 580,
+		w = 620,
 		h = 400,
 		visible = true,
 		shown = false,
@@ -2140,24 +2197,24 @@ local Fc = {
 		dropScroll = 0,
 		sel = "bg",
 	};
-local ec, mc, xc, ic = 40, 128, 112, 14;
-local Uc = (Fc.w - mc) - 2 * ic;
-local function tc(z, Y)
-	Y = Y or 38;
-	z = tostring(z);
-	if #z > Y then
-		z = string.sub(z, 1, Y);
+local qy, zy, Ly, Ty = 40, 128, 168, 14;
+local Uy = (Oy.w - zy) - 2 * Ty;
+local function cy(e, d)
+	d = d or 38;
+	e = tostring(e);
+	if #e > d then
+		e = string.sub(e, 1, d);
 	end;
-	return z;
+	return e;
 end;
-local function Sc()
-	g.flyOK = nil;
-	g.flyMsg = "not tested";
-	g.noclipBad = false;
-	g.noclipOK = nil;
-	g.noclipMsg = "not used yet";
+local function ky()
+	H.flyOK = nil;
+	H.flyMsg = "not tested";
+	H.noclipBad = false;
+	H.noclipOK = nil;
+	H.noclipMsg = "not used yet";
 end;
-local yc = {
+local sy = {
 		{ name = "Farm", items = {
 				{ t = "toggle", key = "enabled", label = "Macro enabled" },
 				{ t = "keybind", key = "key_macro", label = "Macro hotkey (start / stop)" },
@@ -2165,13 +2222,13 @@ local yc = {
 					t = "dropdown",
 					key = "field",
 					label = "Field",
-					options = D,
+					options = Z,
 				},
 				{
 					t = "cycle",
 					key = "pattern",
 					label = "Sweep pattern",
-					options = b,
+					options = G,
 				},
 				{
 					t = "cycle",
@@ -2195,30 +2252,30 @@ local yc = {
 					step = 1,
 				},
 				{ t = "button", label = "Place sprinklers now (macro off)", fn = function()
-						if f() then
-							g.sprMsg = "Turn the macro off to test";
+						if F() then
+							H.sprMsg = "Turn the macro off to test";
 							return;
 						end;
-						local z = t();
-						local Y = B();
-						if not z or not Y or not y(z, Y) then
-							g.sprMsg = "Stand inside the field first";
+						local e = c();
+						local d = R();
+						if not e or not d or not s(e, d) then
+							H.sprMsg = "Stand inside the field first";
 							return;
 						end;
 						task.spawn(function()
-							g.manualRun = true;
-							g.sprDone = {};
-							g.sprNeedCheck = true;
-							Up.ensure(z);
-							g.manualRun = false;
-							X();
+							H.manualRun = true;
+							H.sprDone = {};
+							H.sprNeedCheck = true;
+							UM.ensure(e);
+							H.manualRun = false;
+							j();
 						end);
 					end },
 				{ t = "button", label = "Scan sprinklers to file", fn = function()
-						task.spawn(Up.dump);
+						task.spawn(UM.dump);
 					end },
 				{ t = "label", text = function()
-						return tc(g.sprMsg, 46);
+						return cy(H.sprMsg, 46);
 					end },
 				{
 					t = "slider",
@@ -2238,11 +2295,11 @@ local yc = {
 				},
 				{ t = "toggle", key = "click", label = "Auto click (only inside field)" },
 				{ t = "label", text = function()
-						local z = t();
-						if not z then
+						local e = c();
+						if not e then
 							return "No points for this field";
 						end;
-						return string.format("%d points   y=%.0f   in field: %s", z.n, z.y, g.inField and "yes" or "no");
+						return string.format("%d points   y=%.0f   in field: %s", e.n, e.y, H.inField and "yes" or "no");
 					end },
 			} },
 		{ name = "Travel", items = {
@@ -2250,8 +2307,8 @@ local yc = {
 					t = "cycle",
 					key = "travel_mode",
 					label = "Travel",
-					options = { "Fly pos", "Fly vel", "Walk" },
-					onChange = Sc,
+					options = { "Fly pos", "Fly vel" },
+					onChange = ky,
 				},
 				{
 					t = "slider",
@@ -2265,7 +2322,7 @@ local yc = {
 					t = "toggle",
 					key = "noclip",
 					label = "Noclip while traveling",
-					onChange = Sc,
+					onChange = ky,
 				},
 				{
 					t = "slider",
@@ -2275,14 +2332,11 @@ local yc = {
 					max = 80,
 					step = 5,
 				},
-				{ t = "button", label = "Test: fly to selected field", fn = function()
-						task.spawn(s);
+				{ t = "label", text = function()
+						return cy("Fly: " .. H.flyMsg);
 					end },
 				{ t = "label", text = function()
-						return tc("Fly: " .. g.flyMsg);
-					end },
-				{ t = "label", text = function()
-						return tc("Noclip: " .. g.noclipMsg);
+						return cy("Noclip: " .. H.noclipMsg);
 					end },
 			} },
 		{ name = "Tokens", items = {
@@ -2314,7 +2368,7 @@ local yc = {
 				},
 				{ t = "toggle", key = "token_infield", label = "Only tokens inside field" },
 				{ t = "label", text = function()
-						return tc(g.collectInfo);
+						return cy(H.collectInfo);
 					end },
 			} },
 		{ name = "Convert", items = {
@@ -2328,6 +2382,17 @@ local yc = {
 					max = 100,
 					step = 1,
 				},
+				{ t = "label", text = function()
+						local e = J("convert_threshold", 100);
+						if e <= 0 then
+							return "Auto-reset is off (0%)";
+						end;
+						if not H.capacity then
+							return cy("Resets at " .. (e .. "% (capacity not read yet)"), 52);
+						end;
+						local d = (H.capacity * e) / 100;
+						return cy(string.format("Resets at %s (%s) = %d%% of %s", N(d), m(d), e, N(H.capacity)), 52);
+					end },
 				{
 					t = "slider",
 					key = "pollen_ms",
@@ -2337,36 +2402,36 @@ local yc = {
 					step = 1,
 				},
 				{ t = "button", label = "Reset character now (macro off)", fn = function()
-						if f() then
-							g.convertMsg = "Turn the macro off to test the reset";
+						if F() then
+							H.convertMsg = "Turn the macro off to test the reset";
 							return;
 						end;
 						task.spawn(function()
-							g.manualReset = true;
-							jp(true);
-							g.manualReset = false;
+							H.manualReset = true;
+							hM(true);
+							H.manualReset = false;
 						end);
 					end },
 				{ t = "button", label = "Scan stats / pollen UI to file", fn = function()
-						task.spawn(Op);
+						task.spawn(IM);
 					end },
 				{ t = "label", text = function()
-						if not g.capacity then
+						if not H.capacity then
 							return "Capacity: not found";
 						end;
-						return tc("Capacity: " .. k(g.capacity), 46);
+						return cy("Capacity: " .. m(H.capacity), 46);
 					end },
 				{ t = "label", text = function()
-						return tc(g.pollenInfo, 46);
+						return cy(H.pollenInfo, 46);
 					end },
 				{ t = "label", text = function()
-						if g.pollenDumpMsg ~= "" then
-							return tc(g.pollenDumpMsg, 46);
+						if H.pollenDumpMsg ~= "" then
+							return cy(H.pollenDumpMsg, 46);
 						end;
-						return tc(g.capacityInfo, 46);
+						return cy(H.capacityInfo, 46);
 					end },
 				{ t = "label", text = function()
-						return tc(g.convertMsg, 46);
+						return cy(H.convertMsg, 46);
 					end },
 			} },
 		{
@@ -2376,10 +2441,10 @@ local yc = {
 			items = {},
 		},
 	};
-local ac, Bc = 80, 6;
-local uc, jc, vc, Vc = 32, 36, 228, 10;
-local Jc = (((uc + Vc) + jc) + Vc) + vc;
-local Rc = {
+local Py, Ry = 80, 6;
+local ay, hy, ry, by = 32, 36, 228, 10;
+local Ay = (((ay + by) + hy) + by) + ry;
+local xy = {
 		toggle = 32,
 		cycle = 32,
 		dropdown = 32,
@@ -2388,183 +2453,195 @@ local Rc = {
 		slider = 48,
 		label = 22,
 	};
-local Xc = 6;
-local Ic = 0;
-for z, Y in ipairs(yc) do
-	local n = 0;
-	for z, Y in ipairs(Y.items) do
-		Y.h = Rc[Y.t];
-		Y.relY = n;
-		n = (n + Y.h) + Xc;
-		local p = {};
-		Y.d = p;
-		if Y.t ~= "label" then
-			p.bg = fc("widget", 11, 7);
+local jy = 6;
+local Wy = 0;
+for e, d in ipairs(sy) do
+	local o = 0;
+	for e, d in ipairs(d.items) do
+		d.h = xy[d.t];
+		d.relY = o;
+		o = (o + d.h) + jy;
+		local w = {};
+		d.d = w;
+		if d.t ~= "label" then
+			w.bg = Fy("widget", 11, 7);
 		end;
-		if Y.t == "button" then
-			p.label = dc("text", 13, true);
-			oc(p.bg, "accent");
-		elseif Y.t == "label" then
-			p.label = dc("dim", 13);
+		if d.t == "button" then
+			w.label = Cy("text", 13, true);
+			By(w.bg, "accent");
+		elseif d.t == "label" then
+			w.label = Cy("dim", 13);
 		else
-			p.label = dc("text", 13);
+			w.label = Cy("text", 13);
 		end;
-		if Y.t == "toggle" then
-			p.pill = fc("off", 12, 10);
-			p.knob = fc("knob", 13, 7);
-		elseif Y.t == "cycle" then
-			p.lbtn = fc("btn", 12, 5);
-			p.rbtn = fc("btn", 12, 5);
-			p.ltxt = dc("text", 13, true);
-			p.rtxt = dc("text", 13, true);
-			p.ltxt.Text = "<";
-			p.rtxt.Text = ">";
-			p.val = dc("accent", 13, true);
-		elseif Y.t == "dropdown" then
-			p.pill = fc("btn", 12, 5);
-			p.val = dc("accent", 13, true);
-		elseif Y.t == "keybind" then
-			p.box = fc("btn", 12, 6);
-			p.val = dc("text", 13, true);
-		elseif Y.t == "slider" then
-			p.pillbg = fc("btn", 12, 5);
-			p.val = dc("text", 13, true);
-			p.track = fc("off", 12, 4);
-			p.fill = fc("accent", 13, 4);
-			p.knob = fc("knob", 14, 7);
+		if d.t == "toggle" then
+			w.pill = Fy("off", 12, 10);
+			w.knob = Fy("knob", 13, 7);
+		elseif d.t == "cycle" then
+			w.lbtn = Fy("btn", 12, 5);
+			w.rbtn = Fy("btn", 12, 5);
+			w.ltxt = Cy("text", 13, true);
+			w.rtxt = Cy("text", 13, true);
+			w.ltxt.Text = "<";
+			w.rtxt.Text = ">";
+			w.val = Cy("accent", 13, true);
+		elseif d.t == "dropdown" then
+			w.pill = Fy("btn", 12, 5);
+			w.val = Cy("accent", 13, true);
+		elseif d.t == "keybind" then
+			w.box = Fy("btn", 12, 6);
+			w.val = Cy("text", 13, true);
+		elseif d.t == "slider" then
+			w.pillbg = Fy("btn", 12, 5);
+			w.val = Cy("text", 13, true);
+			w.track = Fy("off", 12, 4);
+			w.fill = Fy("accent", 13, 4);
+			w.knob = Fy("knob", 14, 7);
 		end;
 	end;
-	Y.height = Y.custom and Jc or n;
-	if Y.height > Ic then
-		Ic = Y.height;
+	d.height = d.custom and Ay or o;
+	if d.height > Wy then
+		Wy = d.height;
 	end;
 end;
-local Ec = 0;
-for z, Y in ipairs(yc) do
-	if not Y.bottom then
-		Ec = Ec + 1;
+local ny = 0;
+for e, d in ipairs(sy) do
+	if not d.bottom then
+		ny = ny + 1;
 	end;
 end;
-local Gc = 340;
-local Kc = math.max(math.min(Ic, Gc) + 2 * ic, (Ec * 40 + 34) + 3 * ic);
-local Nc = Kc - 2 * ic;
-for z, Y in ipairs(yc) do
-	Y.scroll = 0;
+local Yy = 360;
+local fy = math.max(math.min(Wy, Yy) + 2 * Ty, (ny * 40 + 34) + 3 * Ty);
+local ly = fy - 2 * Ty;
+for e, d in ipairs(sy) do
+	d.scroll = 0;
 end;
-Fc.h = (ec + Kc) + xc;
-local function Wc(z)
-	if yc[z].bottom then
-		return (((Fc.y + ec) + Kc) - ic) - 34;
+Oy.h = (qy + fy) + Ly;
+local function Qy(e)
+	if sy[e].bottom then
+		return (((Oy.y + qy) + fy) - Ty) - 34;
 	end;
-	return ((Fc.y + ec) + ic) + ((z - 1)) * 40;
+	return ((Oy.y + qy) + Ty) + ((e - 1)) * 40;
 end;
-local qc = {};
-local function sc(z)
-	qc[#qc + 1] = z;
-	return z;
+local Ey = {};
+local function gy(e)
+	Ey[#Ey + 1] = e;
+	return e;
 end;
-local rc = {};
-rc.border = sc(fc("edge", 9, 11));
-rc.bg = sc(fc("bg", 10, 10));
-rc.title = sc(fc("title", 11, 10));
-rc.titleLine = sc(fc("accent", 12));
-rc.titleDot = sc(fc("accent", 13, 5));
-rc.titleText = sc(dc("text", 13));
-rc.hint = sc(dc("dim", 13));
-rc.side = sc(fc("side", 11));
-rc.footer = sc(fc("footer", 11, 10));
-rc.footerLine = sc(fc("btn", 12));
-rc.dot = sc(fc("off", 13, 5));
-rc.f1 = sc(dc("text", 13));
-rc.f2 = sc(dc("dim", 13));
-rc.f3 = sc(dc("dim", 13));
-rc.f4 = sc(dc("dim", 13));
-rc.f5 = sc(dc("dim", 13));
-rc.f6 = sc(dc("dim", 13));
-rc.f7 = sc(dc("dim", 13));
-rc.f8 = sc(dc("text", 13));
-rc.barTrack = sc(fc("off", 12, 5));
-rc.barFill = sc(fc("accent", 13, 5));
-rc.tabBtn = {};
-for z, Y in ipairs(yc) do
-	rc.tabBtn[z] = { sq = sc(fc("tabOff", 12, 7)), mark = sc(fc("accent", 13, 2)), txt = sc(dc("text", 13)) };
-	rc.tabBtn[z].txt.Text = Y.name;
+local ty = {};
+ty.border = gy(Fy("edge", 9, 11));
+ty.bg = gy(Fy("bg", 10, 10));
+ty.title = gy(Fy("title", 11, 10));
+ty.titleLine = gy(Fy("accent", 12));
+ty.titleDot = gy(Fy("accent", 13, 5));
+ty.titleText = gy(Cy("text", 13));
+ty.hint = gy(Cy("dim", 13));
+ty.side = gy(Fy("side", 11));
+ty.footer = gy(Fy("footer", 11, 10));
+ty.footerLine = gy(Fy("btn", 12));
+ty.dot = gy(Fy("off", 13, 5));
+ty.f1 = gy(Cy("text", 13));
+pcall(function()
+	ty.f1.Size = 20;
+end);
+ty.f2 = gy(Cy("dim", 13));
+ty.f3 = gy(Cy("dim", 13));
+ty.f4 = gy(Cy("dim", 13));
+ty.f5 = gy(Cy("dim", 13));
+ty.f6 = gy(Cy("dim", 13));
+ty.f7 = gy(Cy("dim", 13));
+ty.f8 = gy(Cy("text", 13));
+ty.f9 = gy(Cy("text", 13));
+ty.f10 = gy(Cy("text", 13));
+ty.f11 = gy(Cy("dim", 13));
+ty.f12 = gy(Cy("dim", 13));
+ty.barTrack = gy(Fy("off", 12, 5));
+ty.barFill = gy(Fy("accent", 13, 5));
+ty.tabBtn = {};
+for e, d in ipairs(sy) do
+	ty.tabBtn[e] = { sq = gy(Fy("tabOff", 12, 7)), mark = gy(Fy("accent", 13, 2)), txt = gy(Cy("text", 13)) };
+	ty.tabBtn[e].txt.Text = d.name;
 end;
-rc.titleText.Text = "BSS Macro";
-rc.hint.Text = "v12";
-local wc, Ac, Mc = 5, 28, 2;
-local Hc = 12 + wc * ((Ac + Mc));
-local kc = {
-		bg = fc("title", 30, 8),
+ty.titleText.Text = "BSS Macro";
+ty.hint.Text = "v14";
+local Sy, vy, Ky = 5, 28, 2;
+local my = 12 + Sy * ((vy + Ky));
+local Ny = {
+		bg = Fy("title", 30, 8),
 		cells = {},
-		track = fc("off", 31, 4),
-		thumb = fc("accent", 32, 4),
+		track = Fy("off", 31, 4),
+		thumb = Fy("accent", 32, 4),
 	};
-for z = 1, wc, 1 do
-	kc.cells[z] = { sq = fc("widget", 31, 5), txt = dc("text", 32, true) };
+for e = 1, Sy, 1 do
+	Ny.cells[e] = { sq = Fy("widget", 31, 5), txt = Cy("text", 32, true) };
 end;
-local Pc = { track = fc("off", 12, 3), thumb = fc("accent", 13, 3) };
-local Qc = { tiles = {}, cells = {}, shown = false };
-Qc.kbBg = fc("widget", 11, 7);
-Qc.kbLabel = dc("text", 13);
-Qc.kbBox = fc("btn", 12, 6);
-Qc.kbVal = dc("text", 13, true);
-for z, Y in ipairs(vp) do
-	Qc.tiles[z] = { bg = fc("widget", 11, 7), txt = dc("text", 13, true), sw = lc(Rp[Y].color, 12, 3) };
+local yy = { track = Fy("off", 12, 3), thumb = Fy("accent", 13, 3) };
+local My = { tiles = {}, cells = {}, shown = false };
+My.kbBg = Fy("widget", 11, 7);
+My.kbLabel = Cy("text", 13);
+My.kbBox = Fy("btn", 12, 6);
+My.kbVal = Cy("text", 13, true);
+for e, d in ipairs(rM) do
+	My.tiles[e] = { bg = Fy("widget", 11, 7), txt = Cy("text", 13, true), sw = Dy(xM[d].color, 12, 3) };
 end;
-Qc.panel = fc("widget", 11, 9);
+My.panel = Fy("widget", 11, 9);
 do
-	local z = math.floor(ac / Bc);
-	for Y = -z, z, 1 do
-		for z = -z, z, 1 do
-			local n, p = z * Bc, Y * Bc;
-			local D = math.sqrt(n * n + p * p);
-			if D <= ac - 2 then
-				local z = math.min(1, D / ((ac - 3)));
-				local Y = ((Ep(p, n) / ((2 * math.pi)))) % 1;
-				local T, O, o = Ip(Y, z, 1);
-				local L = lc(Color3.fromRGB(Np(T), Np(O), Np(o)), 12);
-				L.Size = Vector2.new(Bc, Bc);
-				Qc.cells[#Qc.cells + 1] = { sq = L, ox = n - Bc / 2, oy = p - Bc / 2 };
+	local e = math.floor(Py / Ry) + 1;
+	for d = -e, e, 1 do
+		for e = -e, e, 1 do
+			local o, w = e * Ry, d * Ry;
+			local Z = math.sqrt(o * o + w * w);
+			if Z <= Py + 2 then
+				local e = math.min(1, Z / ((Py - 3)));
+				local d = ((nM(w, o) / ((2 * math.pi)))) % 1;
+				local p, I, B = WM(d, e, 1);
+				local V = Dy(Color3.fromRGB(lM(p), lM(I), lM(B)), 12);
+				V.Size = Vector2.new(Ry + 2, Ry + 2);
+				My.cells[#My.cells + 1] = { sq = V, ox = (o - Ry / 2) - 1, oy = (w - Ry / 2) - 1 };
 			end;
 		end;
 	end;
 end;
-Qc.frame = gc(sp.off, 13, ac + 2, 3);
-if Qc.frame then
-	Oc(Qc.frame, "off");
+My.mask = Hy(gM.widget, 14, Py + 8, 10);
+if My.mask then
+	Iy(My.mask, "widget");
 end;
-Qc.thumbDark = gc(Color3.fromRGB(0, 0, 0), 15, 12, 2);
-Qc.thumbRing = gc(Color3.fromRGB(255, 255, 255), 16, 9, 2);
-Qc.thumbBack = lc(Color3.fromRGB(255, 255, 255), 15, 8);
-Qc.thumbDot = lc(Color3.fromRGB(255, 255, 255), 17, 5);
-Qc.prev = lc(Color3.fromRGB(255, 255, 255), 12, 8);
-Qc.darkTxt = Color3.fromRGB(20, 20, 24);
-Qc.lightTxt = Color3.fromRGB(245, 245, 250);
-Qc.hexTxt = bc(Qc.lightTxt, 13, true);
-Qc.rgbTxt = dc("dim", 13);
-Qc.brLabel = dc("text", 13);
-Qc.brTrack = fc("off", 12, 4);
-Qc.brFill = fc("accent", 13, 4);
-Qc.brKnob = fc("knob", 14, 7);
-Qc.rbLabel = dc("text", 13);
-Qc.rbLabel.Text = "Rainbow (RGB)";
-Qc.rbPill = fc("off", 12, 10);
-Qc.rbKnob = fc("knob", 13, 7);
-Qc.spLabel = dc("text", 13);
-Qc.spTrack = fc("off", 12, 4);
-Qc.spFill = fc("accent", 13, 4);
-Qc.spKnob = fc("knob", 14, 7);
-Qc.reset = fc("accent", 12, 7);
-Qc.resetTxt = dc("text", 13, true);
-Qc.resetTxt.Text = "Reset colors";
-local Zc = {};
-for z, Y in ipairs({
+My.frame = Hy(gM.off, 15, Py + 2, 3);
+if My.frame then
+	Iy(My.frame, "off");
+end;
+My.thumbDark = Hy(Color3.fromRGB(0, 0, 0), 15, 12, 2);
+My.thumbRing = Hy(Color3.fromRGB(255, 255, 255), 16, 9, 2);
+My.thumbBack = Dy(Color3.fromRGB(255, 255, 255), 15, 8);
+My.thumbDot = Dy(Color3.fromRGB(255, 255, 255), 17, 5);
+My.prev = Dy(Color3.fromRGB(255, 255, 255), 12, 8);
+My.darkTxt = Color3.fromRGB(20, 20, 24);
+My.lightTxt = Color3.fromRGB(245, 245, 250);
+My.hexTxt = Gy(My.lightTxt, 13, true);
+My.rgbTxt = Cy("dim", 13);
+My.brLabel = Cy("text", 13);
+My.brTrack = Fy("off", 12, 4);
+My.brFill = Fy("accent", 13, 4);
+My.brKnob = Fy("knob", 14, 7);
+My.rbLabel = Cy("text", 13);
+My.rbLabel.Text = "Rainbow (RGB)";
+My.rbPill = Fy("off", 12, 10);
+My.rbKnob = Fy("knob", 13, 7);
+My.spLabel = Cy("text", 13);
+My.spTrack = Fy("off", 12, 4);
+My.spFill = Fy("accent", 13, 4);
+My.spKnob = Fy("knob", 14, 7);
+My.reset = Fy("accent", 12, 7);
+My.resetTxt = Cy("text", 13, true);
+My.resetTxt.Text = "Reset colors";
+local iy = {};
+for e, d in ipairs({
 	"kbBg",
 	"kbLabel",
 	"kbBox",
 	"kbVal",
 	"panel",
+	"mask",
 	"frame",
 	"thumbDark",
 	"thumbRing",
@@ -2587,151 +2664,151 @@ for z, Y in ipairs({
 	"reset",
 	"resetTxt",
 }) do
-	if Qc[Y] then
-		Zc[#Zc + 1] = Qc[Y];
+	if My[d] then
+		iy[#iy + 1] = My[d];
 	end;
 end;
-local function Cc()
-	local z = (Fc.x + mc) + ic;
-	local Y = (Fc.y + ec) + ic;
-	local n = { cx = z, cy = Y };
-	n.kbY = Y;
-	n.tileY = (Y + uc) + Vc;
-	n.tileW = math.floor(((Uc - 18)) / 4);
-	n.panelY = (n.tileY + jc) + Vc;
-	n.wcx = ((z + 18) + ac) + 4;
-	n.wcy = n.panelY + math.floor(vc / 2);
-	n.rx = (n.wcx + ac) + 24;
-	n.rw = ((z + Uc) - 16) - n.rx;
-	n.prY = n.panelY + 16;
-	n.rgbY = n.panelY + 58;
-	n.brLabelY = n.panelY + 82;
-	n.brY = n.panelY + 106;
-	n.rbY = n.panelY + 128;
-	n.spLabelY = n.panelY + 156;
-	n.spY = n.panelY + 182;
-	n.rsY = n.panelY + 196;
-	return n;
+local function Xy()
+	local e = (Oy.x + zy) + Ty;
+	local d = (Oy.y + qy) + Ty;
+	local o = { cx = e, cy = d };
+	o.kbY = d;
+	o.tileY = (d + ay) + by;
+	o.tileW = math.floor(((Uy - 18)) / 4);
+	o.panelY = (o.tileY + hy) + by;
+	o.wcx = ((e + 18) + Py) + 4;
+	o.wcy = o.panelY + math.floor(ry / 2);
+	o.rx = (o.wcx + Py) + 24;
+	o.rw = ((e + Uy) - 16) - o.rx;
+	o.prY = o.panelY + 16;
+	o.rgbY = o.panelY + 58;
+	o.brLabelY = o.panelY + 82;
+	o.brY = o.panelY + 106;
+	o.rbY = o.panelY + 128;
+	o.spLabelY = o.panelY + 156;
+	o.spY = o.panelY + 182;
+	o.rsY = o.panelY + 196;
+	return o;
 end;
-local function zP(z, Y, n, p, D, T)
-	return z >= n and (z <= n + D and (Y >= p and Y <= p + T));
+local function eV(e, d, o, w, Z, p)
+	return e >= o and (e <= o + Z and (d >= w and d <= w + p));
 end;
-local function YP()
-	local z, p = pcall(function()
-			return Y:GetMouseLocation();
+local function dV()
+	local e, w = pcall(function()
+			return d:GetMouseLocation();
 		end);
-	if z and p then
-		return p.X, p.Y;
+	if e and w then
+		return w.X, w.Y;
 	end;
-	z, p = pcall(function()
-			local z = n:GetMouse();
-			return Vector2.new(z.X, z.Y);
+	e, w = pcall(function()
+			local e = o:GetMouse();
+			return Vector2.new(e.X, e.Y);
 		end);
-	if z and p then
-		return p.X, p.Y;
+	if e and w then
+		return w.X, w.Y;
 	end;
 	return nil, nil;
 end;
-local function nP(z)
-	local Y = h(z.key, z.min);
-	if z.step < .1 then
-		return string.format("%.2f", Y);
+local function oV(e)
+	local d = J(e.key, e.min);
+	if e.step < .1 then
+		return string.format("%.2f", d);
 	end;
-	if z.step < 1 then
-		return string.format("%.1f", Y);
+	if e.step < 1 then
+		return string.format("%.1f", d);
 	end;
-	return string.format("%.0f", Y);
+	return string.format("%.0f", d);
 end;
-local function pP(z, Y)
-	local n = ((Fc.x + mc) + ic) + 14;
-	local p = Uc - 28;
-	local D = ((Y - n)) / p;
-	if D < 0 then
-		D = 0;
-	elseif D > 1 then
-		D = 1;
+local function wV(e, d)
+	local o = ((Oy.x + zy) + Ty) + 14;
+	local w = Uy - 28;
+	local Z = ((d - o)) / w;
+	if Z < 0 then
+		Z = 0;
+	elseif Z > 1 then
+		Z = 1;
 	end;
-	local T = z.min + D * ((z.max - z.min));
-	T = math.floor(T / z.step + .5) * z.step;
-	T = math.floor(T * 100 + .5) / 100;
-	if T < z.min then
-		T = z.min;
-	elseif T > z.max then
-		T = z.max;
+	local p = e.min + Z * ((e.max - e.min));
+	p = math.floor(p / e.step + .5) * e.step;
+	p = math.floor(p * 100 + .5) / 100;
+	if p < e.min then
+		p = e.min;
+	elseif p > e.max then
+		p = e.max;
 	end;
-	c[z.key] = T;
+	u[e.key] = p;
 end;
-local DP = {};
-function DP.dropTop()
-	local z = (((Fc.y + ec) + Kc) - Hc) - 4;
-	local Y = Fc.dropTop;
-	if Y > z then
-		Y = z;
+local ZV = {};
+function ZV.dropTop()
+	local e = (((Oy.y + qy) + fy) - my) - 4;
+	local d = Oy.dropTop;
+	if d > e then
+		d = e;
 	end;
-	return Y;
+	return d;
 end;
-function DP.popCell(z)
-	local Y = (Fc.x + mc) + ic;
-	local n = DP.dropTop();
-	return Y + 6, (n + 6) + ((z - 1)) * ((Ac + Mc)), (Uc - 12) - 20, Ac;
+function ZV.popCell(e)
+	local d = (Oy.x + zy) + Ty;
+	local o = ZV.dropTop();
+	return d + 6, (o + 6) + ((e - 1)) * ((vy + Ky)), (Uy - 12) - 20, vy;
 end;
-function DP.dropTrack()
-	local z = (Fc.x + mc) + ic;
-	local Y = DP.dropTop();
-	return (z + Uc) - 20, Y + 6, 10, wc * ((Ac + Mc)) - Mc;
+function ZV.dropTrack()
+	local e = (Oy.x + zy) + Ty;
+	local d = ZV.dropTop();
+	return (e + Uy) - 20, d + 6, 10, Sy * ((vy + Ky)) - Ky;
 end;
-function DP.dropMax(z)
-	return math.max(0, #z.options - wc);
+function ZV.dropMax(e)
+	return math.max(0, #e.options - Sy);
 end;
-function DP.setDropScroll(z, Y)
-	Y = math.floor(Y + .5);
-	local n = DP.dropMax(z);
-	if Y < 0 then
-		Y = 0;
-	elseif Y > n then
-		Y = n;
+function ZV.setDropScroll(e, d)
+	d = math.floor(d + .5);
+	local o = ZV.dropMax(e);
+	if d < 0 then
+		d = 0;
+	elseif d > o then
+		d = o;
 	end;
-	Fc.dropScroll = Y;
+	Oy.dropScroll = d;
 end;
-function DP.dropFromMouse(z, Y)
-	local n, p, D, T = DP.dropTrack();
-	local O = #z.options;
-	local o = math.max(24, (T * wc) / O);
-	local L = (((Y - p) - o / 2)) / ((T - o));
-	if L < 0 then
-		L = 0;
-	elseif L > 1 then
-		L = 1;
+function ZV.dropFromMouse(e, d)
+	local o, w, Z, p = ZV.dropTrack();
+	local I = #e.options;
+	local B = math.max(24, (p * Sy) / I);
+	local V = (((d - w) - B / 2)) / ((p - B));
+	if V < 0 then
+		V = 0;
+	elseif V > 1 then
+		V = 1;
 	end;
-	DP.setDropScroll(z, L * DP.dropMax(z));
+	ZV.setDropScroll(e, V * ZV.dropMax(e));
 end;
-function DP.scrollBy(z)
-	if Fc.drop then
-		DP.setDropScroll(Fc.drop, ((Fc.dropScroll or 0)) + z);
-	elseif g.overMenu then
-		local Y = yc[Fc.tab];
-		if not Y.custom then
-			DP.setScroll(Y, ((Y.scroll or 0)) + z * 48);
+function ZV.scrollBy(e)
+	if Oy.drop then
+		ZV.setDropScroll(Oy.drop, ((Oy.dropScroll or 0)) + e);
+	elseif H.overMenu then
+		local d = sy[Oy.tab];
+		if not d.custom then
+			ZV.setScroll(d, ((d.scroll or 0)) + e * 48);
 		end;
 	end;
 end;
-function DP.scrollPixels(z)
-	if Fc.drop then
-		Fc.dropAccum = ((Fc.dropAccum or 0)) + z / ((Ac + Mc));
-		local Y = math.floor(math.abs(Fc.dropAccum));
-		if Y >= 1 then
-			local z = Fc.dropAccum > 0 and 1 or -1;
-			DP.setDropScroll(Fc.drop, ((Fc.dropScroll or 0)) + z * Y);
-			Fc.dropAccum = Fc.dropAccum - z * Y;
+function ZV.scrollPixels(e)
+	if Oy.drop then
+		Oy.dropAccum = ((Oy.dropAccum or 0)) + e / ((vy + Ky));
+		local d = math.floor(math.abs(Oy.dropAccum));
+		if d >= 1 then
+			local e = Oy.dropAccum > 0 and 1 or -1;
+			ZV.setDropScroll(Oy.drop, ((Oy.dropScroll or 0)) + e * d);
+			Oy.dropAccum = Oy.dropAccum - e * d;
 		end;
-	elseif g.overMenu then
-		local Y = yc[Fc.tab];
-		if not Y.custom then
-			DP.setScroll(Y, ((Y.scroll or 0)) + z);
+	elseif H.overMenu then
+		local d = sy[Oy.tab];
+		if not d.custom then
+			ZV.setScroll(d, ((d.scroll or 0)) + e);
 		end;
 	end;
 end;
-DP.VKN = {
+ZV.VKN = {
 		[8] = "Backspace",
 		[9] = "Tab",
 		[13] = "Enter",
@@ -2775,27 +2852,27 @@ DP.VKN = {
 		[221] = "]",
 		[222] = "\'",
 	};
-function DP.keyName(z)
-	z = tonumber(z) or 0;
-	if z == 0 then
+function ZV.keyName(e)
+	e = tonumber(e) or 0;
+	if e == 0 then
 		return "None";
 	end;
-	if DP.VKN[z] then
-		return DP.VKN[z];
+	if ZV.VKN[e] then
+		return ZV.VKN[e];
 	end;
-	if (z >= 48 and z <= 57) or (z >= 65 and z <= 90) then
-		return string.char(z);
+	if (e >= 48 and e <= 57) or (e >= 65 and e <= 90) then
+		return string.char(e);
 	end;
-	if z >= 96 and z <= 105 then
-		return "Num" .. (z - 96);
+	if e >= 96 and e <= 105 then
+		return "Num" .. (e - 96);
 	end;
-	if z >= 112 and z <= 135 then
-		return "F" .. (z - 111);
+	if e >= 112 and e <= 135 then
+		return "F" .. (e - 111);
 	end;
-	return string.format("0x%02X", z);
+	return string.format("0x%02X", e);
 end;
-DP.scan = {};
-for z, Y in ipairs({
+ZV.scan = {};
+for e, d in ipairs({
 	{ 8, 13 },
 	{ 19, 20 },
 	{ 27, 27 },
@@ -2808,1041 +2885,1091 @@ for z, Y in ipairs({
 	{ 186, 192 },
 	{ 219, 222 },
 }) do
-	for z = Y[1], Y[2], 1 do
-		DP.scan[#DP.scan + 1] = z;
+	for e = d[1], d[2], 1 do
+		ZV.scan[#ZV.scan + 1] = e;
 	end;
 end;
-function DP.startListen(z)
-	Fc.listen = z;
-	DP.keyBase = {};
-	for z = 1, #DP.scan, 1 do
-		if iskeypressed(DP.scan[z]) then
-			DP.keyBase[DP.scan[z]] = true;
+function ZV.startListen(e)
+	Oy.listen = e;
+	ZV.keyBase = {};
+	for e = 1, #ZV.scan, 1 do
+		if iskeypressed(ZV.scan[e]) then
+			ZV.keyBase[ZV.scan[e]] = true;
 		end;
 	end;
 end;
-function DP.pollKey()
-	local z = DP.keyBase;
-	for Y = 1, #DP.scan, 1 do
-		local n = DP.scan[Y];
-		if iskeypressed(n) then
-			if not ((z and z[n])) then
-				return n;
+function ZV.pollKey()
+	local e = ZV.keyBase;
+	for d = 1, #ZV.scan, 1 do
+		local o = ZV.scan[d];
+		if iskeypressed(o) then
+			if not ((e and e[o])) then
+				return o;
 			end;
-		elseif z then
-			z[n] = nil;
+		elseif e then
+			e[o] = nil;
 		end;
 	end;
 	return nil;
 end;
-function DP.saveKeys()
-	local z = {};
-	for Y, n in ipairs({
+function ZV.saveKeys()
+	local e = {};
+	for d, o in ipairs({
 		"key_menu",
 		"key_macro",
 		"key_tokens",
 		"key_reset",
 	}) do
-		z[#z + 1] = n .. ("|" .. tostring(c[n] or 0));
+		e[#e + 1] = o .. ("|" .. tostring(u[o] or 0));
 	end;
-	pcall(writefile, l, table.concat(z, "\n"));
+	pcall(writefile, D, table.concat(e, "\n"));
 end;
-DP.hot = {
+ZV.hot = {
 		{ key = "key_menu", fn = function()
-				Fc.visible = not Fc.visible;
+				Oy.visible = not Oy.visible;
 			end },
 		{ key = "key_macro", fn = function()
-				c.enabled = not c.enabled;
+				u.enabled = not u.enabled;
 			end },
 		{ key = "key_tokens", fn = function()
-				c.tokens = not c.tokens;
-				notify(c.tokens and "Token collection ON" or "Token collection OFF", "BSS Macro", 2);
+				u.tokens = not u.tokens;
+				notify(u.tokens and "Token collection ON" or "Token collection OFF", "BSS Macro", 2);
 			end },
 		{ key = "key_reset", fn = function()
-				c.auto_convert = not c.auto_convert;
-				notify(c.auto_convert and "Auto-reset ON" or "Auto-reset OFF", "BSS Macro", 2);
+				u.auto_convert = not u.auto_convert;
+				notify(u.auto_convert and "Auto-reset ON" or "Auto-reset OFF", "BSS Macro", 2);
 			end },
 	};
-function DP.maxScroll(z)
-	return math.max(0, z.height - Nc);
+function ZV.maxScroll(e)
+	return math.max(0, e.height - ly);
 end;
-function DP.setScroll(z, Y)
-	local n = DP.maxScroll(z);
-	if Y < 0 then
-		Y = 0;
-	elseif Y > n then
-		Y = n;
+function ZV.setScroll(e, d)
+	local o = ZV.maxScroll(e);
+	if d < 0 then
+		d = 0;
+	elseif d > o then
+		d = o;
 	end;
-	z.scroll = Y;
+	e.scroll = d;
 end;
-function DP.scrollFromMouse(z, Y)
-	local n = DP.maxScroll(z);
-	if n <= 0 then
+function ZV.scrollFromMouse(e, d)
+	local o = ZV.maxScroll(e);
+	if o <= 0 then
 		return;
 	end;
-	local p = (Fc.y + ec) + ic;
-	local D = math.max(24, (Nc * Nc) / z.height);
-	local T = (((Y - p) - D / 2)) / ((Nc - D));
-	if T < 0 then
-		T = 0;
-	elseif T > 1 then
-		T = 1;
+	local w = (Oy.y + qy) + Ty;
+	local Z = math.max(24, (ly * ly) / e.height);
+	local p = (((d - w) - Z / 2)) / ((ly - Z));
+	if p < 0 then
+		p = 0;
+	elseif p > 1 then
+		p = 1;
 	end;
-	DP.setScroll(z, T * n);
+	ZV.setScroll(e, p * o);
 end;
-local TP, OP, oP, LP = false, 0, 0, nil;
-local cP, hP = false, false;
-local fP, lP, dP = false, false, false;
-local function bP(z, Y)
-	local n = Cc();
-	local p, D = z - n.wcx, Y - n.wcy;
-	local T = math.sqrt(p * p + D * D);
-	local O = T / ((ac - 3));
-	if O > 1 then
-		O = 1;
+local pV, IV, BV, VV = false, 0, 0, nil;
+local uV, JV = false, false;
+local FV, DV, CV = false, false, false;
+local function GV(e, d)
+	local o = Xy();
+	local w, Z = e - o.wcx, d - o.wcy;
+	local p = math.sqrt(w * w + Z * Z);
+	local I = p / ((Py - 3));
+	if I > 1 then
+		I = 1;
 	end;
-	local o = Rp[Fc.sel];
-	if T > 1 then
-		o.h = ((Ep(D, p) / ((2 * math.pi)))) % 1;
+	local B = xM[Oy.sel];
+	if p > 1 then
+		B.h = ((nM(Z, w) / ((2 * math.pi)))) % 1;
 	end;
-	o.s = O;
-	Mp();
+	B.s = I;
+	KM();
 end;
-local function gP(z)
-	local Y = Cc();
-	local n = ((z - Y.rx)) / Y.rw;
-	if n < 0 then
-		n = 0;
-	elseif n > 1 then
-		n = 1;
+local function HV(e)
+	local d = Xy();
+	local o = ((e - d.rx)) / d.rw;
+	if o < 0 then
+		o = 0;
+	elseif o > 1 then
+		o = 1;
 	end;
-	Rp[Fc.sel].v = math.max(.03, n);
-	Mp();
+	xM[Oy.sel].v = math.max(.03, o);
+	KM();
 end;
-local function FP(z)
-	local Y = Cc();
-	local n = ((z - Y.rx)) / Y.rw;
-	if n < 0 then
-		n = 0;
-	elseif n > 1 then
-		n = 1;
+local function OV(e)
+	local d = Xy();
+	local o = ((e - d.rx)) / d.rw;
+	if o < 0 then
+		o = 0;
+	elseif o > 1 then
+		o = 1;
 	end;
-	local p = .05 + n * .95;
-	c.rb_speed = math.floor(p * 100 + .5) / 100;
+	local w = .05 + o * .95;
+	u.rb_speed = math.floor(w * 100 + .5) / 100;
 end;
-local function eP(z, Y)
-	local n = Cc();
-	if zP(z, Y, (n.cx + Uc) - 132, n.kbY + 4, 120, 24) then
-		DP.startListen("key_menu");
+local function qV(e, d)
+	local o = Xy();
+	if eV(e, d, (o.cx + Uy) - 132, o.kbY + 4, 120, 24) then
+		ZV.startListen("key_menu");
 		return;
 	end;
-	for p, D in ipairs(vp) do
-		local T = n.cx + ((p - 1)) * ((n.tileW + 6));
-		if zP(z, Y, T, n.tileY, n.tileW, jc) then
-			Fc.sel = D;
+	for w, Z in ipairs(rM) do
+		local p = o.cx + ((w - 1)) * ((o.tileW + 6));
+		if eV(e, d, p, o.tileY, o.tileW, hy) then
+			Oy.sel = Z;
 			return;
 		end;
 	end;
-	local p = Rp[Fc.sel];
-	local D, T = z - n.wcx, Y - n.wcy;
-	if D * D + T * T <= ((ac + 6)) * ((ac + 6)) then
-		fP = true;
-		bP(z, Y);
+	local w = xM[Oy.sel];
+	local Z, p = e - o.wcx, d - o.wcy;
+	if Z * Z + p * p <= ((Py + 6)) * ((Py + 6)) then
+		FV = true;
+		GV(e, d);
 		return;
 	end;
-	if zP(z, Y, n.rx - 6, n.brY - 10, n.rw + 12, 28) then
-		lP = true;
-		gP(z);
+	if eV(e, d, o.rx - 6, o.brY - 10, o.rw + 12, 28) then
+		DV = true;
+		HV(e);
 		return;
 	end;
-	if zP(z, Y, n.rx, n.rbY, n.rw, 26) then
-		p.rainbow = not p.rainbow;
-		Mp();
-		Hp();
+	if eV(e, d, o.rx, o.rbY, o.rw, 26) then
+		w.rainbow = not w.rainbow;
+		KM();
+		mM();
 		return;
 	end;
-	if zP(z, Y, n.rx - 6, n.spY - 10, n.rw + 12, 28) then
-		dP = true;
-		FP(z);
+	if eV(e, d, o.rx - 6, o.spY - 10, o.rw + 12, 28) then
+		CV = true;
+		OV(e);
 		return;
 	end;
-	if zP(z, Y, n.rx, n.rsY, n.rw, 26) then
-		Xp();
-		Mp();
-		Hp();
+	if eV(e, d, o.rx, o.rsY, o.rw, 26) then
+		jM();
+		KM();
+		mM();
 		return;
 	end;
 end;
-local function mP(z, Y)
-	local n, p, D = Fc.x, Fc.y, Fc.w;
-	if Fc.listen then
-		Fc.listen = nil;
+local function zV(e, d)
+	local o, w, Z = Oy.x, Oy.y, Oy.w;
+	if Oy.listen then
+		Oy.listen = nil;
 		return;
 	end;
-	if Fc.drop then
-		local p = Fc.drop;
-		local D, T, O, o = DP.dropTrack();
-		if #p.options > wc and zP(z, Y, D - 4, T, O + 8, o) then
-			hP = true;
-			DP.dropFromMouse(p, Y);
+	if Oy.drop then
+		local w = Oy.drop;
+		local Z, p, I, B = ZV.dropTrack();
+		if #w.options > Sy and eV(e, d, Z - 4, p, I + 8, B) then
+			JV = true;
+			ZV.dropFromMouse(w, d);
 			return;
 		end;
-		for n = 1, wc, 1 do
-			local D = ((Fc.dropScroll or 0)) + n;
-			if D <= #p.options then
-				local T, O, o, L = DP.popCell(n);
-				if zP(z, Y, T, O, o, L) then
-					c[p.key] = D;
-					Fc.drop = nil;
+		for o = 1, Sy, 1 do
+			local Z = ((Oy.dropScroll or 0)) + o;
+			if Z <= #w.options then
+				local p, I, B, V = ZV.popCell(o);
+				if eV(e, d, p, I, B, V) then
+					u[w.key] = Z;
+					Oy.drop = nil;
 					return;
 				end;
 			end;
 		end;
-		local L = (n + mc) + ic;
-		if not zP(z, Y, L, DP.dropTop(), Uc, Hc) then
-			Fc.drop = nil;
+		local V = (o + zy) + Ty;
+		if not eV(e, d, V, ZV.dropTop(), Uy, my) then
+			Oy.drop = nil;
 		end;
 		return;
 	end;
-	if zP(z, Y, n, p, D, ec) then
-		TP = true;
-		OP, oP = z - n, Y - p;
+	if eV(e, d, o, w, Z, qy) then
+		pV = true;
+		IV, BV = e - o, d - w;
 		return;
 	end;
-	for p = 1, #yc, 1 do
-		if zP(z, Y, n + 8, Wc(p), mc - 16, 34) then
-			Fc.tab = p;
+	for w = 1, #sy, 1 do
+		if eV(e, d, o + 8, Qy(w), zy - 16, 34) then
+			Oy.tab = w;
 			return;
 		end;
 	end;
-	if yc[Fc.tab].custom then
-		eP(z, Y);
+	if sy[Oy.tab].custom then
+		qV(e, d);
 		return;
 	end;
-	local T = yc[Fc.tab];
-	local O = (n + mc) + ic;
-	local o = O + Uc;
-	if DP.maxScroll(T) > 0 and zP(z, Y, (O + Uc) + 1, (p + ec) + ic, 12, Nc) then
-		cP = true;
-		DP.scrollFromMouse(T, Y);
+	local p = sy[Oy.tab];
+	local I = (o + zy) + Ty;
+	local B = I + Uy;
+	if ZV.maxScroll(p) > 0 and eV(e, d, (I + Uy) + 1, (w + qy) + Ty, 12, ly) then
+		uV = true;
+		ZV.scrollFromMouse(p, d);
 		return;
 	end;
-	for n, D in ipairs(T.items) do
-		local L = D.relY - ((T.scroll or 0));
-		local h = ((p + ec) + ic) + L;
-		local f = L >= -0.5 and (L + D.h) <= Nc + .5;
-		if f and (D.t ~= "label" and zP(z, Y, O, h, Uc, D.h)) then
-			if D.t == "toggle" then
-				c[D.key] = not c[D.key];
-				if D.onChange then
-					D.onChange();
+	for o, Z in ipairs(p.items) do
+		local V = Z.relY - ((p.scroll or 0));
+		local J = ((w + qy) + Ty) + V;
+		local F = V >= -0.5 and (V + Z.h) <= ly + .5;
+		if F and (Z.t ~= "label" and eV(e, d, I, J, Uy, Z.h)) then
+			if Z.t == "toggle" then
+				u[Z.key] = not u[Z.key];
+				if Z.onChange then
+					Z.onChange();
 				end;
-			elseif D.t == "cycle" then
-				if z >= o - 172 then
-					local Y = #D.options;
-					local n = tonumber(c[D.key]) or 1;
-					if z < o - 89 then
-						n = ((n - 2)) % Y + 1;
+			elseif Z.t == "cycle" then
+				if e >= B - 172 then
+					local d = #Z.options;
+					local o = tonumber(u[Z.key]) or 1;
+					if e < B - 89 then
+						o = ((o - 2)) % d + 1;
 					else
-						n = n % Y + 1;
+						o = o % d + 1;
 					end;
-					c[D.key] = n;
-					if D.onChange then
-						D.onChange();
+					u[Z.key] = o;
+					if Z.onChange then
+						Z.onChange();
 					end;
 				end;
-			elseif D.t == "dropdown" then
-				Fc.drop = D;
-				Fc.dropTop = (h + D.h) + 4;
-				DP.setDropScroll(D, ((tonumber(c[D.key]) or 1)) - 3);
-			elseif D.t == "keybind" then
-				if zP(z, Y, o - 130, h + 4, 118, 24) then
-					DP.startListen(D.key);
+			elseif Z.t == "dropdown" then
+				Oy.drop = Z;
+				Oy.dropTop = (J + Z.h) + 4;
+				ZV.setDropScroll(Z, ((tonumber(u[Z.key]) or 1)) - 3);
+			elseif Z.t == "keybind" then
+				if eV(e, d, B - 130, J + 4, 118, 24) then
+					ZV.startListen(Z.key);
 				end;
-			elseif D.t == "button" then
-				pcall(D.fn);
-			elseif D.t == "slider" then
-				if Y >= h + 22 then
-					LP = D;
-					pP(D, z);
+			elseif Z.t == "button" then
+				pcall(Z.fn);
+			elseif Z.t == "slider" then
+				if d >= J + 22 then
+					VV = Z;
+					wV(Z, e);
 				end;
 			end;
 			return;
 		end;
 	end;
 end;
-local function xP(z)
-	for z, Y in ipairs(z.items) do
-		for z, Y in pairs(Y.d) do
-			Cp(Y, false);
+local function LV(e)
+	for e, d in ipairs(e.items) do
+		for e, d in pairs(d.d) do
+			XM(d, false);
 		end;
 	end;
 end;
-local function iP()
-	Cp(kc.bg, false);
-	Cp(kc.track, false);
-	Cp(kc.thumb, false);
-	for z, Y in ipairs(kc.cells) do
-		Cp(Y.sq, false);
-		Cp(Y.txt, false);
+local function TV()
+	XM(Ny.bg, false);
+	XM(Ny.track, false);
+	XM(Ny.thumb, false);
+	for e, d in ipairs(Ny.cells) do
+		XM(d.sq, false);
+		XM(d.txt, false);
 	end;
 end;
-local function UP()
-	if not Qc.shown then
+local function UV()
+	if not My.shown then
 		return;
 	end;
-	Qc.shown = false;
-	for z, Y in ipairs(Qc.tiles) do
-		Cp(Y.bg, false);
-		Cp(Y.txt, false);
-		Cp(Y.sw, false);
+	My.shown = false;
+	for e, d in ipairs(My.tiles) do
+		XM(d.bg, false);
+		XM(d.txt, false);
+		XM(d.sw, false);
 	end;
-	for z, Y in ipairs(Qc.cells) do
-		Cp(Y.sq, false);
+	for e, d in ipairs(My.cells) do
+		XM(d.sq, false);
 	end;
-	for z, Y in ipairs(Zc) do
-		Cp(Y, false);
+	for e, d in ipairs(iy) do
+		XM(d, false);
 	end;
 end;
-local function tP()
-	Qc.shown = true;
-	local z = Cc();
-	local Y = Fc.sel;
-	local n = Rp[Y];
-	local p = Fc.listen == "key_menu";
-	zc(Qc.kbBg, z.cx, z.kbY);
-	Yc(Qc.kbBg, Uc, uc);
-	Cp(Qc.kbBg, true);
-	nc(Qc.kbLabel, "Menu hotkey (show / hide)");
-	zc(Qc.kbLabel, z.cx + 14, z.kbY + 8);
-	Cp(Qc.kbLabel, true);
-	zc(Qc.kbBox, (z.cx + Uc) - 132, z.kbY + 4);
-	Yc(Qc.kbBox, 120, 24);
-	oc(Qc.kbBox, p and "accent" or "btn");
-	Cp(Qc.kbBox, true);
-	nc(Qc.kbVal, p and "Press a key..." or DP.keyName(c.key_menu));
-	zc(Qc.kbVal, (z.cx + Uc) - 72, z.kbY + 16);
-	Cp(Qc.kbVal, true);
-	for n, p in ipairs(vp) do
-		local D = Qc.tiles[n];
-		local T = z.cx + ((n - 1)) * ((z.tileW + 6));
-		zc(D.bg, T, z.tileY);
-		Yc(D.bg, z.tileW, jc);
-		oc(D.bg, (p == Y) and "tabOn" or "widget");
-		Cp(D.bg, true);
-		nc(D.txt, Vp[p]);
-		zc(D.txt, T + z.tileW / 2, z.tileY + 12);
-		Cp(D.txt, true);
-		zc(D.sw, T + 8, z.tileY + 24);
-		Yc(D.sw, z.tileW - 16, 7);
-		pc(D.sw, Rp[p].color);
-		Cp(D.sw, true);
+local function cV()
+	My.shown = true;
+	local e = Xy();
+	local d = Oy.sel;
+	local o = xM[d];
+	local w = Oy.listen == "key_menu";
+	ey(My.kbBg, e.cx, e.kbY);
+	dy(My.kbBg, Uy, ay);
+	XM(My.kbBg, true);
+	oy(My.kbLabel, "Menu hotkey (show / hide)");
+	ey(My.kbLabel, e.cx + 14, e.kbY + 8);
+	XM(My.kbLabel, true);
+	ey(My.kbBox, (e.cx + Uy) - 132, e.kbY + 4);
+	dy(My.kbBox, 120, 24);
+	By(My.kbBox, w and "accent" or "btn");
+	XM(My.kbBox, true);
+	oy(My.kbVal, w and "Press a key..." or ZV.keyName(u.key_menu));
+	ey(My.kbVal, (e.cx + Uy) - 72, e.kbY + 16);
+	XM(My.kbVal, true);
+	for o, w in ipairs(rM) do
+		local Z = My.tiles[o];
+		local p = e.cx + ((o - 1)) * ((e.tileW + 6));
+		ey(Z.bg, p, e.tileY);
+		dy(Z.bg, e.tileW, hy);
+		By(Z.bg, (w == d) and "tabOn" or "widget");
+		XM(Z.bg, true);
+		oy(Z.txt, bM[w]);
+		ey(Z.txt, p + e.tileW / 2, e.tileY + 12);
+		XM(Z.txt, true);
+		ey(Z.sw, p + 8, e.tileY + 24);
+		dy(Z.sw, e.tileW - 16, 7);
+		wy(Z.sw, xM[w].color);
+		XM(Z.sw, true);
 	end;
-	zc(Qc.panel, z.cx, z.panelY);
-	Yc(Qc.panel, Uc, vc);
-	Cp(Qc.panel, true);
-	for Y, n in ipairs(Qc.cells) do
-		zc(n.sq, z.wcx + n.ox, z.wcy + n.oy);
-		Cp(n.sq, true);
+	ey(My.panel, e.cx, e.panelY);
+	dy(My.panel, Uy, ry);
+	XM(My.panel, true);
+	for d, o in ipairs(My.cells) do
+		ey(o.sq, e.wcx + o.ox, e.wcy + o.oy);
+		XM(o.sq, true);
 	end;
-	if Qc.frame then
-		zc(Qc.frame, z.wcx, z.wcy);
-		Cp(Qc.frame, true);
+	if My.mask then
+		ey(My.mask, e.wcx, e.wcy);
+		XM(My.mask, true);
 	end;
-	local D = (n.h * 2) * math.pi;
-	local T = n.s * ((ac - 3));
-	local O, o = z.wcx + math.cos(D) * T, z.wcy + math.sin(D) * T;
-	if Qc.thumbRing then
-		if Qc.thumbDark then
-			zc(Qc.thumbDark, O, o);
-			Cp(Qc.thumbDark, true);
+	if My.frame then
+		ey(My.frame, e.wcx, e.wcy);
+		XM(My.frame, true);
+	end;
+	local Z = (o.h * 2) * math.pi;
+	local p = o.s * ((Py - 3));
+	local I, B = e.wcx + math.cos(Z) * p, e.wcy + math.sin(Z) * p;
+	if My.thumbRing then
+		if My.thumbDark then
+			ey(My.thumbDark, I, B);
+			XM(My.thumbDark, true);
 		end;
-		zc(Qc.thumbRing, O, o);
-		Cp(Qc.thumbRing, true);
-		Cp(Qc.thumbBack, false);
+		ey(My.thumbRing, I, B);
+		XM(My.thumbRing, true);
+		XM(My.thumbBack, false);
 	else
-		zc(Qc.thumbBack, O - 8, o - 8);
-		Yc(Qc.thumbBack, 16, 16);
-		Cp(Qc.thumbBack, true);
+		ey(My.thumbBack, I - 8, B - 8);
+		dy(My.thumbBack, 16, 16);
+		XM(My.thumbBack, true);
 	end;
-	zc(Qc.thumbDot, O - 5, o - 5);
-	Yc(Qc.thumbDot, 10, 10);
-	pc(Qc.thumbDot, n.color);
-	Cp(Qc.thumbDot, true);
-	local L = Gp(n);
-	local f, l, d = Np(L[1]), Np(L[2]), Np(L[3]);
-	zc(Qc.prev, z.rx, z.prY);
-	Yc(Qc.prev, z.rw, 34);
-	pc(Qc.prev, n.color);
-	Cp(Qc.prev, true);
-	nc(Qc.hexTxt, string.format("#%02X%02X%02X", f, l, d));
-	pc(Qc.hexTxt, ((.299 * f + .587 * l) + .114 * d) > 140 and Qc.darkTxt or Qc.lightTxt);
-	zc(Qc.hexTxt, z.rx + z.rw / 2, z.prY + 17);
-	Cp(Qc.hexTxt, true);
-	nc(Qc.rgbTxt, string.format("R %d   G %d   B %d", f, l, d));
-	zc(Qc.rgbTxt, z.rx, z.rgbY);
-	Cp(Qc.rgbTxt, true);
-	local b = n.v;
-	if b < 0 then
-		b = 0;
-	elseif b > 1 then
-		b = 1;
+	ey(My.thumbDot, I - 5, B - 5);
+	dy(My.thumbDot, 10, 10);
+	wy(My.thumbDot, o.color);
+	XM(My.thumbDot, true);
+	local V = YM(o);
+	local F, D, C = lM(V[1]), lM(V[2]), lM(V[3]);
+	ey(My.prev, e.rx, e.prY);
+	dy(My.prev, e.rw, 34);
+	wy(My.prev, o.color);
+	XM(My.prev, true);
+	oy(My.hexTxt, string.format("#%02X%02X%02X", F, D, C));
+	wy(My.hexTxt, ((.299 * F + .587 * D) + .114 * C) > 140 and My.darkTxt or My.lightTxt);
+	ey(My.hexTxt, e.rx + e.rw / 2, e.prY + 17);
+	XM(My.hexTxt, true);
+	oy(My.rgbTxt, string.format("R %d   G %d   B %d", F, D, C));
+	ey(My.rgbTxt, e.rx, e.rgbY);
+	XM(My.rgbTxt, true);
+	local G = o.v;
+	if G < 0 then
+		G = 0;
+	elseif G > 1 then
+		G = 1;
 	end;
-	nc(Qc.brLabel, string.format("Brightness  %d%%", math.floor(n.v * 100 + .5)));
-	zc(Qc.brLabel, z.rx, z.brLabelY);
-	Cp(Qc.brLabel, true);
-	zc(Qc.brTrack, z.rx, z.brY);
-	Yc(Qc.brTrack, z.rw, 8);
-	Cp(Qc.brTrack, true);
-	zc(Qc.brFill, z.rx, z.brY);
-	Yc(Qc.brFill, math.max(2, z.rw * b), 8);
-	Cp(Qc.brFill, true);
-	zc(Qc.brKnob, (z.rx + z.rw * b) - 7, z.brY - 3);
-	Yc(Qc.brKnob, 14, 14);
-	Cp(Qc.brKnob, true);
-	zc(Qc.rbLabel, z.rx, z.rbY + 4);
-	Cp(Qc.rbLabel, true);
-	zc(Qc.rbPill, (z.rx + z.rw) - 40, z.rbY + 3);
-	Yc(Qc.rbPill, 40, 20);
-	oc(Qc.rbPill, n.rainbow and "on" or "off");
-	Cp(Qc.rbPill, true);
-	zc(Qc.rbKnob, ((z.rx + z.rw) - 40) + ((n.rainbow and 23 or 3)), z.rbY + 6);
-	Yc(Qc.rbKnob, 14, 14);
-	Cp(Qc.rbKnob, true);
-	local g = h("rb_speed", .25);
-	local F = ((g - .05)) / .95;
-	if F < 0 then
-		F = 0;
-	elseif F > 1 then
-		F = 1;
+	oy(My.brLabel, string.format("Brightness  %d%%", math.floor(o.v * 100 + .5)));
+	ey(My.brLabel, e.rx, e.brLabelY);
+	XM(My.brLabel, true);
+	ey(My.brTrack, e.rx, e.brY);
+	dy(My.brTrack, e.rw, 8);
+	XM(My.brTrack, true);
+	ey(My.brFill, e.rx, e.brY);
+	dy(My.brFill, math.max(2, e.rw * G), 8);
+	XM(My.brFill, true);
+	ey(My.brKnob, (e.rx + e.rw * G) - 7, e.brY - 3);
+	dy(My.brKnob, 14, 14);
+	XM(My.brKnob, true);
+	ey(My.rbLabel, e.rx, e.rbY + 4);
+	XM(My.rbLabel, true);
+	ey(My.rbPill, (e.rx + e.rw) - 40, e.rbY + 3);
+	dy(My.rbPill, 40, 20);
+	By(My.rbPill, o.rainbow and "on" or "off");
+	XM(My.rbPill, true);
+	ey(My.rbKnob, ((e.rx + e.rw) - 40) + ((o.rainbow and 23 or 3)), e.rbY + 6);
+	dy(My.rbKnob, 14, 14);
+	XM(My.rbKnob, true);
+	local H = J("rb_speed", .25);
+	local O = ((H - .05)) / .95;
+	if O < 0 then
+		O = 0;
+	elseif O > 1 then
+		O = 1;
 	end;
-	nc(Qc.spLabel, string.format("Rainbow speed  %.2f", g));
-	zc(Qc.spLabel, z.rx, z.spLabelY);
-	Cp(Qc.spLabel, true);
-	zc(Qc.spTrack, z.rx, z.spY);
-	Yc(Qc.spTrack, z.rw, 8);
-	Cp(Qc.spTrack, true);
-	zc(Qc.spFill, z.rx, z.spY);
-	Yc(Qc.spFill, math.max(2, z.rw * F), 8);
-	Cp(Qc.spFill, true);
-	zc(Qc.spKnob, (z.rx + z.rw * F) - 7, z.spY - 3);
-	Yc(Qc.spKnob, 14, 14);
-	Cp(Qc.spKnob, true);
-	zc(Qc.reset, z.rx, z.rsY);
-	Yc(Qc.reset, z.rw, 26);
-	Cp(Qc.reset, true);
-	zc(Qc.resetTxt, z.rx + z.rw / 2, z.rsY + 13);
-	Cp(Qc.resetTxt, true);
+	oy(My.spLabel, string.format("Rainbow speed  %.2f", H));
+	ey(My.spLabel, e.rx, e.spLabelY);
+	XM(My.spLabel, true);
+	ey(My.spTrack, e.rx, e.spY);
+	dy(My.spTrack, e.rw, 8);
+	XM(My.spTrack, true);
+	ey(My.spFill, e.rx, e.spY);
+	dy(My.spFill, math.max(2, e.rw * O), 8);
+	XM(My.spFill, true);
+	ey(My.spKnob, (e.rx + e.rw * O) - 7, e.spY - 3);
+	dy(My.spKnob, 14, 14);
+	XM(My.spKnob, true);
+	ey(My.reset, e.rx, e.rsY);
+	dy(My.reset, e.rw, 26);
+	XM(My.reset, true);
+	ey(My.resetTxt, e.rx + e.rw / 2, e.rsY + 13);
+	XM(My.resetTxt, true);
 end;
-local function SP()
-	if not Fc.visible then
-		if Fc.shown then
-			for z, Y in ipairs(qc) do
-				Cp(Y, false);
+local function kV()
+	if not Oy.visible then
+		if Oy.shown then
+			for e, d in ipairs(Ey) do
+				XM(d, false);
 			end;
-			for z, Y in ipairs(yc) do
-				xP(Y);
+			for e, d in ipairs(sy) do
+				LV(d);
 			end;
-			iP();
-			UP();
-			Cp(Pc.track, false);
-			Cp(Pc.thumb, false);
-			Fc.shown = false;
+			TV();
+			UV();
+			XM(yy.track, false);
+			XM(yy.thumb, false);
+			Oy.shown = false;
 		end;
 		return;
 	end;
-	Fc.shown = true;
-	local z, Y, n, p = Fc.x, Fc.y, Fc.w, Fc.h;
-	local D = yc[Fc.tab];
-	for z, Y in ipairs(qc) do
-		Cp(Y, true);
+	Oy.shown = true;
+	local e, d, o, w = Oy.x, Oy.y, Oy.w, Oy.h;
+	local Z = sy[Oy.tab];
+	for e, d in ipairs(Ey) do
+		XM(d, true);
 	end;
-	for z, Y in ipairs(yc) do
-		if Y ~= D then
-			xP(Y);
+	for e, d in ipairs(sy) do
+		if d ~= Z then
+			LV(d);
 		end;
 	end;
-	zc(rc.border, z - 1, Y - 1);
-	Yc(rc.border, n + 2, p + 2);
-	zc(rc.bg, z, Y);
-	Yc(rc.bg, n, p);
-	zc(rc.title, z, Y);
-	Yc(rc.title, n, ec);
-	zc(rc.titleLine, z + 1, (Y + ec) - 2);
-	Yc(rc.titleLine, n - 2, 2);
-	zc(rc.titleDot, z + 14, Y + 14);
-	Yc(rc.titleDot, 10, 10);
-	zc(rc.titleText, z + 32, Y + 11);
-	nc(rc.hint, "v12   " .. (DP.keyName(c.key_macro) .. (" macro   " .. (DP.keyName(c.key_menu) .. " hide"))));
-	zc(rc.hint, (z + n) - 268, Y + 11);
-	zc(rc.side, z, Y + ec);
-	Yc(rc.side, mc, Kc);
-	for Y, n in ipairs(rc.tabBtn) do
-		local p = Wc(Y);
-		local D = (Y == Fc.tab);
-		zc(n.sq, z + 8, p);
-		Yc(n.sq, mc - 16, 34);
-		oc(n.sq, D and "tabOn" or "tabOff");
-		zc(n.mark, z + 8, p + 7);
-		Yc(n.mark, 3, 20);
-		Cp(n.mark, D);
-		zc(n.txt, z + 24, p + 9);
+	ey(ty.border, e - 1, d - 1);
+	dy(ty.border, o + 2, w + 2);
+	ey(ty.bg, e, d);
+	dy(ty.bg, o, w);
+	ey(ty.title, e, d);
+	dy(ty.title, o, qy);
+	ey(ty.titleLine, e + 1, (d + qy) - 2);
+	dy(ty.titleLine, o - 2, 2);
+	ey(ty.titleDot, e + 14, d + 14);
+	dy(ty.titleDot, 10, 10);
+	ey(ty.titleText, e + 32, d + 11);
+	oy(ty.hint, "v14   " .. (ZV.keyName(u.key_macro) .. (" macro   " .. (ZV.keyName(u.key_menu) .. " hide"))));
+	ey(ty.hint, (e + o) - 268, d + 11);
+	ey(ty.side, e, d + qy);
+	dy(ty.side, zy, fy);
+	for d, o in ipairs(ty.tabBtn) do
+		local w = Qy(d);
+		local Z = (d == Oy.tab);
+		ey(o.sq, e + 8, w);
+		dy(o.sq, zy - 16, 34);
+		By(o.sq, Z and "tabOn" or "tabOff");
+		ey(o.mark, e + 8, w + 7);
+		dy(o.mark, 3, 20);
+		XM(o.mark, Z);
+		ey(o.txt, e + 24, w + 9);
 	end;
-	local T = (Y + p) - xc;
-	zc(rc.footer, z, T);
-	Yc(rc.footer, n, xc);
-	zc(rc.footerLine, z + 1, T);
-	Yc(rc.footerLine, n - 2, 1);
-	local O = 0;
-	if f() then
-		O = math.floor(tick() - g.startedAt);
+	local p = (d + w) - Ly;
+	ey(ty.footer, e, p);
+	dy(ty.footer, o, Ly);
+	ey(ty.footerLine, e + 1, p);
+	dy(ty.footerLine, o - 2, 1);
+	local I = 0;
+	if F() then
+		I = math.floor(tick() - H.startedAt);
 	end;
-	local o = "off";
-	if f() then
-		o = (g.status == "Farming") and "on" or "warn";
+	local B = "off";
+	if F() then
+		B = (H.status == "Farming") and "on" or "warn";
 	end;
-	zc(rc.dot, z + 16, T + 13);
-	Yc(rc.dot, 10, 10);
-	oc(rc.dot, o);
-	local L = (z + math.floor(n / 2)) - 20;
-	nc(rc.f1, g.status);
-	zc(rc.f1, z + 34, T + 8);
-	nc(rc.f2, "Field: " .. U());
-	zc(rc.f2, L, T + 8);
-	nc(rc.f3, string.format("Uptime: %02d:%02d:%02d", math.floor(O / 3600), math.floor((O % 3600) / 60), O % 60));
-	zc(rc.f3, z + 16, T + 28);
-	nc(rc.f4, string.format("In field: %s  (edge %.1f)", g.inField and "yes" or "no", g.edgeDist));
-	zc(rc.f4, L, T + 28);
-	nc(rc.f5, "Converts: " .. g.cycles);
-	zc(rc.f5, z + 16, T + 48);
-	nc(rc.f6, g.mouseOK and ("Tokens visited: " .. g.tokens) or "Mouse position unavailable");
-	zc(rc.f6, L, T + 48);
-	local l;
-	if h("click_timing", 1) == 1 and r.value then
-		l = string.format("cd %.2fs+%dms", r.value, h("cd_offset", 30));
+	ey(ty.dot, e + 16, p + 17);
+	dy(ty.dot, 12, 12);
+	By(ty.dot, B);
+	local V = (e + math.floor(o / 2)) - 20;
+	oy(ty.f1, H.status);
+	ey(ty.f1, e + 38, p + 9);
+	oy(ty.f2, "Field: " .. U());
+	ey(ty.f2, V, p + 13);
+	oy(ty.f3, string.format("Uptime: %02d:%02d:%02d", math.floor(I / 3600), math.floor((I % 3600) / 60), I % 60));
+	ey(ty.f3, e + 16, p + 42);
+	oy(ty.f4, string.format("In field: %s  (edge %.1f)", H.inField and "yes" or "no", H.edgeDist));
+	ey(ty.f4, V, p + 42);
+	oy(ty.f5, "Converts: " .. H.cycles);
+	ey(ty.f5, e + 16, p + 64);
+	oy(ty.f6, H.mouseOK and ("Tokens visited: " .. H.tokens) or "Mouse position unavailable");
+	ey(ty.f6, V, p + 64);
+	local D = nil;
+	if H.honey and H.honeyStart then
+		D = math.max(0, H.honey - H.honeyStart);
+	end;
+	oy(ty.f9, "Pollen: " .. (N(H.pollen) .. (" / " .. N(H.capacity))));
+	ey(ty.f9, e + 16, p + 90);
+	oy(ty.f10, "Honey: " .. N(H.honey));
+	ey(ty.f10, V, p + 90);
+	oy(ty.f11, "Pollen made: " .. N(H.pollenMade));
+	ey(ty.f11, e + 16, p + 112);
+	oy(ty.f12, "Honey made: " .. ((D and ("+" .. N(D)) or "--")));
+	ey(ty.f12, V, p + 112);
+	local C;
+	if J("click_timing", 1) == 1 and g.value then
+		C = string.format("cd %.2fs+%dms", g.value, J("cd_offset", 30));
 	else
-		l = string.format("%dms fixed", h("click_ms", 120));
+		C = string.format("%dms fixed", J("click_ms", 120));
 	end;
-	local d = tonumber(h("travel_mode", 1)) or 1;
-	local b = (({ "fly pos", "fly vel", "walk" }))[d];
-	if d ~= 3 and g.flyOK == false then
-		b = "walk (fallback)";
-	elseif d ~= 3 and (h("noclip", true) and (not g.noclipBad and g.noclipOK ~= false)) then
-		b = b .. " + noclip";
+	local G = tonumber(J("travel_mode", 1)) or 1;
+	local O = (({ "fly pos", "fly vel" }))[G] or "fly";
+	if J("noclip", true) and (not H.noclipBad and H.noclipOK ~= false) then
+		O = O .. " + noclip";
 	end;
-	nc(rc.f7, "Click: " .. (l .. ("  |  Travel: " .. b)));
-	zc(rc.f7, z + 16, T + 68);
-	local F = 0;
-	if g.pollenPercent then
-		F = math.min(1, math.max(0, g.pollenPercent / 100));
+	oy(ty.f7, "Click: " .. (C .. ("  |  Travel: " .. O)));
+	ey(ty.f7, e + 16, p + 136);
+	local q = 0;
+	if H.pollenPercent then
+		q = math.min(1, math.max(0, H.pollenPercent / 100));
 	end;
-	nc(rc.f8, g.pollenPercent and string.format("Pollen %d%%", math.floor(g.pollenPercent + .5)) or "Pollen --");
-	zc(rc.f8, (z + n) - 112, T + 8);
-	zc(rc.barTrack, z + 16, T + 92);
-	Yc(rc.barTrack, n - 32, 10);
-	zc(rc.barFill, z + 16, T + 92);
-	Yc(rc.barFill, math.max(2, ((n - 32)) * F), 10);
-	local e = (z + mc) + ic;
-	local m = e + Uc;
-	local x = D.scroll or 0;
-	if D.custom then
-		tP();
-		Cp(Pc.track, false);
-		Cp(Pc.thumb, false);
+	oy(ty.f8, H.pollenPercent and string.format("Pollen %d%%", math.floor(H.pollenPercent + .5)) or "Pollen --");
+	ey(ty.f8, (e + o) - 112, p + 13);
+	ey(ty.barTrack, e + 16, p + 154);
+	dy(ty.barTrack, o - 32, 10);
+	ey(ty.barFill, e + 16, p + 154);
+	dy(ty.barFill, math.max(2, ((o - 32)) * q), 10);
+	local z = (e + zy) + Ty;
+	local L = z + Uy;
+	local T = Z.scroll or 0;
+	if Z.custom then
+		cV();
+		XM(yy.track, false);
+		XM(yy.thumb, false);
 	else
-		UP();
-		for z, n in ipairs(D.items) do
-			local p = n.relY - x;
-			local D = ((Y + ec) + ic) + p;
-			local T = n.d;
-			local O = p >= -0.5 and (p + n.h) <= Nc + .5;
-			if not O then
-				for z, Y in pairs(T) do
-					Cp(Y, false);
+		UV();
+		for e, o in ipairs(Z.items) do
+			local w = o.relY - T;
+			local Z = ((d + qy) + Ty) + w;
+			local p = o.d;
+			local I = w >= -0.5 and (w + o.h) <= ly + .5;
+			if not I then
+				for e, d in pairs(p) do
+					XM(d, false);
 				end;
-			elseif n.t == "label" then
-				nc(T.label, n.text());
-				zc(T.label, e + 4, D + 3);
-				Cp(T.label, true);
+			elseif o.t == "label" then
+				oy(p.label, o.text());
+				ey(p.label, z + 4, Z + 3);
+				XM(p.label, true);
 			else
-				zc(T.bg, e, D);
-				Yc(T.bg, Uc, n.h);
-				Cp(T.bg, true);
-				Cp(T.label, true);
-				if n.t == "toggle" then
-					local z = c[n.key] == true;
-					nc(T.label, n.label);
-					zc(T.label, e + 14, D + 8);
-					zc(T.pill, m - 54, D + 6);
-					Yc(T.pill, 40, 20);
-					oc(T.pill, z and "on" or "off");
-					Cp(T.pill, true);
-					zc(T.knob, (m - 54) + ((z and 23 or 3)), D + 9);
-					Yc(T.knob, 14, 14);
-					Cp(T.knob, true);
-				elseif n.t == "cycle" then
-					local z = tonumber(c[n.key]) or 1;
-					nc(T.label, n.label);
-					zc(T.label, e + 14, D + 8);
-					zc(T.lbtn, m - 172, D + 4);
-					Yc(T.lbtn, 24, 24);
-					Cp(T.lbtn, true);
-					zc(T.rbtn, m - 30, D + 4);
-					Yc(T.rbtn, 24, 24);
-					Cp(T.rbtn, true);
-					zc(T.ltxt, m - 160, D + 16);
-					Cp(T.ltxt, true);
-					zc(T.rtxt, m - 18, D + 16);
-					Cp(T.rtxt, true);
-					nc(T.val, tostring(n.options[z]));
-					zc(T.val, m - 89, D + 16);
-					Cp(T.val, true);
-				elseif n.t == "dropdown" then
-					local z = tonumber(c[n.key]) or 1;
-					nc(T.label, n.label);
-					zc(T.label, e + 14, D + 8);
-					zc(T.pill, m - 190, D + 4);
-					Yc(T.pill, 178, 24);
-					Cp(T.pill, true);
-					nc(T.val, tostring(n.options[z]) .. "  v");
-					zc(T.val, m - 101, D + 16);
-					Cp(T.val, true);
-				elseif n.t == "keybind" then
-					local z = Fc.listen == n.key;
-					nc(T.label, n.label);
-					zc(T.label, e + 14, D + 8);
-					zc(T.box, m - 130, D + 4);
-					Yc(T.box, 118, 24);
-					oc(T.box, z and "accent" or "btn");
-					Cp(T.box, true);
-					nc(T.val, z and "Press a key..." or DP.keyName(c[n.key]));
-					zc(T.val, m - 71, D + 16);
-					Cp(T.val, true);
-				elseif n.t == "button" then
-					nc(T.label, n.label);
-					zc(T.label, e + Uc / 2, D + n.h / 2);
-				elseif n.t == "slider" then
-					local z = h(n.key, n.min);
-					local Y = ((z - n.min)) / ((n.max - n.min));
-					if Y < 0 then
-						Y = 0;
-					elseif Y > 1 then
-						Y = 1;
+				ey(p.bg, z, Z);
+				dy(p.bg, Uy, o.h);
+				XM(p.bg, true);
+				XM(p.label, true);
+				if o.t == "toggle" then
+					local e = u[o.key] == true;
+					oy(p.label, o.label);
+					ey(p.label, z + 14, Z + 8);
+					ey(p.pill, L - 54, Z + 6);
+					dy(p.pill, 40, 20);
+					By(p.pill, e and "on" or "off");
+					XM(p.pill, true);
+					ey(p.knob, (L - 54) + ((e and 23 or 3)), Z + 9);
+					dy(p.knob, 14, 14);
+					XM(p.knob, true);
+				elseif o.t == "cycle" then
+					local e = tonumber(u[o.key]) or 1;
+					oy(p.label, o.label);
+					ey(p.label, z + 14, Z + 8);
+					ey(p.lbtn, L - 172, Z + 4);
+					dy(p.lbtn, 24, 24);
+					XM(p.lbtn, true);
+					ey(p.rbtn, L - 30, Z + 4);
+					dy(p.rbtn, 24, 24);
+					XM(p.rbtn, true);
+					ey(p.ltxt, L - 160, Z + 16);
+					XM(p.ltxt, true);
+					ey(p.rtxt, L - 18, Z + 16);
+					XM(p.rtxt, true);
+					oy(p.val, tostring(o.options[e]));
+					ey(p.val, L - 89, Z + 16);
+					XM(p.val, true);
+				elseif o.t == "dropdown" then
+					local e = tonumber(u[o.key]) or 1;
+					oy(p.label, o.label);
+					ey(p.label, z + 14, Z + 8);
+					ey(p.pill, L - 190, Z + 4);
+					dy(p.pill, 178, 24);
+					XM(p.pill, true);
+					oy(p.val, tostring(o.options[e]) .. "  v");
+					ey(p.val, L - 101, Z + 16);
+					XM(p.val, true);
+				elseif o.t == "keybind" then
+					local e = Oy.listen == o.key;
+					oy(p.label, o.label);
+					ey(p.label, z + 14, Z + 8);
+					ey(p.box, L - 130, Z + 4);
+					dy(p.box, 118, 24);
+					By(p.box, e and "accent" or "btn");
+					XM(p.box, true);
+					oy(p.val, e and "Press a key..." or ZV.keyName(u[o.key]));
+					ey(p.val, L - 71, Z + 16);
+					XM(p.val, true);
+				elseif o.t == "button" then
+					oy(p.label, o.label);
+					ey(p.label, z + Uy / 2, Z + o.h / 2);
+				elseif o.t == "slider" then
+					local e = J(o.key, o.min);
+					local d = ((e - o.min)) / ((o.max - o.min));
+					if d < 0 then
+						d = 0;
+					elseif d > 1 then
+						d = 1;
 					end;
-					local p = Uc - 28;
-					nc(T.label, n.label);
-					zc(T.label, e + 14, D + 6);
-					zc(T.pillbg, m - 78, D + 5);
-					Yc(T.pillbg, 66, 22);
-					Cp(T.pillbg, true);
-					nc(T.val, nP(n));
-					zc(T.val, m - 45, D + 16);
-					Cp(T.val, true);
-					zc(T.track, e + 14, D + 34);
-					Yc(T.track, p, 8);
-					Cp(T.track, true);
-					zc(T.fill, e + 14, D + 34);
-					Yc(T.fill, math.max(2, p * Y), 8);
-					Cp(T.fill, true);
-					zc(T.knob, ((e + 14) + p * Y) - 7, D + 31);
-					Yc(T.knob, 14, 14);
-					Cp(T.knob, true);
+					local w = Uy - 28;
+					oy(p.label, o.label);
+					ey(p.label, z + 14, Z + 6);
+					ey(p.pillbg, L - 78, Z + 5);
+					dy(p.pillbg, 66, 22);
+					XM(p.pillbg, true);
+					oy(p.val, oV(o));
+					ey(p.val, L - 45, Z + 16);
+					XM(p.val, true);
+					ey(p.track, z + 14, Z + 34);
+					dy(p.track, w, 8);
+					XM(p.track, true);
+					ey(p.fill, z + 14, Z + 34);
+					dy(p.fill, math.max(2, w * d), 8);
+					XM(p.fill, true);
+					ey(p.knob, ((z + 14) + w * d) - 7, Z + 31);
+					dy(p.knob, 14, 14);
+					XM(p.knob, true);
 				end;
 			end;
 		end;
-		local z = DP.maxScroll(D);
-		if z > 0 then
-			local n = (Y + ec) + ic;
-			local p = math.max(24, (Nc * Nc) / D.height);
-			local T = n + ((Nc - p)) * ((x / z));
-			zc(Pc.track, (e + Uc) + 4, n);
-			Yc(Pc.track, 6, Nc);
-			Cp(Pc.track, true);
-			zc(Pc.thumb, (e + Uc) + 4, T);
-			Yc(Pc.thumb, 6, p);
-			Cp(Pc.thumb, true);
+		local e = ZV.maxScroll(Z);
+		if e > 0 then
+			local o = (d + qy) + Ty;
+			local w = math.max(24, (ly * ly) / Z.height);
+			local p = o + ((ly - w)) * ((T / e));
+			ey(yy.track, (z + Uy) + 4, o);
+			dy(yy.track, 6, ly);
+			XM(yy.track, true);
+			ey(yy.thumb, (z + Uy) + 4, p);
+			dy(yy.thumb, 6, w);
+			XM(yy.thumb, true);
 		else
-			Cp(Pc.track, false);
-			Cp(Pc.thumb, false);
+			XM(yy.track, false);
+			XM(yy.thumb, false);
 		end;
 	end;
-	local i = Fc.drop;
-	local t = false;
-	if i then
-		for z, Y in ipairs(D.items) do
-			if Y == i then
-				t = true;
+	local c = Oy.drop;
+	local k = false;
+	if c then
+		for e, d in ipairs(Z.items) do
+			if d == c then
+				k = true;
 			end;
 		end;
 	end;
-	if t then
-		local z = #i.options;
-		local Y = tonumber(c[i.key]) or 1;
-		local n = DP.dropTop();
-		zc(kc.bg, e, n);
-		Yc(kc.bg, Uc, Hc);
-		Cp(kc.bg, true);
-		for n = 1, wc, 1 do
-			local p = ((Fc.dropScroll or 0)) + n;
-			local D = kc.cells[n];
-			if p <= z then
-				local z, T, O, o = DP.popCell(n);
-				zc(D.sq, z, T);
-				Yc(D.sq, O, o);
-				oc(D.sq, (p == Y) and "tabOn" or "widget");
-				Cp(D.sq, true);
-				nc(D.txt, tostring(i.options[p]));
-				zc(D.txt, z + O / 2, T + o / 2);
-				Cp(D.txt, true);
+	if k then
+		local e = #c.options;
+		local d = tonumber(u[c.key]) or 1;
+		local o = ZV.dropTop();
+		ey(Ny.bg, z, o);
+		dy(Ny.bg, Uy, my);
+		XM(Ny.bg, true);
+		for o = 1, Sy, 1 do
+			local w = ((Oy.dropScroll or 0)) + o;
+			local Z = Ny.cells[o];
+			if w <= e then
+				local e, p, I, B = ZV.popCell(o);
+				ey(Z.sq, e, p);
+				dy(Z.sq, I, B);
+				By(Z.sq, (w == d) and "tabOn" or "widget");
+				XM(Z.sq, true);
+				oy(Z.txt, tostring(c.options[w]));
+				ey(Z.txt, e + I / 2, p + B / 2);
+				XM(Z.txt, true);
 			else
-				Cp(D.sq, false);
-				Cp(D.txt, false);
+				XM(Z.sq, false);
+				XM(Z.txt, false);
 			end;
 		end;
-		local p, D, T, O = DP.dropTrack();
-		if z > wc then
-			local Y = math.max(24, (O * wc) / z);
-			local n = z - wc;
-			local o = D + ((O - Y)) * ((((Fc.dropScroll or 0)) / n));
-			zc(kc.track, p, D);
-			Yc(kc.track, T, O);
-			Cp(kc.track, true);
-			zc(kc.thumb, p, o);
-			Yc(kc.thumb, T, Y);
-			Cp(kc.thumb, true);
+		local w, Z, p, I = ZV.dropTrack();
+		if e > Sy then
+			local d = math.max(24, (I * Sy) / e);
+			local o = e - Sy;
+			local B = Z + ((I - d)) * ((((Oy.dropScroll or 0)) / o));
+			ey(Ny.track, w, Z);
+			dy(Ny.track, p, I);
+			XM(Ny.track, true);
+			ey(Ny.thumb, w, B);
+			dy(Ny.thumb, p, d);
+			XM(Ny.thumb, true);
 		else
-			Cp(kc.track, false);
-			Cp(kc.thumb, false);
+			XM(Ny.track, false);
+			XM(Ny.thumb, false);
 		end;
 	else
-		if i then
-			Fc.drop = nil;
+		if c then
+			Oy.drop = nil;
 		end;
-		iP();
+		TV();
 	end;
-	Lc();
+	Vy();
 end;
 task.spawn(function()
-	local z = false;
-	local Y = {};
-	local n, p, D = nil, false, false;
+	local e = false;
+	local d = {};
+	local o, w, Z = nil, false, false;
 	while true do
-		if Fc.listen then
-			local z = DP.pollKey();
-			if z then
-				local n = Fc.listen;
-				Fc.listen = nil;
-				if z ~= 27 then
-					c[n] = (z == 8) and 0 or z;
-					DP.saveKeys();
-					if z ~= 8 then
-						Y[z] = true;
+		if Oy.listen then
+			local e = ZV.pollKey();
+			if e then
+				local o = Oy.listen;
+				Oy.listen = nil;
+				if e ~= 27 then
+					u[o] = (e == 8) and 0 or e;
+					ZV.saveKeys();
+					if e ~= 8 then
+						d[e] = true;
 					end;
 				end;
 			end;
 		else
-			local z = {};
-			for n, p in ipairs(DP.hot) do
-				local D = tonumber(c[p.key]) or 0;
-				if D > 0 then
-					local n = z[D];
-					if n == nil then
-						n = iskeypressed(D) and true or false;
-						z[D] = n;
+			local e = {};
+			for o, w in ipairs(ZV.hot) do
+				local Z = tonumber(u[w.key]) or 0;
+				if Z > 0 then
+					local o = e[Z];
+					if o == nil then
+						o = iskeypressed(Z) and true or false;
+						e[Z] = o;
 					end;
-					if n and not Y[D] then
-						p.fn();
+					if o and not d[Z] then
+						w.fn();
 					end;
 				end;
 			end;
-			for z, n in pairs(z) do
-				Y[z] = n;
+			for e, o in pairs(e) do
+				d[e] = o;
 			end;
 		end;
-		Pp();
-		if Fc.visible then
-			local Y, T = YP();
-			g.mouseOK = Y ~= nil;
-			g.overMenu = Y ~= nil and zP(Y, T, Fc.x, Fc.y, Fc.w, Fc.h);
-			local O = ismouse1pressed();
-			local o = O and not z;
-			z = O;
-			if Y then
-				if o then
-					mP(Y, T);
+		yM();
+		if Oy.visible then
+			local d, p = dV();
+			H.mouseOK = d ~= nil;
+			H.overMenu = d ~= nil and eV(d, p, Oy.x, Oy.y, Oy.w, Oy.h);
+			local I = ismouse1pressed();
+			local B = I and not e;
+			e = I;
+			if d then
+				if B then
+					zV(d, p);
 				end;
-				if not O then
-					TP = false;
-					LP = nil;
-					cP, hP = false, false;
-					if fP or lP or dP then
-						fP, lP, dP = false, false, false;
-						Hp();
+				if not I then
+					pV = false;
+					VV = nil;
+					uV, JV = false, false;
+					if FV or DV or CV then
+						FV, DV, CV = false, false, false;
+						mM();
 					end;
 				end;
-				if TP then
-					Fc.x = math.max(0, Y - OP);
-					Fc.y = math.max(0, T - oP);
+				if pV then
+					Oy.x = math.max(0, d - IV);
+					Oy.y = math.max(0, p - BV);
 				end;
-				if LP then
-					pP(LP, Y);
+				if VV then
+					wV(VV, d);
 				end;
-				if fP then
-					bP(Y, T);
+				if FV then
+					GV(d, p);
 				end;
-				if cP then
-					DP.scrollFromMouse(yc[Fc.tab], T);
+				if uV then
+					ZV.scrollFromMouse(sy[Oy.tab], p);
 				end;
-				if hP and Fc.drop then
-					DP.dropFromMouse(Fc.drop, T);
+				if JV and Oy.drop then
+					ZV.dropFromMouse(Oy.drop, p);
 				end;
 				if iskeypressed(4) then
-					if n then
-						DP.scrollPixels(n - T);
+					if o then
+						ZV.scrollPixels(o - p);
 					end;
-					n = T;
+					o = p;
 				else
-					n = nil;
+					o = nil;
 				end;
-				local z, L = iskeypressed(33), iskeypressed(34);
-				if z and not p then
-					DP.scrollBy(-3);
+				local e, V = iskeypressed(33), iskeypressed(34);
+				if e and not w then
+					ZV.scrollBy(-3);
 				end;
-				if L and not D then
-					DP.scrollBy(3);
+				if V and not Z then
+					ZV.scrollBy(3);
 				end;
-				p, D = z, L;
-				if lP then
-					gP(Y);
+				w, Z = e, V;
+				if DV then
+					HV(d);
 				end;
-				if dP then
-					FP(Y);
+				if CV then
+					OV(d);
 				end;
 			end;
 		else
-			g.overMenu = false;
-			z = false;
-			TP = false;
-			LP = nil;
-			fP, lP, dP = false, false, false;
-			cP, hP = false, false;
+			H.overMenu = false;
+			e = false;
+			pV = false;
+			VV = nil;
+			FV, DV, CV = false, false, false;
+			uV, JV = false, false;
 		end;
-		pcall(SP);
+		pcall(kV);
 		wait(.025);
 	end;
 end);
-function DP.wheel(z)
-	if z == 0 then
+function ZV.wheel(e)
+	if e == 0 then
 		return;
 	end;
-	DP.scrollBy(z > 0 and -1 or 1);
+	ZV.scrollBy(e > 0 and -1 or 1);
 end;
 pcall(function()
-	Y.InputChanged:Connect(function(z)
-		if z.UserInputType == Enum.UserInputType.MouseWheel then
-			DP.wheel(z.Position.Z);
+	d.InputChanged:Connect(function(e)
+		if e.UserInputType == Enum.UserInputType.MouseWheel then
+			ZV.wheel(e.Position.Z);
 		end;
 	end);
 end);
 pcall(function()
-	local z = n:GetMouse();
-	z.WheelForward:Connect(function()
-		DP.wheel(1);
+	local e = o:GetMouse();
+	e.WheelForward:Connect(function()
+		ZV.wheel(1);
 	end);
-	z.WheelBackward:Connect(function()
-		DP.wheel(-1);
+	e.WheelBackward:Connect(function()
+		ZV.wheel(-1);
 	end);
 end);
 task.spawn(function()
 	while true do
-		local z = t();
-		local Y = B();
-		if z and Y then
-			local n = e(z.poly, Y.X, Y.Z);
-			local p, D, T = m(z.poly, Y.X, Y.Z);
-			g.inField = n and math.abs(Y.Y - z.y) <= 25;
-			g.edgeDist = n and T or -T;
+		local e = c();
+		local d = R();
+		if e and d then
+			local o = q(e.poly, d.X, d.Z);
+			local w, Z, p = z(e.poly, d.X, d.Z);
+			H.inField = o and math.abs(d.Y - e.y) <= 25;
+			H.edgeDist = o and p or -p;
 		else
-			g.inField = false;
-			g.edgeDist = 0;
+			H.inField = false;
+			H.edgeDist = 0;
 		end;
 		wait(.03);
 	end;
 end);
 task.spawn(function()
 	while true do
-		local z, Y = pcall(function()
-				op();
-				local z = tick();
-				local Y = h("convert_threshold", 100);
-				local n = g.pollenPercent;
-				if not h("auto_convert", true) then
-					g.wantConvert = false;
-					g.convertLatched = false;
-					g.convertMsg = "Auto-reset off";
+		local e, d = pcall(function()
+				BM();
+				local e = tick();
+				local d = J("convert_threshold", 100);
+				local o = H.pollenPercent;
+				if not J("auto_convert", true) then
+					H.wantConvert = false;
+					H.convertLatched = false;
+					H.convertMsg = "Auto-reset off";
 				else
-					if g.convertLatched and n then
-						if n < math.max(0, Y - 1) then
-							g.convertLatched = false;
-							g.convertMsg = "Auto-reset armed";
-						elseif n >= Y - .05 and ((z - g.lastResetAt) > 15 and (not g.manualReset and f())) then
-							g.convertLatched = false;
+					if H.convertLatched and o then
+						if o < math.max(0, d - 1) then
+							H.convertLatched = false;
+							H.convertMsg = "Auto-reset armed";
+						elseif o >= d - .05 and ((e - H.lastResetAt) > 15 and (not H.manualReset and F())) then
+							H.convertLatched = false;
 						end;
 					end;
-					g.wantConvert = f() and (Y > 0 and (n ~= nil and (n >= (Y - .05) and not g.convertLatched)));
-					if n == nil then
-						if not g.convertLatched then
-							g.convertMsg = "Waiting for pollen reading";
+					H.wantConvert = F() and (d > 0 and (o ~= nil and (o >= (d - .05) and not H.convertLatched)));
+					if o == nil then
+						if not H.convertLatched then
+							H.convertMsg = "Waiting for pollen reading";
 						end;
-					elseif Y <= 0 then
-						g.convertMsg = "0% threshold disables auto-reset";
-					elseif not g.convertLatched then
-						g.convertMsg = string.format("Auto-reset armed at %d%%", Y);
+					elseif d <= 0 then
+						H.convertMsg = "0% threshold disables auto-reset";
+					elseif not H.convertLatched then
+						H.convertMsg = string.format("Auto-reset armed at %d%%", d);
 					end;
 				end;
 			end);
-		if not z then
-			g.convertMsg = "Watcher error: " .. tc(Y, 30);
+		if not e then
+			H.convertMsg = "Watcher error: " .. cy(d, 30);
 		end;
-		wait(math.max(h("pollen_ms", 10), 1) / 1000);
+		wait(math.max(J("pollen_ms", 10), 1) / 1000);
 	end;
 end);
 task.spawn(function()
 	while true do
-		if g.polCore == nil and (not zp.item and not Yp) then
-			np();
+		if H.polCore == nil and (not eM.item and not dM) then
+			oM();
 		end;
 		wait(2);
 	end;
 end);
 task.spawn(function()
-	local z = 0;
+	local e = 0;
 	while true do
-		local Y, n = pcall(function()
+		local d, o = pcall(function()
 				return workspace:FindFirstChild("Collectibles");
 			end);
-		if Y and n then
-			local z, Y = pcall(function()
-					return #n:GetChildren();
+		if d and o then
+			local e, d = pcall(function()
+					return #o:GetChildren();
 				end);
-			g.collectInfo = "Collectibles folder: found" .. ((((z and Y)) and (" (" .. (Y .. ")")) or ""));
+			H.collectInfo = "Collectibles folder: found" .. ((((e and d)) and (" (" .. (d .. ")")) or ""));
 		else
-			g.collectInfo = "Collectibles folder: NOT found";
+			H.collectInfo = "Collectibles folder: NOT found";
 		end;
-		if z % 3 == 0 then
-			H();
+		if e % 3 == 0 then
+			K();
 		end;
-		z = z + 1;
-		if z % 60 == 0 then
-			cp = {};
+		e = e + 1;
+		if e % 60 == 0 then
+			uM = {};
 		end;
 		wait(1);
 	end;
 end);
 task.spawn(function()
 	while true do
-		local z = math.max(h("click_ms", 120), 20) / 1000;
-		if f() and (g.farming and (g.inField and h("click", true))) then
-			if isrbxactive() and not g.overMenu then
+		local e = math.max(J("click_ms", 120), 20) / 1000;
+		if F() and (H.farming and (H.inField and J("click", true))) then
+			if isrbxactive() and not H.overMenu then
 				mouse1click();
 			end;
-			if h("click_timing", 1) == 1 and r.value then
-				z = math.max(r.value + h("cd_offset", 30) / 1000, .05);
+			if J("click_timing", 1) == 1 and g.value then
+				e = math.max(g.value + J("cd_offset", 30) / 1000, .05);
 			end;
 		end;
-		wait(z);
+		wait(e);
 	end;
 end);
 task.spawn(function()
-	local z = 0;
-	local Y = false;
+	local e = 0;
+	local d, w = false, false;
+	local Z = nil;
 	while true do
-		if B() == nil then
-			z = z + 1;
-			if z >= 4 then
-				Y = true;
+		local p = R();
+		local I, B = pcall(function()
+				return o.Character.Humanoid.Health;
+			end);
+		local V = I and (type(B) == "number" and B <= 0);
+		local u = false;
+		if p == nil then
+			e = e + 1;
+			if e >= 4 then
+				d = true;
 			end;
+			Z = nil;
 		else
-			z = 0;
-			if Y then
-				Y = false;
-				g.sprDone = {};
-				g.sprNeedCheck = true;
+			e = 0;
+			if d then
+				d = false;
+				u = true;
+			end;
+			if V then
+				w = true;
+			elseif w then
+				w = false;
+				u = true;
+			end;
+			if Z and not H.flying then
+				local e, d = p.X - Z.X, p.Z - Z.Z;
+				if e * e + d * d > 6400 then
+					u = true;
+				end;
+			end;
+			Z = p;
+		end;
+		if u then
+			H.sprDone = {};
+			H.sprNeedCheck = true;
+			H.noclipBad = false;
+			H.flyFails = 0;
+			if F() then
+				H.needTravel = true;
 			end;
 		end;
 		wait(.25);
 	end;
 end);
 task.spawn(function()
-	local z = false;
-	local Y = false;
-	local n = false;
+	local e = false;
+	local d = false;
+	local o = false;
 	while true do
-		if f() then
-			if not z then
-				z = true;
-				g.startedAt = tick();
-				g.wantConvert = false;
-				g.sprNeedCheck = true;
+		if F() then
+			if not e then
+				e = true;
+				H.startedAt = tick();
+				H.wantConvert = false;
+				H.sprNeedCheck = true;
+				H.pollenMade = 0;
+				H.honeyStart = H.honey;
+				H.noclipBad = false;
+				H.flyFails = 0;
+				H.needTravel = false;
 				notify("Macro started", "BSS Macro", 3);
 			end;
-			local p = t();
-			local D = B();
-			if not p then
-				g.status = "No points for " .. U();
-				g.farming = false;
+			local w = c();
+			local Z = R();
+			if not w then
+				H.status = "No points for " .. U();
+				H.farming = false;
 				wait(.5);
-			elseif g.wantConvert then
-				jp();
-			elseif not D then
-				g.status = "Waiting for character";
-				g.farming = false;
+			elseif H.wantConvert then
+				hM();
+			elseif not Z then
+				H.status = "Waiting for character";
+				H.farming = false;
 				wait(.3);
-			elseif not y(p, D) then
-				ip(p);
-				g.sprNeedCheck = true;
-				if f() and not g.testFly then
+			elseif H.needTravel or not s(w, Z) then
+				if TM(w) then
+					H.needTravel = false;
+				end;
+				H.sprNeedCheck = true;
+				if F() and not H.testFly then
 					wait(.2);
 				end;
 			else
 				if isrbxactive() then
-					n = false;
-					if not Y then
+					o = false;
+					if not d then
 						setrobloxinput(true);
-						Y = true;
+						d = true;
 					end;
-					g.status = "Farming";
-					g.farming = true;
-					g.tokenMode = h("tokens", true);
-					Up.ensure(p);
-					g.status = "Farming";
-					mp(p);
+					H.status = "Farming";
+					H.farming = true;
+					H.tokenMode = J("tokens", true);
+					UM.ensure(w);
+					H.status = "Farming";
+					zM(w);
 				else
-					g.status = "Paused (game not focused)";
-					g.farming = false;
-					g.tokenMode = false;
-					if not n then
-						X();
-						n = true;
+					H.status = "Paused (game not focused)";
+					H.farming = false;
+					H.tokenMode = false;
+					if not o then
+						j();
+						o = true;
 					end;
 					wait(.5);
 				end;
 			end;
 		else
-			if z then
-				z = false;
-				X();
-				E(0, 0, 0);
-				N(false);
+			if e then
+				e = false;
+				j();
+				n(0, 0, 0);
+				l(false);
 				notify("Macro stopped", "BSS Macro", 3);
 			end;
-			g.status = "Idle";
-			g.farming = false;
-			g.tokenMode = false;
-			g.busy = false;
+			H.status = "Idle";
+			H.farming = false;
+			H.tokenMode = false;
+			H.busy = false;
 			wait(.25);
 		end;
 		wait(.03);
 	end;
 end);
-notify("Menu loaded - " .. (DP.keyName(c.key_macro) .. (" = macro, " .. (DP.keyName(c.key_menu) .. " = show/hide menu"))), "BSS Macro", 5);
+notify("Menu loaded - " .. (ZV.keyName(u.key_macro) .. (" = macro, " .. (ZV.keyName(u.key_menu) .. " = show/hide menu"))), "BSS Macro", 5);
